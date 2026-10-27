@@ -2,11 +2,11 @@
 name=LM Historiska kartor – hämta
 qgisMinimumVersion=3.40
 qgisMaximumVersion=4.99
-description=Sök lantmäteriakter i Lantmäteriets arkiv för ett område, gallra dem och ladda ner kartbladen som TIFF med ett register.
+description=Fristående tillägg (inte från Lantmäteriet): sök lantmäteriakter i arkivet Historiska kartor för ett område, gallra dem och ladda ner kartbladen som TIFF med ett register.
 version=0.1.1
 author=Karl-Johan Olofsson
 email=kaje@bahnhof.se
-about=Sök, gallra och ladda ner lantmäteriakter ur Lantmäteriets arkiv Historiska kartor.
+about=Fristående tillägg, inte från Lantmäteriet. Söker, gallrar och laddar ner lantmäteriakter ur Lantmäteriets arkiv Historiska kartor.
     Ange ett arbetsområde (indexrutor, ritad yta, objekt i ett lager eller
     socknar på namn), bekräfta socknar och trakter, så söker pluginet akterna
     i båda arkiven (REG och LMS), gallrar bort dem utan karta och visar resten

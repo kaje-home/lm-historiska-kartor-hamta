@@ -1,6 +1,6 @@
 # LM Historiska kartor – hämta
 
-Ett tillägg till QGIS som söker lantmäteriakter i Lantmäteriets arkiv Historiska kartor för ett område, låter dig gallra dem och laddar ner kartbladen som TIFF till ett arkiv med register. Det kräver QGIS 3.40 eller nyare.
+Ett tillägg till QGIS som söker lantmäteriakter i Lantmäteriets arkiv Historiska kartor för ett område, låter dig gallra dem och laddar ner kartbladen som TIFF till ett arkiv med register. Det är ett fristående tillägg, inte från Lantmäteriet. Det kräver QGIS 3.40 eller nyare.
 
 ## Installera
 
