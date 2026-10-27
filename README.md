@@ -1,6 +1,6 @@
 # LM Historiska kartor – hämta
 
-Ett tillägg till QGIS som söker lantmäteriakter i Lantmäteriets arkiv Historiska kartor för ett område, låter dig gallra dem och laddar ner kartbladen som TIFF till ett arkiv med register. Det är ett fristående tillägg, inte från Lantmäteriet. Det kräver QGIS 3.40 eller nyare.
+Ett tillägg till QGIS som söker lantmäteriakter i Lantmäteriets arkiv Historiska kartor för ett område, låter dig gallra dem och laddar ner kartbladen som TIFF till ett arkiv med register. Det är ett fristående tillägg, inte från Lantmäteriet: frågor om pluginet hör hemma i förrådets ärenden på GitHub, inte hos Lantmäteriets support. Det kräver QGIS 3.40 eller nyare.
 
 ## Installera
 
@@ -9,6 +9,16 @@ Ett tillägg till QGIS som söker lantmäteriakter i Lantmäteriets arkiv Histor
 3. Nu finns menyn **Insticksprogram → Historiska kartor (hämta)**. Börja med **Kom igång…**: den säger vad som behövs, var det hämtas och hur.
 
 Pluginet pratar bara med Lantmäteriets tjänster, och allt det laddar ner läggs i en mapp på din dator som du väljer själv.
+
+## Uppdateringar
+
+Vill du få nya versioner som vanliga uppdateringar i QGIS, i stället för att hämta zip-filen varje gång: gör så här en gång.
+
+1. **Insticksprogram → Hantera och installera insticksprogram…**, fliken **Inställningar**.
+2. Bocka i *Visa även experimentella insticksprogram*.
+3. Tryck **Lägg till…** under *Förråd av insticksprogram*. Namn: `Historiska kartor`. Adress: `https://raw.githubusercontent.com/kaje-home/lm-historiska-kartor-hamta/main/plugins.xml`. Tryck OK.
+
+Därefter visar fliken *Uppgraderingsbara* när en ny version finns, och ett klick installerar den. Ändringarna version för version står i `CHANGELOG.md`.
 
 ## Läs detta först
 

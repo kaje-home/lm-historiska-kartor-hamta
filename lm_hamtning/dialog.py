@@ -701,6 +701,11 @@ class GallraDialog(QDialog):
         self.forlopp = QProgressBar()
         self.forlopp.setRange(0, 100)
         self.status = QLabel()
+        if variant.BARA_HAMTNING:
+            # synlig friskrivning i panelen, som matselfs plugin (användaren 2026-10-27)
+            fri = QLabel("Fristående tillägg, inte från Lantmäteriet.")
+            fri.setStyleSheet("color: gray")
+            lay.addWidget(fri)
         self.status.setWordWrap(True)
         lay.addWidget(self.forlopp)
         lay.addWidget(self.status)
