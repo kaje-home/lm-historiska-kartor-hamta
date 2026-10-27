@@ -2,6 +2,8 @@
 
 Ett tillägg till QGIS som söker lantmäteriakter i Lantmäteriets arkiv Historiska kartor för ett område, låter dig gallra dem och laddar ner kartbladen som TIFF till ett arkiv med register. Det är ett fristående tillägg, inte från Lantmäteriet: frågor om pluginet hör hemma i förrådets ärenden på GitHub, inte hos Lantmäteriets support. Det kräver QGIS 3.40 eller nyare.
 
+Det här är hämtningsdelen av ett större verktyg för att rektifiera historiska kartor i QGIS, som fortfarande byggs. Den här delen går att använda för sig redan nu; rektifieringen kommer senare som ett eget tillägg.
+
 ## Läs detta först
 
 **Tjänsten är inofficiell.** Pluginet pratar med samma bakända som webbsidan [historiskakartor.lantmateriet.se](https://historiskakartor.lantmateriet.se) själv använder. Det finns inget offentligt gränssnitt för det här, och Lantmäteriet kan ändra eller stänga tjänsten när som helst utan förvarning. Då slutar pluginet fungera tills det är anpassat. Allt som rör tjänsten ligger i en enda modul (`tjanst.py`), så en ändring är avgränsad.

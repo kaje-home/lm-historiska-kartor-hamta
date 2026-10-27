@@ -6,7 +6,7 @@ description=Fristående tillägg (inte från Lantmäteriet): sök lantmäteriakt
 version=0.1.1
 author=Karl-Johan Olofsson
 email=kaje@bahnhof.se
-about=Fristående tillägg, inte från Lantmäteriet. Söker, gallrar och laddar ner lantmäteriakter ur Lantmäteriets arkiv Historiska kartor.
+about=Fristående tillägg, inte från Lantmäteriet. Söker, gallrar och laddar ner lantmäteriakter ur Lantmäteriets arkiv Historiska kartor. Hämtningsdelen av ett större verktyg för rektifiering av historiska kartor som fortfarande byggs; rektifieringen kommer senare som ett eget tillägg.
     Ange ett arbetsområde (indexrutor, ritad yta, objekt i ett lager eller
     socknar på namn), bekräfta socknar och trakter, så söker pluginet akterna
     i båda arkiven (REG och LMS), gallrar bort dem utan karta och visar resten
