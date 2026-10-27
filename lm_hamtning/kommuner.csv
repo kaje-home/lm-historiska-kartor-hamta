@@ -1,0 +1,2505 @@
+# Källa: Lantmäteriet, Kommun, län och rike (CC BY 4.0) och Socken och stad; byggd med kommuner.bygg_tabell
+lanskod;lansnamn;kommunkod;kommunnamn;sockenstadkod;socken;typ;andel
+01;Stockholms län;0127;Botkyrka;0006;Botkyrka;1;0.973
+01;Stockholms län;0127;Botkyrka;0024;Grödinge;1;1.0
+01;Stockholms län;0162;Danderyd;0009;Danderyd;1;0.998
+01;Stockholms län;0162;Danderyd;0010;Djursholm;2;0.995
+01;Stockholms län;0162;Danderyd;4123;Stocksund;1;1.0
+01;Stockholms län;0125;Ekerö;0001;Adelsö;1;0.996
+01;Stockholms län;0125;Ekerö;0015;Ekerö;1;1.0
+01;Stockholms län;0125;Ekerö;0022;Färentuna;1;1.0
+01;Stockholms län;0125;Ekerö;0029;Hilleshög;1;1.0
+01;Stockholms län;0125;Ekerö;0046;Lovö;1;1.0
+01;Stockholms län;0125;Ekerö;0052;Munsö;1;1.0
+01;Stockholms län;0125;Ekerö;0084;Skå;1;1.0
+01;Stockholms län;0125;Ekerö;0095;Sånga;1;1.0
+01;Stockholms län;0136;Haninge;0008;Dalarö;1;1.0
+01;Stockholms län;0136;Haninge;0053;Muskö;1;1.0
+01;Stockholms län;0136;Haninge;0066;Ornö;1;1.0
+01;Stockholms län;0136;Haninge;0106;Utö;1;1.0
+01;Stockholms län;0136;Haninge;0114;Västerhaninge;1;1.0
+01;Stockholms län;0136;Haninge;0123;Österhaninge;1;1.0
+01;Stockholms län;0126;Huddinge;0006;Botkyrka;1;0.027
+01;Stockholms län;0126;Huddinge;0030;Huddinge;1;0.996
+01;Stockholms län;0123;Järfälla;0039;Järfälla;1;0.996
+01;Stockholms län;0186;Lidingö;0042;Lidingö;2;0.997
+01;Stockholms län;0186;Lidingö;0126;Östra Ryd;1;0.024
+01;Stockholms län;0182;Nacka;0005;Boo;1;0.998
+01;Stockholms län;0182;Nacka;0056;Nacka;2;0.994
+01;Stockholms län;0188;Norrtälje;0003;Björkö-Arholma;1;1.0
+01;Stockholms län;0188;Norrtälje;0004;Blidö;1;1.0
+01;Stockholms län;0188;Norrtälje;0013;Edebo;1;1.0
+01;Stockholms län;0188;Norrtälje;0014;Edsbro;1;1.0
+01;Stockholms län;0188;Norrtälje;0017;Estuna;1;1.0
+01;Stockholms län;0188;Norrtälje;0018;Fasterna;1;1.0
+01;Stockholms län;0188;Norrtälje;0021;Frötuna;1;1.0
+01;Stockholms län;0188;Norrtälje;0023;Gottröra;1;1.0
+01;Stockholms län;0188;Norrtälje;0031;Husby-Sjuhundra;1;1.0
+01;Stockholms län;0188;Norrtälje;0036;Häverö;1;1.0
+01;Stockholms län;0188;Norrtälje;0045;Lohärad;1;1.0
+01;Stockholms län;0188;Norrtälje;0049;Länna;1;1.0
+01;Stockholms län;0188;Norrtälje;0050;Malsta;1;1.0
+01;Stockholms län;0188;Norrtälje;0058;Norrtälje;2;1.0
+01;Stockholms län;0188;Norrtälje;0063;Närtuna;1;1.0
+01;Stockholms län;0188;Norrtälje;0067;Riala;1;1.0
+01;Stockholms län;0188;Norrtälje;0068;Rimbo;1;1.0
+01;Stockholms län;0188;Norrtälje;0069;Roslags-Bro;1;1.0
+01;Stockholms län;0188;Norrtälje;0073;Rådmansö;1;1.0
+01;Stockholms län;0188;Norrtälje;0075;Rö;1;1.0
+01;Stockholms län;0188;Norrtälje;0081;Singö;1;1.0
+01;Stockholms län;0188;Norrtälje;0082;Skederid;1;1.0
+01;Stockholms län;0188;Norrtälje;0096;Söderby-Karl;1;1.0
+01;Stockholms län;0188;Norrtälje;0105;Ununge;1;1.0
+01;Stockholms län;0188;Norrtälje;0112;Väddö;1;1.0
+01;Stockholms län;0188;Norrtälje;0117;Vätö;1;1.0
+01;Stockholms län;0140;Nykvarn;0098;Södertälje;2;0.094
+01;Stockholms län;0140;Nykvarn;0099;Taxinge;1;0.999
+01;Stockholms län;0140;Nykvarn;0101;Turinge;1;1.0
+01;Stockholms län;0192;Nynäshamn;0061;Nynäshamn;2;1.0
+01;Stockholms län;0192;Nynäshamn;0089;Sorunda;1;1.0
+01;Stockholms län;0192;Nynäshamn;0100;Torö;1;1.0
+01;Stockholms län;0192;Nynäshamn;0120;Ösmo;1;1.0
+01;Stockholms län;0128;Salem;0076;Salem;1;0.871
+01;Stockholms län;0191;Sigtuna;0026;Haga;1;1.0
+01;Stockholms län;0191;Sigtuna;0032;Husby-Ärlinghundra;1;1.0
+01;Stockholms län;0191;Sigtuna;0047;Lunda;1;1.0
+01;Stockholms län;0191;Sigtuna;0051;Markim;1;0.021
+01;Stockholms län;0191;Sigtuna;0057;Norrsunda;1;1.0
+01;Stockholms län;0191;Sigtuna;0064;Odensala;1;0.999
+01;Stockholms län;0191;Sigtuna;3045;Sankt Olof;1;1.0
+01;Stockholms län;0191;Sigtuna;3046;Sankt Per;1;1.0
+01;Stockholms län;0191;Sigtuna;0080;Sigtuna;2;1.0
+01;Stockholms län;0191;Sigtuna;0083;Skepptuna;1;0.998
+01;Stockholms län;0191;Sigtuna;0085;Skånela;1;1.0
+01;Stockholms län;0191;Sigtuna;0110;Vidbo;1;1.0
+01;Stockholms län;0163;Sollentuna;0087;Sollentuna;1;0.993
+01;Stockholms län;0184;Solna;0088;Solna;2;0.995
+01;Stockholms län;0180;Stockholm;0091;Stockholm;2;0.995
+01;Stockholms län;0183;Sundbyberg;0094;Sundbyberg;2;0.989
+01;Stockholms län;0181;Södertälje;0037;Hölö;1;1.0
+01;Stockholms län;0181;Södertälje;0055;Mörkö;1;1.0
+01;Stockholms län;0181;Södertälje;0076;Salem;1;0.129
+01;Stockholms län;0181;Södertälje;0098;Södertälje;2;0.906
+01;Stockholms län;0181;Södertälje;0102;Tveta;1;1.0
+01;Stockholms län;0181;Södertälje;0111;Vårdinge;1;1.0
+01;Stockholms län;0181;Södertälje;0118;Ytterenhörna;1;0.981
+01;Stockholms län;0181;Södertälje;0119;Ytterjärna;1;0.999
+01;Stockholms län;0181;Södertälje;0124;Östertälje;1;0.999
+01;Stockholms län;0181;Södertälje;0127;Överenhörna;1;1.0
+01;Stockholms län;0181;Södertälje;0128;Överjärna;1;1.0
+01;Stockholms län;0138;Tyresö;0103;Tyresö;1;0.999
+01;Stockholms län;0160;Täby;0104;Täby;1;0.999
+01;Stockholms län;0114;Upplands Väsby;0012;Ed;1;0.999
+01;Stockholms län;0114;Upplands Väsby;0019;Fresta;1;0.999
+01;Stockholms län;0114;Upplands Väsby;0028;Hammarby;1;1.0
+01;Stockholms län;0139;Upplands-Bro;0007;Bro;1;0.952
+01;Stockholms län;0139;Upplands-Bro;0033;Håbo-Tibble;1;1.0
+01;Stockholms län;0139;Upplands-Bro;0034;Håtuna;1;0.979
+01;Stockholms län;0139;Upplands-Bro;0092;Kungsängen;1;1.0
+01;Stockholms län;0139;Upplands-Bro;0048;Låssa;1;0.999
+01;Stockholms län;0139;Upplands-Bro;0116;Västra Ryd;1;1.0
+01;Stockholms län;0115;Vallentuna;0002;Angarn;1;1.0
+01;Stockholms län;0115;Vallentuna;0020;Frösunda;1;1.0
+01;Stockholms län;0115;Vallentuna;0041;Kårsta;1;1.0
+01;Stockholms län;0115;Vallentuna;0051;Markim;1;0.979
+01;Stockholms län;0115;Vallentuna;0065;Orkesta;1;1.0
+01;Stockholms län;0115;Vallentuna;0107;Vada;1;1.0
+01;Stockholms län;0115;Vallentuna;0108;Vallentuna;1;0.999
+01;Stockholms län;0115;Vallentuna;0122;Össeby-Garn;1;0.999
+01;Stockholms län;0187;Vaxholm;0109;Vaxholm;2;1.0
+01;Stockholms län;0187;Vaxholm;0113;Värmdö;1;0.084
+01;Stockholms län;0187;Vaxholm;0125;Österåker;1;0.075
+01;Stockholms län;0187;Vaxholm;0126;Östra Ryd;1;0.54
+01;Stockholms län;0120;Värmdö;0011;Djurö;1;1.0
+01;Stockholms län;0120;Värmdö;0025;Gustavsberg;1;0.999
+01;Stockholms län;0120;Värmdö;0038;Ingarö;1;1.0
+01;Stockholms län;0120;Värmdö;0054;Möja;1;1.0
+01;Stockholms län;0120;Värmdö;0062;Nämdö;1;1.0
+01;Stockholms län;0120;Värmdö;0113;Värmdö;1;0.916
+01;Stockholms län;0117;Österåker;0044;Ljusterö;1;1.0
+01;Stockholms län;0117;Österåker;0070;Roslags-Kulla;1;1.0
+01;Stockholms län;0117;Österåker;0125;Österåker;1;0.925
+01;Stockholms län;0117;Österåker;0126;Östra Ryd;1;0.433
+03;Uppsala län;0381;Enköping;0202;Altuna;1;1.0
+03;Uppsala län;0381;Enköping;0206;Biskopskulla;1;1.0
+03;Uppsala län;0381;Enköping;0209;Boglösa;1;1.0
+03;Uppsala län;0381;Enköping;0211;Bred;1;1.0
+03;Uppsala län;0381;Enköping;0219;Enköping;2;1.0
+03;Uppsala län;0381;Enköping;0220;Enköpings-Näs;1;1.0
+03;Uppsala län;0381;Enköping;0223;Fittja;1;1.0
+03;Uppsala län;0381;Enköping;0225;Fröslunda;1;1.0
+03;Uppsala län;0381;Enköping;0226;Frösthult;1;1.0
+03;Uppsala län;0381;Enköping;0229;Giresta;1;1.0
+03;Uppsala län;0381;Enköping;0231;Gryta;1;1.0
+03;Uppsala län;0381;Enköping;0233;Hacksta;1;1.0
+03;Uppsala län;0381;Enköping;0236;Hjälsta;1;1.0
+03;Uppsala län;0381;Enköping;0237;Holm;1;1.0
+03;Uppsala län;0381;Enköping;0239;Husby-Sjutolft;1;1.0
+03;Uppsala län;0381;Enköping;0242;Härkeberga;1;1.0
+03;Uppsala län;0381;Enköping;0243;Härnevi;1;1.0
+03;Uppsala län;0381;Enköping;0250;Kulla;1;1.0
+03;Uppsala län;0381;Enköping;0251;Kungs-Husby;1;1.0
+03;Uppsala län;0381;Enköping;0254;Lillkyrka;1;1.0
+03;Uppsala län;0381;Enköping;0255;Litslena;1;1.0
+03;Uppsala län;0381;Enköping;0256;Långtora;1;1.0
+03;Uppsala län;0381;Enköping;0258;Löt;1;1.0
+03;Uppsala län;0381;Enköping;0260;Nysätra;1;1.0
+03;Uppsala län;0381;Enköping;0264;Simtuna;1;1.0
+03;Uppsala län;0381;Enköping;0269;Sparrsätra;1;1.0
+03;Uppsala län;0381;Enköping;0271;Svinnegarn;1;1.0
+03;Uppsala län;0381;Enköping;0273;Teda;1;1.0
+03;Uppsala län;0381;Enköping;0277;Tillinge;1;1.0
+03;Uppsala län;0381;Enköping;0279;Torstuna;1;1.0
+03;Uppsala län;0381;Enköping;0280;Torsvi;1;1.0
+03;Uppsala län;0381;Enköping;0285;Vallby;1;1.0
+03;Uppsala län;0381;Enköping;0288;Veckholm;1;1.0
+03;Uppsala län;0381;Enköping;0291;Villberga;1;1.0
+03;Uppsala län;0381;Enköping;0292;Vårfrukyrka;1;1.0
+03;Uppsala län;0381;Enköping;0303;Österunda;1;0.99
+03;Uppsala län;0331;Heby;2280;Enåker;1;1.0
+03;Uppsala län;0331;Heby;2287;Harbo;1;1.0
+03;Uppsala län;0331;Heby;2291;Huddunge;1;1.0
+03;Uppsala län;0331;Heby;2308;Nora;1;1.0
+03;Uppsala län;0331;Heby;2329;Vittinge;1;1.0
+03;Uppsala län;0331;Heby;2332;Västerlövsta;1;1.0
+03;Uppsala län;0331;Heby;2339;Östervåla;1;1.0
+03;Uppsala län;0305;Håbo;0007;Bro;1;0.048
+03;Uppsala län;0305;Håbo;0241;Häggeby;1;1.0
+03;Uppsala län;0305;Håbo;0034;Håtuna;1;0.021
+03;Uppsala län;0305;Håbo;0247;Kalmar;1;0.999
+03;Uppsala län;0305;Håbo;0266;Skokloster;1;0.999
+03;Uppsala län;0305;Håbo;0296;Yttergran;1;1.0
+03;Uppsala län;0305;Håbo;0306;Övergran;1;1.0
+03;Uppsala län;0330;Knivsta;0201;Alsike;1;0.999
+03;Uppsala län;0330;Knivsta;0238;Husby-Långhundra;1;1.0
+03;Uppsala län;0330;Knivsta;0248;Knivsta;1;1.0
+03;Uppsala län;0330;Knivsta;0252;Lagga;1;0.973
+03;Uppsala län;0330;Knivsta;0287;Vassunda;1;1.0
+03;Uppsala län;0330;Knivsta;0305;Östuna;1;1.0
+03;Uppsala län;0360;Tierp;0240;Hållnäs;1;1.0
+03;Uppsala län;0360;Tierp;0272;Söderfors;1;1.0
+03;Uppsala län;0360;Tierp;0274;Tegelsmora;1;1.0
+03;Uppsala län;0360;Tierp;0276;Tierp;1;1.0
+03;Uppsala län;0360;Tierp;0278;Tolfta;1;1.0
+03;Uppsala län;0360;Tierp;0289;Vendel;1;1.0
+03;Uppsala län;0360;Tierp;0295;Västland;1;0.97
+03;Uppsala län;0360;Tierp;0302;Österlövsta;1;1.0
+03;Uppsala län;0380;Uppsala;0200;Almunge;1;1.0
+03;Uppsala län;0380;Uppsala;0205;Balingsta;1;0.999
+03;Uppsala län;0380;Uppsala;0207;Björklinge;1;1.0
+03;Uppsala län;0380;Uppsala;0208;Bladåker;1;1.0
+03;Uppsala län;0380;Uppsala;0212;Bälinge;1;1.0
+03;Uppsala län;0380;Uppsala;0213;Börje;1;1.0
+03;Uppsala län;0380;Uppsala;0215;Dalby;1;1.0
+03;Uppsala län;0380;Uppsala;0216;Danmark;1;0.997
+03;Uppsala län;0380;Uppsala;0221;Faringe;1;1.0
+03;Uppsala län;0380;Uppsala;0227;Funbo;1;1.0
+03;Uppsala län;0380;Uppsala;0234;Hagby;1;1.0
+03;Uppsala län;0380;Uppsala;0245;Jumkil;1;1.0
+03;Uppsala län;0380;Uppsala;0246;Järlåsa;1;1.0
+03;Uppsala län;0380;Uppsala;0249;Knutby;1;1.0
+03;Uppsala län;0380;Uppsala;0252;Lagga;1;0.027
+03;Uppsala län;0380;Uppsala;0253;Lena;1;1.0
+03;Uppsala län;0380;Uppsala;0257;Läby;1;1.0
+03;Uppsala län;0380;Uppsala;0261;Ramsta;1;1.0
+03;Uppsala län;0380;Uppsala;0262;Rasbo;1;1.0
+03;Uppsala län;0380;Uppsala;0263;Rasbokil;1;1.0
+03;Uppsala län;0380;Uppsala;0265;Skogs-Tibble;1;1.0
+03;Uppsala län;0380;Uppsala;0267;Skuttunge;1;1.0
+03;Uppsala län;0380;Uppsala;0270;Stavby;1;1.0
+03;Uppsala län;0380;Uppsala;0275;Tensta;1;0.996
+03;Uppsala län;0380;Uppsala;0281;Tuna;1;0.999
+03;Uppsala län;0380;Uppsala;0282;Uppsala;2;1.0
+03;Uppsala län;0380;Uppsala;0283;Uppsala-Näs;1;1.0
+03;Uppsala län;0380;Uppsala;0284;Vaksala;1;1.0
+03;Uppsala län;0380;Uppsala;0290;Viksta;1;1.0
+03;Uppsala län;0380;Uppsala;0293;Vänge;1;1.0
+03;Uppsala län;0380;Uppsala;0294;Västeråker;1;1.0
+03;Uppsala län;0380;Uppsala;0300;Ärentuna;1;1.0
+03;Uppsala län;0380;Uppsala;0297;Åkerby;1;1.0
+03;Uppsala län;0380;Uppsala;0298;Åland;1;1.0
+03;Uppsala län;0319;Älvkarleby;0295;Västland;1;0.03
+03;Uppsala län;0319;Älvkarleby;0299;Älvkarleby;1;1.0
+03;Uppsala län;0382;Östhammar;0203;Alunda;1;1.0
+03;Uppsala län;0382;Östhammar;0214;Börstil;1;1.0
+03;Uppsala län;0382;Östhammar;0217;Dannemora;1;0.991
+03;Uppsala län;0382;Östhammar;0218;Ekeby;1;1.0
+03;Uppsala län;0382;Östhammar;0222;Film;1;1.0
+03;Uppsala län;0382;Östhammar;0224;Forsmark;1;1.0
+03;Uppsala län;0382;Östhammar;0232;Gräsö;1;1.0
+03;Uppsala län;0382;Östhammar;0235;Harg;1;0.999
+03;Uppsala län;0382;Östhammar;0244;Hökhuvud;1;1.0
+03;Uppsala län;0382;Östhammar;0259;Morkarla;1;1.0
+03;Uppsala län;0382;Östhammar;0268;Skäfthammar;1;1.0
+03;Uppsala län;0382;Östhammar;0286;Valö;1;1.0
+03;Uppsala län;0382;Östhammar;0301;Öregrund;1;1.0
+03;Uppsala län;0382;Östhammar;0304;Östhammar;2;1.0
+04;Södermanlands län;0484;Eskilstuna;0308;Barva;1;0.999
+04;Södermanlands län;0484;Eskilstuna;0318;Eskilstuna;2;1.0
+04;Södermanlands län;0484;Eskilstuna;0324;Gillberga;1;1.0
+04;Södermanlands län;0484;Eskilstuna;0329;Hammarby;1;1.0
+04;Södermanlands län;0484;Eskilstuna;0334;Husby-Rekarne;1;1.0
+04;Södermanlands län;0484;Eskilstuna;0338;Jäder;1;1.0
+04;Södermanlands län;0484;Eskilstuna;0342;Kjula;1;1.0
+04;Södermanlands län;0484;Eskilstuna;0347;Lista;1;0.998
+04;Södermanlands län;0484;Eskilstuna;0358;Näshulta;1;1.0
+04;Södermanlands län;0484;Eskilstuna;0362;Råby-Rekarne;1;1.0
+04;Södermanlands län;0484;Eskilstuna;0367;Stenkvista;1;1.0
+04;Södermanlands län;0484;Eskilstuna;0371;Sundby;1;1.0
+04;Södermanlands län;0484;Eskilstuna;0375;Torshälla;1;1.0
+04;Södermanlands län;0484;Eskilstuna;4012;Torshälla;2;1.0
+04;Södermanlands län;0484;Eskilstuna;0379;Tumbo;1;1.0
+04;Södermanlands län;0484;Eskilstuna;0384;Vallby;1;1.0
+04;Södermanlands län;0484;Eskilstuna;0388;Västermo;1;1.0
+04;Södermanlands län;0484;Eskilstuna;0393;Ärla;1;0.981
+04;Södermanlands län;0484;Eskilstuna;0394;Öja;1;1.0
+04;Södermanlands län;0482;Flen;0310;Bettna;1;1.0
+04;Södermanlands län;0482;Flen;0313;Blacksta;1;1.0
+04;Södermanlands län;0482;Flen;0317;Dunker;1;1.0
+04;Södermanlands län;0482;Flen;4048;Flen;2;1.0
+04;Södermanlands län;0482;Flen;0319;Flen;1;1.0
+04;Södermanlands län;0482;Flen;0322;Forssa;1;1.0
+04;Södermanlands län;0482;Flen;0331;Helgesta;1;1.0
+04;Södermanlands län;0482;Flen;0335;Hyltinge;1;0.998
+04;Södermanlands län;0482;Flen;0346;Lilla Malma;1;1.0
+04;Södermanlands län;0482;Flen;0354;Mellösa;1;1.0
+04;Södermanlands län;0482;Flen;0383;Vadsbro;1;1.0
+04;Södermanlands län;0482;Flen;0392;Årdala;1;1.0
+04;Södermanlands län;0461;Gnesta;0312;Björnlunda;1;1.0
+04;Södermanlands län;0461;Gnesta;0323;Frustuna;1;1.0
+04;Södermanlands län;0461;Gnesta;0326;Gryt;1;0.999
+04;Södermanlands län;0461;Gnesta;0327;Gåsinge-Dillnäs;1;1.0
+04;Södermanlands län;0461;Gnesta;0340;Kattnäs;1;1.0
+04;Södermanlands län;0461;Gnesta;0376;Torsåker;1;0.888
+04;Södermanlands län;0483;Katrineholm;0311;Björkvik;1;1.0
+04;Södermanlands län;0483;Katrineholm;0320;Floda;1;1.0
+04;Södermanlands län;0483;Katrineholm;0337;Julita;1;1.0
+04;Södermanlands län;0483;Katrineholm;0339;Katrineholm;2;1.0
+04;Södermanlands län;0483;Katrineholm;0344;Lerbo;1;1.0
+04;Södermanlands län;0483;Katrineholm;0365;Sköldinge;1;1.0
+04;Södermanlands län;0483;Katrineholm;0369;Stora Malm;1;1.0
+04;Södermanlands län;0483;Katrineholm;0396;Östra Vingåker;1;0.998
+04;Södermanlands län;0480;Nyköping;0309;Bergshammar;1;1.0
+04;Södermanlands län;0480;Nyköping;0314;Bogsta;1;1.0
+04;Södermanlands län;0480;Nyköping;0315;Bälinge;1;1.0
+04;Södermanlands län;0480;Nyköping;0316;Bärbo;1;1.0
+04;Södermanlands län;0480;Nyköping;0328;Halla;1;1.0
+04;Södermanlands län;0480;Nyköping;0332;Helgona;1;1.0
+04;Södermanlands län;0480;Nyköping;0333;Husby-Oppunda;1;1.0
+04;Södermanlands län;0480;Nyköping;0341;Kila;1;0.999
+04;Södermanlands län;0480;Nyköping;0345;Lid;1;1.0
+04;Södermanlands län;0480;Nyköping;0348;Ludgo;1;1.0
+04;Södermanlands län;0480;Nyköping;0349;Lunda;1;1.0
+04;Södermanlands län;0480;Nyköping;0351;Lästringe;1;1.0
+04;Södermanlands län;0480;Nyköping;3052;Nikolai;1;1.0
+04;Södermanlands län;0480;Nyköping;0356;Nykyrka;1;1.0
+04;Södermanlands län;0480;Nyköping;0357;Nyköping;2;1.0
+04;Södermanlands län;0480;Nyköping;0360;Ripsa;1;1.0
+04;Södermanlands län;0480;Nyköping;0361;Runtuna;1;1.0
+04;Södermanlands län;0480;Nyköping;0363;Råby-Rönö;1;1.0
+04;Södermanlands län;0480;Nyköping;0366;Spelvik;1;1.0
+04;Södermanlands län;0480;Nyköping;0368;Stigtomta;1;0.999
+04;Södermanlands län;0480;Nyköping;0372;Svärta;1;1.0
+04;Södermanlands län;0480;Nyköping;0373;Sättersta;1;1.0
+04;Södermanlands län;0480;Nyköping;0376;Torsåker;1;0.112
+04;Södermanlands län;0480;Nyköping;0380;Tuna;1;1.0
+04;Södermanlands län;0480;Nyköping;0381;Tunaberg;1;1.0
+04;Södermanlands län;0480;Nyköping;0382;Tystberga;1;1.0
+04;Södermanlands län;0480;Nyköping;0386;Vrena;1;1.0
+04;Södermanlands län;0481;Oxelösund;0359;Oxelösund;2;0.999
+04;Södermanlands län;0486;Strängnäs;0307;Aspö;1;1.0
+04;Södermanlands län;0486;Strängnäs;0321;Fogdö;1;1.0
+04;Södermanlands län;0486;Strängnäs;0330;Helgarö;1;1.0
+04;Södermanlands län;0486;Strängnäs;0336;Härad;1;0.997
+04;Södermanlands län;0486;Strängnäs;0343;Kärnbo;1;1.0
+04;Södermanlands län;0486;Strängnäs;0350;Länna;1;1.0
+04;Södermanlands län;0486;Strängnäs;0353;Mariefred;2;1.0
+04;Södermanlands län;0486;Strängnäs;4001;Strängnäs;2;1.0
+04;Södermanlands län;0486;Strängnäs;0370;Strängnäs;1;1.0
+04;Södermanlands län;0486;Strängnäs;0374;Toresund;1;1.0
+04;Södermanlands län;0486;Strängnäs;0385;Vansö;1;1.0
+04;Södermanlands län;0486;Strängnäs;0390;Ytterselö;1;1.0
+04;Södermanlands län;0486;Strängnäs;0391;Åker;1;1.0
+04;Södermanlands län;0486;Strängnäs;0397;Överselö;1;1.0
+04;Södermanlands län;0488;Trosa;0377;Trosa;2;1.0
+04;Södermanlands län;0488;Trosa;0378;Trosa-Vagnhärad;1;1.0
+04;Södermanlands län;0488;Trosa;0387;Västerljung;1;1.0
+04;Södermanlands län;0428;Vingåker;0389;Västra Vingåker;1;1.0
+04;Södermanlands län;0428;Vingåker;0395;Österåker;1;1.0
+05;Östergötlands län;0560;Boxholm;0407;Blåvik;1;1.0
+05;Östergötlands län;0560;Boxholm;0414;Ekeby;1;1.0
+05;Östergötlands län;0560;Boxholm;0464;Malexander;1;1.0
+05;Östergötlands län;0560;Boxholm;0478;Rinna;1;0.999
+05;Östergötlands län;0560;Boxholm;0543;Åsbo;1;1.0
+05;Östergötlands län;0562;Finspång;0438;Hällestad;1;1.0
+05;Östergötlands län;0562;Finspång;0476;Regna;1;1.0
+05;Östergötlands län;0562;Finspång;0479;Risinge;1;1.0
+05;Östergötlands län;0562;Finspång;0490;Skedevi;1;0.999
+05;Östergötlands län;0513;Kinda;0434;Horn;1;1.0
+05;Östergötlands län;0513;Kinda;0436;Hycklinge;1;1.0
+05;Östergötlands län;0513;Kinda;0437;Hägerstad;1;1.0
+05;Östergötlands län;0513;Kinda;0445;Kisa;1;1.0
+05;Östergötlands län;0513;Kinda;0457;Kättilstad;1;1.0
+05;Östergötlands län;0513;Kinda;0473;Oppeby;1;1.0
+05;Östergötlands län;0513;Kinda;0507;Tidersrum;1;1.0
+05;Östergötlands län;0513;Kinda;0510;Tjärstad;1;1.0
+05;Östergötlands län;0513;Kinda;0533;Västra Eneby;1;1.0
+05;Östergötlands län;0580;Linköping;0402;Askeby;1;1.0
+05;Östergötlands län;0580;Linköping;0403;Bankekind;1;1.0
+05;Östergötlands län;0580;Linköping;0405;Björkeberg;1;1.0
+05;Östergötlands län;0580;Linköping;0418;Flistad;1;1.0
+05;Östergötlands län;0580;Linköping;0421;Gammalkil;1;1.0
+05;Östergötlands län;0580;Linköping;0422;Gistad;1;1.0
+05;Östergötlands län;0580;Linköping;0443;Kaga;1;1.0
+05;Östergötlands län;0580;Linköping;0456;Kärna;1;1.0
+05;Östergötlands län;0580;Linköping;0459;Ledberg;1;1.0
+05;Östergötlands län;0580;Linköping;0460;Lillkyrka;1;1.0
+05;Östergötlands län;0580;Linköping;0461;Linköping;2;1.0
+05;Östergötlands län;0580;Linköping;0462;Ljung;1;1.0
+05;Östergötlands län;0580;Linköping;0471;Nykil;1;1.0
+05;Östergötlands län;0580;Linköping;0475;Rappestad;1;1.0
+05;Östergötlands län;0580;Linköping;0481;Rystad;1;1.0
+05;Östergötlands län;0580;Linköping;0488;Sjögestad;1;1.0
+05;Östergötlands län;0580;Linköping;0489;Skeda;1;1.0
+05;Östergötlands län;0580;Linköping;0496;Slaka;1;1.0
+05;Östergötlands län;0580;Linköping;0497;Stjärnorp;1;1.0
+05;Östergötlands län;0580;Linköping;0515;Törnevalla;1;1.0
+05;Östergötlands län;0580;Linköping;0516;Ulrika;1;1.0
+05;Östergötlands län;0580;Linköping;0523;Vikingstad;1;1.0
+05;Östergötlands län;0580;Linköping;0525;Vist;1;1.0
+05;Östergötlands län;0580;Linköping;0526;Vreta kloster;1;1.0
+05;Östergötlands län;0580;Linköping;0532;Västerlösa;1;0.994
+05;Östergötlands län;0580;Linköping;0528;Vårdnäs;1;1.0
+05;Östergötlands län;0580;Linköping;0529;Vårdsberg;1;1.0
+05;Östergötlands län;0580;Linköping;0549;Örtomta;1;1.0
+05;Östergötlands län;0580;Linköping;0551;Östra Harg;1;1.0
+05;Östergötlands län;0580;Linköping;0555;Östra Skrukeby;1;1.0
+05;Östergötlands län;0586;Mjölby;0398;Allhelgona;1;0.999
+05;Östergötlands län;0586;Mjölby;0399;Appuna;1;1.0
+05;Östergötlands län;0586;Mjölby;0404;Bjälbo;1;1.0
+05;Östergötlands län;0586;Mjölby;0431;Herrberga;1;1.0
+05;Östergötlands län;0586;Mjölby;0433;Hogstad;1;0.999
+05;Östergötlands län;0586;Mjölby;0440;Högby;1;1.0
+05;Östergötlands län;0586;Mjölby;0442;Järstad;1;1.0
+05;Östergötlands län;0586;Mjölby;0452;Kumla;1;0.991
+05;Östergötlands län;0586;Mjölby;0465;Mjölby;2;0.998
+05;Östergötlands län;0586;Mjölby;0468;Normlösa;1;1.0
+05;Östergötlands län;0586;Mjölby;0491;Skeppsås;1;1.0
+05;Östergötlands län;0586;Mjölby;0493;Skänninge;2;1.0
+05;Östergötlands län;0586;Mjölby;0505;Sya;1;1.0
+05;Östergötlands län;0586;Mjölby;0519;Vallerstad;1;1.0
+05;Östergötlands län;0586;Mjölby;0521;Veta;1;1.0
+05;Östergötlands län;0586;Mjölby;0522;Viby;1;0.988
+05;Östergötlands län;0586;Mjölby;0530;Väderstad;1;0.986
+05;Östergötlands län;0586;Mjölby;0534;Västra Harg;1;1.0
+05;Östergötlands län;0586;Mjölby;0557;Östra Tollstad;1;1.0
+05;Östergötlands län;0583;Motala;0401;Ask;1;1.0
+05;Östergötlands län;0583;Motala;0410;Brunneby;1;1.0
+05;Östergötlands län;0583;Motala;0415;Ekebyborna;1;1.0
+05;Östergötlands län;0583;Motala;0417;Fivelstad;1;1.0
+05;Östergötlands län;0583;Motala;0419;Fornåsa;1;1.0
+05;Östergötlands län;0583;Motala;0423;Godegård;1;1.0
+05;Östergötlands län;0583;Motala;0446;Klockrike;1;0.987
+05;Östergötlands län;0583;Motala;0448;Kristberg;1;1.0
+05;Östergötlands län;0583;Motala;0463;Lönsås;1;1.0
+05;Östergötlands län;0583;Motala;0467;Motala;2;1.0
+05;Östergötlands län;0583;Motala;0500;Styra;1;1.0
+05;Östergötlands län;0583;Motala;0509;Tjällmo;1;0.998
+05;Östergötlands län;0583;Motala;0520;Varv;1;1.0
+05;Östergötlands län;0583;Motala;0536;Västra Ny;1;1.0
+05;Östergötlands län;0583;Motala;0538;Västra Stenby;1;1.0
+05;Östergötlands län;0583;Motala;0546;Älvestad;1;1.0
+05;Östergötlands län;0581;Norrköping;0412;Dagsberg;1;1.0
+05;Östergötlands län;0581;Norrköping;0420;Furingstad;1;1.0
+05;Östergötlands län;0581;Norrköping;0439;Häradshammar;1;1.0
+05;Östergötlands län;0581;Norrköping;0441;Jonsberg;1;0.999
+05;Östergötlands län;0581;Norrköping;0444;Kimstad;1;1.0
+05;Östergötlands län;0581;Norrköping;0447;Konungsund;1;1.0
+05;Östergötlands län;0581;Norrköping;0449;Krokek;1;1.0
+05;Östergötlands län;0581;Norrköping;0450;Kuddby;1;1.0
+05;Östergötlands län;0581;Norrköping;0451;Kullerstad;1;1.0
+05;Östergötlands län;0581;Norrköping;0453;Kvarsebo;1;0.999
+05;Östergötlands län;0581;Norrköping;0454;Kvillinge;1;1.0
+05;Östergötlands län;0581;Norrköping;0470;Norrköping;2;1.0
+05;Östergötlands län;0581;Norrköping;0483;Rönö;1;1.0
+05;Östergötlands län;0581;Norrköping;0487;Simonstorp;1;1.0
+05;Östergötlands län;0581;Norrköping;0494;Skärkind;1;0.998
+05;Östergötlands län;0581;Norrköping;0514;Tåby;1;1.0
+05;Östergötlands län;0581;Norrköping;0527;Vånga;1;1.0
+05;Östergötlands län;0581;Norrköping;0542;Å;1;1.0
+05;Östergötlands län;0581;Norrköping;0552;Östra Husby;1;1.0
+05;Östergötlands län;0581;Norrköping;0553;Östra Ny;1;1.0
+05;Östergötlands län;0581;Norrköping;0556;Östra Stenby;1;1.0
+05;Östergötlands län;0582;Söderköping;0411;Börrum;1;1.0
+05;Östergötlands län;0582;Söderköping;0413;Drothem;1;1.0
+05;Östergötlands län;0582;Söderköping;0426;Gårdeby;1;0.996
+05;Östergötlands län;0582;Söderköping;0466;Mogata;1;1.0
+05;Östergötlands län;0582;Söderköping;0484;Sankt Anna;1;1.0
+05;Östergötlands län;0582;Söderköping;0492;Skällvik;1;1.0
+05;Östergötlands län;0582;Söderköping;0495;Skönberga;1;1.0
+05;Östergötlands län;0582;Söderköping;0506;Söderköping;2;1.0
+05;Östergötlands län;0582;Söderköping;0535;Västra Husby;1;1.0
+05;Östergötlands län;0582;Söderköping;0554;Östra Ryd;1;1.0
+05;Östergötlands län;0584;Vadstena;0428;Hagebyhöga;1;1.0
+05;Östergötlands län;0584;Vadstena;0432;Herrestad;1;1.0
+05;Östergötlands län;0584;Vadstena;0435;Hov;1;0.997
+05;Östergötlands län;0584;Vadstena;0455;Källstad;1;1.0
+05;Östergötlands län;0584;Vadstena;0472;Nässja;1;1.0
+05;Östergötlands län;0584;Vadstena;0474;Orlunda;1;0.98
+05;Östergötlands län;0584;Vadstena;0480;Rogslösa;1;1.0
+05;Östergötlands län;0584;Vadstena;3075;Sankt Per;1;1.0
+05;Östergötlands län;0584;Vadstena;0499;Strå;1;1.0
+05;Östergötlands län;0584;Vadstena;0517;Vadstena;2;1.0
+05;Östergötlands län;0584;Vadstena;0540;Väversunda;1;1.0
+05;Östergötlands län;0584;Vadstena;0548;Örberga;1;1.0
+05;Östergötlands län;0563;Valdemarsvik;0425;Gryt;1;0.993
+05;Östergötlands län;0563;Valdemarsvik;0477;Ringarum;1;1.0
+05;Östergötlands län;0563;Valdemarsvik;0513;Tryserum;1;1.0
+05;Östergötlands län;0563;Valdemarsvik;0550;Östra Ed;1;1.0
+05;Östergötlands län;0512;Ydre;0400;Asby;1;1.0
+05;Östergötlands län;0512;Ydre;0469;Norra Vi;1;1.0
+05;Östergötlands län;0512;Ydre;0502;Sund;1;1.0
+05;Östergötlands län;0512;Ydre;0504;Svinhult;1;1.0
+05;Östergötlands län;0512;Ydre;0511;Torpa;1;1.0
+05;Östergötlands län;0512;Ydre;0537;Västra Ryd;1;1.0
+05;Östergötlands län;0561;Åtvidaberg;0406;Björsäter;1;0.999
+05;Östergötlands län;0561;Åtvidaberg;0424;Grebo;1;1.0
+05;Östergötlands län;0561;Åtvidaberg;0427;Gärdserum;1;1.0
+05;Östergötlands län;0561;Åtvidaberg;0429;Hannäs;1;0.999
+05;Östergötlands län;0561;Åtvidaberg;0531;Värna;1;1.0
+05;Östergötlands län;0561;Åtvidaberg;0541;Yxnerum;1;1.0
+05;Östergötlands län;0561;Åtvidaberg;0544;Åtvid;1;1.0
+05;Östergötlands län;0509;Ödeshög;0430;Heda;1;1.0
+05;Östergötlands län;0509;Ödeshög;0482;Rök;1;1.0
+05;Östergötlands län;0509;Ödeshög;0498;Stora Åby;1;1.0
+05;Östergötlands län;0509;Ödeshög;0503;Svanshals;1;1.0
+05;Östergötlands län;0509;Ödeshög;0512;Trehörna;1;1.0
+05;Östergötlands län;0509;Ödeshög;0539;Västra Tollstad;1;1.0
+05;Östergötlands län;0509;Ödeshög;0547;Ödeshög;1;1.0
+06;Jönköpings län;0604;Aneby;0563;Askeryd;1;0.998
+06;Jönköpings län;0604;Aneby;0574;Bredestad;1;1.0
+06;Jönköpings län;0604;Aneby;0581;Bälaryd;1;1.0
+06;Jönköpings län;0604;Aneby;0590;Frinnaryd;1;1.0
+06;Jönköpings län;0604;Aneby;0600;Haurida;1;1.0
+06;Jönköpings län;0604;Aneby;0627;Lommaryd;1;1.0
+06;Jönköpings län;0604;Aneby;0630;Marbäck;1;1.0
+06;Jönköpings län;0604;Aneby;0679;Vireda;1;0.997
+06;Jönköpings län;0686;Eksjö;0567;Bellö;1;1.0
+06;Jönköpings län;0686;Eksjö;0583;Edshult;1;1.0
+06;Jönköpings län;0686;Eksjö;4044;Eksjö;2;1.0
+06;Jönköpings län;0686;Eksjö;0584;Eksjö;1;0.991
+06;Jönköpings län;0686;Eksjö;0603;Hult;1;1.0
+06;Jönköpings län;0686;Eksjö;0608;Hässleby;1;1.0
+06;Jönköpings län;0686;Eksjö;0609;Höreda;1;1.0
+06;Jönköpings län;0686;Eksjö;0610;Ingatorp;1;1.0
+06;Jönköpings län;0686;Eksjö;0617;Kråkshult;1;0.987
+06;Jönköpings län;0686;Eksjö;0632;Mellby;1;1.0
+06;Jönköpings län;0662;Gislaved;0561;Anderstorp;1;1.0
+06;Jönköpings län;0662;Gislaved;0571;Bosebo;1;1.0
+06;Jönköpings län;0662;Gislaved;0576;Burseryd;1;1.0
+06;Jönköpings län;0662;Gislaved;0578;Båraryd;1;1.0
+06;Jönköpings län;0662;Gislaved;0595;Gryteryd;1;1.0
+06;Jönköpings län;0662;Gislaved;0619;Kållerstad;1;1.0
+06;Jönköpings län;0662;Gislaved;0636;Norra Hestra;1;1.0
+06;Jönköpings län;0662;Gislaved;0649;Reftele;1;1.0
+06;Jönköpings län;0662;Gislaved;0652;Sandvik;1;1.0
+06;Jönköpings län;0662;Gislaved;0660;Stengårdshult;1;1.0
+06;Jönköpings län;0662;Gislaved;0666;Södra Hestra;1;1.0
+06;Jönköpings län;0662;Gislaved;0675;Valdshult;1;1.0
+06;Jönköpings län;0662;Gislaved;0678;Villstad;1;1.0
+06;Jönköpings län;0662;Gislaved;0683;Våthult;1;1.0
+06;Jönköpings län;0662;Gislaved;0686;Ås;1;1.0
+06;Jönköpings län;0662;Gislaved;0692;Öreryd;1;1.0
+06;Jönköpings län;0617;Gnosjö;0594;Gnosjö;1;1.0
+06;Jönköpings län;0617;Gnosjö;0618;Kulltorp;1;1.0
+06;Jönköpings län;0617;Gnosjö;0620;Källeryd;1;1.0
+06;Jönköpings län;0617;Gnosjö;0622;Kävsjö;1;1.0
+06;Jönköpings län;0617;Gnosjö;0687;Åsenhöga;1;1.0
+06;Jönköpings län;0643;Habo;1861;Brandstorp;1;0.999
+06;Jönköpings län;0643;Habo;1912;Gustav Adolf;1;1.0
+06;Jönköpings län;0643;Habo;1918;Habo;1;1.0
+06;Jönköpings län;0680;Jönköping;0562;Angerdshestra;1;1.0
+06;Jönköpings län;0680;Jönköping;0564;Bankeryd;1;1.0
+06;Jönköpings län;0680;Jönköping;0566;Barnarp;1;1.0
+06;Jönköpings län;0680;Jönköping;0572;Bottnaryd;1;1.0
+06;Jönköpings län;0680;Jönköping;0596;Gränna;1;1.0
+06;Jönköpings län;0680;Jönköping;4054;Gränna;2;1.0
+06;Jönköpings län;0680;Jönköping;0599;Hakarp;1;1.0
+06;Jönköpings län;0680;Jönköping;0605;Huskvarna;2;1.0
+06;Jönköpings län;0680;Jönköping;0612;Järsnäs;1;1.0
+06;Jönköpings län;0680;Jönköping;0613;Järstorp;1;1.0
+06;Jönköpings län;0680;Jönköping;0614;Jönköping;2;1.0
+06;Jönköpings län;0680;Jönköping;0624;Lekeryd;1;1.0
+06;Jönköpings län;0680;Jönköping;0633;Mulseryd;1;1.0
+06;Jönköpings län;0680;Jönköping;0635;Månsarp;1;1.0
+06;Jönköpings län;0680;Jönköping;0640;Norra Unnaryd;1;1.0
+06;Jönköpings län;0680;Jönköping;0641;Norrahammar;1;1.0
+06;Jönköpings län;0680;Jönköping;0650;Rogberga;1;1.0
+06;Jönköpings län;0680;Jönköping;0658;Skärstad;1;1.0
+06;Jönköpings län;0680;Jönköping;0662;Svarttorp;1;1.0
+06;Jönköpings län;0680;Jönköping;0680;Visingsö;1;1.0
+06;Jönköpings län;0680;Jönköping;0688;Ödestugu;1;1.0
+06;Jönköpings län;0680;Jönköping;0689;Öggestorp;1;1.0
+06;Jönköpings län;0680;Jönköping;0691;Ölmstad;1;1.0
+06;Jönköpings län;0642;Mullsjö;1853;Bjurbäck;1;1.0
+06;Jönköpings län;0642;Mullsjö;2003;Nykyrka;1;1.0
+06;Jönköpings län;0642;Mullsjö;2017;Sandhem;1;0.992
+06;Jönköpings län;0642;Mullsjö;2078;Utvängstorp;1;1.0
+06;Jönköpings län;0682;Nässjö;0559;Almesåkra;1;1.0
+06;Jönköpings län;0682;Nässjö;0565;Barkeryd;1;0.999
+06;Jönköpings län;0682;Nässjö;0575;Bringetofta;1;0.994
+06;Jönköpings län;0682;Nässjö;0586;Flisby;1;1.0
+06;Jönköpings län;0682;Nässjö;0587;Forserum;1;1.0
+06;Jönköpings län;0682;Nässjö;0629;Malmbäck;1;1.0
+06;Jönköpings län;0682;Nässjö;0638;Norra Sandsjö;1;1.0
+06;Jönköpings län;0682;Nässjö;0639;Norra Solberga;1;1.0
+06;Jönköpings län;0682;Nässjö;0646;Nässjö;1;1.0
+06;Jönköpings län;0682;Nässjö;4090;Nässjö;2;1.0
+06;Jönköpings län;0684;Sävsjö;0601;Hjälmseryd;1;1.0
+06;Jönköpings län;0684;Sävsjö;3008;Hjärtlanda;1;1.0
+06;Jönköpings län;0684;Sävsjö;0604;Hultsjö;1;1.0
+06;Jönköpings län;0684;Sävsjö;0606;Hylletofta;1;1.0
+06;Jönköpings län;0684;Sävsjö;3012;Norra Ljunga;1;1.0
+06;Jönköpings län;0684;Sävsjö;0654;Skepperstad;1;1.0
+06;Jönköpings län;0684;Sävsjö;0661;Stockaryd;1;1.0
+06;Jönköpings län;0684;Sävsjö;0665;Sävsjö;2;1.0
+06;Jönköpings län;0684;Sävsjö;3016;Vallsjö;1;1.0
+06;Jönköpings län;0684;Sävsjö;0682;Vrigstad;1;1.0
+06;Jönköpings län;0687;Tranås;0558;Adelöv;1;1.0
+06;Jönköpings län;0687;Tranås;0626;Linderås;1;1.0
+06;Jönköpings län;0687;Tranås;3013;Säby;1;1.0
+06;Jönköpings län;0687;Tranås;0671;Tranås;2;1.0
+06;Jönköpings län;0665;Vaggeryd;0570;Bondstorp;1;1.0
+06;Jönköpings län;0665;Vaggeryd;0577;Byarum;1;1.0
+06;Jönköpings län;0665;Vaggeryd;0598;Hagshult;1;1.0
+06;Jönköpings län;0665;Vaggeryd;0663;Svenarum;1;0.991
+06;Jönköpings län;0665;Vaggeryd;0669;Tofteryd;1;1.0
+06;Jönköpings län;0665;Vaggeryd;0685;Åker;1;0.999
+06;Jönköpings län;0685;Vetlanda;0560;Alseda;1;1.0
+06;Jönköpings län;0685;Vetlanda;0568;Björkö;1;0.997
+06;Jönköpings län;0685;Vetlanda;0579;Bäckaby;1;1.0
+06;Jönköpings län;0685;Vetlanda;0580;Bäckseda;1;1.0
+06;Jönköpings län;0685;Vetlanda;0592;Fröderyd;1;1.0
+06;Jönköpings län;0685;Vetlanda;0615;Karlstorp;1;1.0
+06;Jönköpings län;0685;Vetlanda;0616;Korsberga;1;1.0
+06;Jönköpings län;0685;Vetlanda;0623;Lannaskede;1;1.0
+06;Jönköpings län;0685;Vetlanda;0625;Lemnhult;1;1.0
+06;Jönköpings län;0685;Vetlanda;0634;Myresjö;1;1.0
+06;Jönköpings län;0685;Vetlanda;0643;Nye;1;1.0
+06;Jönköpings län;0685;Vetlanda;0644;Näsby;1;1.0
+06;Jönköpings län;0685;Vetlanda;0645;Näshult;1;1.0
+06;Jönköpings län;0685;Vetlanda;0647;Nävelsjö;1;1.0
+06;Jönköpings län;0685;Vetlanda;0648;Ramkvilla;1;1.0
+06;Jönköpings län;0685;Vetlanda;0653;Skede;1;0.998
+06;Jönköpings län;0685;Vetlanda;0657;Skirö;1;1.0
+06;Jönköpings län;0685;Vetlanda;0659;Stenberga;1;1.0
+06;Jönköpings län;0685;Vetlanda;0667;Södra Solberga;1;1.0
+06;Jönköpings län;0685;Vetlanda;4115;Vetlanda;2;1.0
+06;Jönköpings län;0685;Vetlanda;0677;Vetlanda;1;0.999
+06;Jönköpings län;0685;Vetlanda;0690;Ökna;1;1.0
+06;Jönköpings län;0683;Värnamo;0573;Bredaryd;1;1.0
+06;Jönköpings län;0683;Värnamo;0582;Dannäs;1;1.0
+06;Jönköpings län;0683;Värnamo;0589;Forsheda;1;1.0
+06;Jönköpings län;0683;Värnamo;0591;Fryele;1;1.0
+06;Jönköpings län;0683;Värnamo;0597;Gällaryd;1;1.0
+06;Jönköpings län;0683;Värnamo;0607;Hånger;1;1.0
+06;Jönköpings län;0683;Värnamo;0621;Kärda;1;1.0
+06;Jönköpings län;0683;Värnamo;0642;Nydala;1;1.0
+06;Jönköpings län;0683;Värnamo;0651;Rydaholm;1;0.989
+06;Jönköpings län;0683;Värnamo;0670;Torskinge;1;1.0
+06;Jönköpings län;0683;Värnamo;0672;Tånnö;1;1.0
+06;Jönköpings län;0683;Värnamo;0681;Voxtorp;1;1.0
+06;Jönköpings län;0683;Värnamo;4042;Värnamo;2;1.0
+06;Jönköpings län;0683;Värnamo;0684;Värnamo;1;1.0
+07;Kronobergs län;0764;Alvesta;0699;Alvesta;1;1.0
+07;Kronobergs län;0764;Alvesta;0704;Blädinge;1;1.0
+07;Kronobergs län;0764;Alvesta;0720;Hjortsberga;1;1.0
+07;Kronobergs län;0764;Alvesta;0724;Härlöv;1;0.984
+07;Kronobergs län;0764;Alvesta;0726;Kalvsvik;1;0.082
+07;Kronobergs län;0764;Alvesta;0727;Kvenneberga;1;1.0
+07;Kronobergs län;0764;Alvesta;0729;Lekaryd;1;1.0
+07;Kronobergs län;0764;Alvesta;0737;Mistelås;1;1.0
+07;Kronobergs län;0764;Alvesta;0738;Moheda;1;0.999
+07;Kronobergs län;0764;Alvesta;0747;Skatelöv;1;1.0
+07;Kronobergs län;0764;Alvesta;0748;Slätthög;1;1.0
+07;Kronobergs län;0764;Alvesta;0768;Vislanda;1;1.0
+07;Kronobergs län;0764;Alvesta;0772;Västra Torsås;1;1.0
+07;Kronobergs län;0761;Lessebo;0710;Ekeberga;1;1.0
+07;Kronobergs län;0761;Lessebo;0722;Hovmantorp;1;1.0
+07;Kronobergs län;0761;Lessebo;3079;Lessebo;1;1.0
+07;Kronobergs län;0761;Lessebo;0734;Ljuder;1;1.0
+07;Kronobergs län;0781;Ljungby;0693;Agunnaryd;1;0.998
+07;Kronobergs län;0781;Ljungby;0697;Angelstad;1;1.0
+07;Kronobergs län;0781;Ljungby;0698;Annerstad;1;1.0
+07;Kronobergs län;0781;Ljungby;0702;Berga;1;1.0
+07;Kronobergs län;0781;Ljungby;0705;Bolmsö;1;1.0
+07;Kronobergs län;0781;Ljungby;0709;Dörarp;1;1.0
+07;Kronobergs län;0781;Ljungby;0716;Hamneda;1;1.0
+07;Kronobergs län;0781;Ljungby;0728;Kånna;1;1.0
+07;Kronobergs län;0781;Ljungby;0732;Lidhult;1;1.0
+07;Kronobergs län;0781;Ljungby;0735;Ljungby;2;1.0
+07;Kronobergs län;0781;Ljungby;0741;Nöttja;1;1.0
+07;Kronobergs län;0781;Ljungby;0742;Odensjö;1;1.0
+07;Kronobergs län;0781;Ljungby;0745;Ryssby;1;1.0
+07;Kronobergs län;0781;Ljungby;0751;Södra Ljunga;1;1.0
+07;Kronobergs län;0781;Ljungby;0754;Tannåker;1;1.0
+07;Kronobergs län;0781;Ljungby;0760;Torpa;1;1.0
+07;Kronobergs län;0781;Ljungby;0762;Tutaryd;1;1.0
+07;Kronobergs län;0781;Ljungby;0769;Vittaryd;1;1.0
+07;Kronobergs län;0781;Ljungby;0770;Vrå;1;1.0
+07;Kronobergs län;0767;Markaryd;0719;Hinneryd;1;1.0
+07;Kronobergs län;0767;Markaryd;0736;Markaryd;1;1.0
+07;Kronobergs län;0767;Markaryd;0761;Traryd;1;1.0
+07;Kronobergs län;0763;Tingsryd;0694;Almundsryd;1;1.0
+07;Kronobergs län;0763;Tingsryd;0733;Linneryd;1;1.0
+07;Kronobergs län;0763;Tingsryd;0752;Södra Sandsjö;1;1.0
+07;Kronobergs län;0763;Tingsryd;0757;Tingsås;1;1.0
+07;Kronobergs län;0763;Tingsryd;0764;Urshult;1;1.0
+07;Kronobergs län;0763;Tingsryd;0771;Väckelsång;1;1.0
+07;Kronobergs län;0763;Tingsryd;0776;Älmeboda;1;1.0
+07;Kronobergs län;0760;Uppvidinge;0712;Granhult;1;1.0
+07;Kronobergs län;0760;Uppvidinge;0718;Herråkra;1;0.986
+07;Kronobergs län;0760;Uppvidinge;0730;Lenhovda;1;1.0
+07;Kronobergs län;0760;Uppvidinge;0739;Nottebäck;1;1.0
+07;Kronobergs län;0760;Uppvidinge;0775;Älghult;1;1.0
+07;Kronobergs län;0760;Uppvidinge;0774;Åseda;1;1.0
+07;Kronobergs län;0780;Växjö;0696;Aneboda;1;1.0
+07;Kronobergs län;0780;Växjö;0700;Asa;1;1.0
+07;Kronobergs län;0780;Växjö;0701;Berg;1;1.0
+07;Kronobergs län;0780;Växjö;0703;Bergunda;1;1.0
+07;Kronobergs län;0780;Växjö;0706;Drev;1;1.0
+07;Kronobergs län;0780;Växjö;0707;Dädesjö;1;1.0
+07;Kronobergs län;0780;Växjö;0708;Dänningelanda;1;1.0
+07;Kronobergs län;0780;Växjö;0711;Furuby;1;1.0
+07;Kronobergs län;0780;Växjö;0713;Gårdsby;1;1.0
+07;Kronobergs län;0780;Växjö;0717;Hemmesjö;1;1.0
+07;Kronobergs län;0780;Växjö;0721;Hornaryd;1;1.0
+07;Kronobergs län;0780;Växjö;0725;Jät;1;1.0
+07;Kronobergs län;0780;Växjö;0726;Kalvsvik;1;0.918
+07;Kronobergs län;0780;Växjö;0740;Nöbbele;1;1.0
+07;Kronobergs län;0780;Växjö;0743;Ormesberga;1;1.0
+07;Kronobergs län;0780;Växjö;0746;Sjösås;1;0.999
+07;Kronobergs län;0780;Växjö;0753;Söraby;1;1.0
+07;Kronobergs län;0780;Växjö;0755;Tegnaby;1;1.0
+07;Kronobergs län;0780;Växjö;0758;Tjureda;1;1.0
+07;Kronobergs län;0780;Växjö;0759;Tolg;1;1.0
+07;Kronobergs län;0780;Växjö;0763;Tävelsås;1;1.0
+07;Kronobergs län;0780;Växjö;0765;Uråsa;1;1.0
+07;Kronobergs län;0780;Växjö;0766;Vederslöv;1;1.0
+07;Kronobergs län;0780;Växjö;0773;Växjö;2;1.0
+07;Kronobergs län;0780;Växjö;0778;Öja;1;1.0
+07;Kronobergs län;0780;Växjö;0779;Öjaby;1;1.0
+07;Kronobergs län;0780;Växjö;0780;Ör;1;1.0
+07;Kronobergs län;0780;Växjö;0782;Östra Torsås;1;1.0
+07;Kronobergs län;0765;Älmhult;0714;Göteryd;1;1.0
+07;Kronobergs län;0765;Älmhult;0715;Hallaryd;1;1.0
+07;Kronobergs län;0765;Älmhult;0723;Härlunda;1;0.998
+07;Kronobergs län;0765;Älmhult;0744;Pjätteryd;1;1.0
+07;Kronobergs län;0765;Älmhult;0749;Stenbrohult;1;1.0
+07;Kronobergs län;0765;Älmhult;0767;Virestad;1;0.999
+08;Kalmar län;0885;Borgholm;0783;Alböke;1;1.0
+08;Kalmar län;0885;Borgholm;0789;Borgholm;2;1.0
+08;Kalmar län;0885;Borgholm;0790;Bredsättra;1;1.0
+08;Kalmar län;0885;Borgholm;0792;Böda;1;1.0
+08;Kalmar län;0885;Borgholm;0797;Egby;1;1.0
+08;Kalmar län;0885;Borgholm;0804;Föra;1;1.0
+08;Kalmar län;0885;Borgholm;0813;Gärdslösa;1;1.0
+08;Kalmar län;0885;Borgholm;0822;Högby;1;1.0
+08;Kalmar län;0885;Borgholm;0824;Högsrum;1;1.0
+08;Kalmar län;0885;Borgholm;0833;Källa;1;1.0
+08;Kalmar län;0885;Borgholm;0834;Köping;1;1.0
+08;Kalmar län;0885;Borgholm;0841;Långlöt;1;1.0
+08;Kalmar län;0885;Borgholm;0843;Löt;1;1.0
+08;Kalmar län;0885;Borgholm;0857;Persnäs;1;1.0
+08;Kalmar län;0885;Borgholm;0860;Runsten;1;1.0
+08;Kalmar län;0885;Borgholm;0862;Räpplinge;1;1.0
+08;Kalmar län;0862;Emmaboda;0784;Algutsboda;1;0.999
+08;Kalmar län;0862;Emmaboda;0839;Långasjö;1;1.0
+08;Kalmar län;0862;Emmaboda;0882;Vissefjärda;1;1.0
+08;Kalmar län;0860;Hultsfred;0812;Gårdveda;1;1.0
+08;Kalmar län;0860;Hultsfred;0825;Järeda;1;1.0
+08;Kalmar län;0860;Hultsfred;0842;Lönneberga;1;1.0
+08;Kalmar län;0860;Hultsfred;0847;Målilla;1;1.0
+08;Kalmar län;0860;Hultsfred;0850;Mörlunda;1;1.0
+08;Kalmar län;0860;Hultsfred;0874;Tveta;1;1.0
+08;Kalmar län;0860;Hultsfred;0877;Vena;1;1.0
+08;Kalmar län;0860;Hultsfred;0881;Virserum;1;0.999
+08;Kalmar län;0821;Högsby;0799;Fagerhult;1;1.0
+08;Kalmar län;0821;Högsby;0803;Fågelfors;1;1.0
+08;Kalmar län;0821;Högsby;0823;Högsby;1;1.0
+08;Kalmar län;0821;Högsby;0840;Långemåla;1;0.996
+08;Kalmar län;0880;Kalmar;0786;Arby;1;1.0
+08;Kalmar län;0880;Kalmar;0796;Dörby;1;1.0
+08;Kalmar län;0880;Kalmar;0805;Förlösa;1;1.0
+08;Kalmar län;0880;Kalmar;0814;Hagby;1;1.0
+08;Kalmar län;0880;Kalmar;0816;Halltorp;1;1.0
+08;Kalmar län;0880;Kalmar;0818;Hossmo;1;1.0
+08;Kalmar län;0880;Kalmar;0826;Kalmar;2;1.0
+08;Kalmar län;0880;Kalmar;0827;Karlslunda;1;1.0
+08;Kalmar län;0880;Kalmar;0829;Kläckeberga;1;1.0
+08;Kalmar län;0880;Kalmar;0835;Ljungby;1;1.0
+08;Kalmar län;0880;Kalmar;0846;Mortorp;1;1.0
+08;Kalmar län;0880;Kalmar;0861;Ryssby;1;1.0
+08;Kalmar län;0880;Kalmar;0883;Voxtorp;1;1.0
+08;Kalmar län;0880;Kalmar;0887;Åby;1;1.0
+08;Kalmar län;0861;Mönsterås;0801;Fliseryd;1;1.0
+08;Kalmar län;0861;Mönsterås;0848;Mönsterås;1;1.0
+08;Kalmar län;0861;Mönsterås;0888;Ålem;1;0.993
+08;Kalmar län;0840;Mörbylånga;0785;Algutsrum;1;1.0
+08;Kalmar län;0840;Mörbylånga;0808;Glömminge;1;0.993
+08;Kalmar län;0840;Mörbylånga;0809;Gräsgård;1;1.0
+08;Kalmar län;0840;Mörbylånga;0811;Gårdby;1;1.0
+08;Kalmar län;0840;Mörbylånga;0819;Hulterstad;1;1.0
+08;Kalmar län;0840;Mörbylånga;0828;Kastlösa;1;1.0
+08;Kalmar län;0840;Mörbylånga;0849;Mörbylånga;1;1.0
+08;Kalmar län;0840;Mörbylånga;0851;Norra Möckleby;1;1.0
+08;Kalmar län;0840;Mörbylånga;0858;Resmo;1;1.0
+08;Kalmar län;0840;Mörbylånga;0863;Sandby;1;1.0
+08;Kalmar län;0840;Mörbylånga;0865;Segerstad;1;1.0
+08;Kalmar län;0840;Mörbylånga;0866;Smedby;1;1.0
+08;Kalmar län;0840;Mörbylånga;0867;Stenåsa;1;1.0
+08;Kalmar län;0840;Mörbylånga;0869;Södra Möckleby;1;1.0
+08;Kalmar län;0840;Mörbylånga;0871;Torslunda;1;1.0
+08;Kalmar län;0840;Mörbylånga;0878;Ventlinge;1;1.0
+08;Kalmar län;0840;Mörbylånga;0879;Vickleby;1;1.0
+08;Kalmar län;0840;Mörbylånga;0889;Ås;1;1.0
+08;Kalmar län;0881;Nybro;0791;Bäckebo;1;0.997
+08;Kalmar län;0881;Nybro;0821;Hälleberga;1;1.0
+08;Kalmar län;0881;Nybro;0831;Kristvalla;1;1.0
+08;Kalmar län;0881;Nybro;0832;Kråksmåla;1;1.0
+08;Kalmar län;0881;Nybro;0844;Madesjö;1;1.0
+08;Kalmar län;0881;Nybro;4100;Nybro;2;1.0
+08;Kalmar län;0881;Nybro;0852;Nybro;1;1.0
+08;Kalmar län;0881;Nybro;0854;Oskar;1;1.0
+08;Kalmar län;0881;Nybro;0864;Sankt Sigfrid;1;1.0
+08;Kalmar län;0881;Nybro;0890;Örsjö;1;1.0
+08;Kalmar län;0882;Oskarshamn;0795;Döderhult;1;1.0
+08;Kalmar län;0882;Oskarshamn;0830;Kristdala;1;1.0
+08;Kalmar län;0882;Oskarshamn;0845;Misterhult;1;0.995
+08;Kalmar län;0882;Oskarshamn;0855;Oskarshamn;2;1.0
+08;Kalmar län;0834;Torsås;0810;Gullabo;1;1.0
+08;Kalmar län;0834;Torsås;0868;Söderåkra;1;1.0
+08;Kalmar län;0834;Torsås;0872;Torsås;1;1.0
+08;Kalmar län;0884;Vimmerby;0794;Djursdala;1;1.0
+08;Kalmar län;0884;Vimmerby;0802;Frödinge;1;1.0
+08;Kalmar län;0884;Vimmerby;0836;Locknevi;1;1.0
+08;Kalmar län;0884;Vimmerby;0856;Pelarne;1;1.0
+08;Kalmar län;0884;Vimmerby;0859;Rumskulla;1;1.0
+08;Kalmar län;0884;Vimmerby;0870;Södra Vi;1;1.0
+08;Kalmar län;0884;Vimmerby;0873;Tuna;1;0.999
+08;Kalmar län;0884;Vimmerby;0880;Vimmerby;1;1.0
+08;Kalmar län;0884;Vimmerby;4116;Vimmerby;2;1.0
+08;Kalmar län;0883;Västervik;0788;Blackstad;1;1.0
+08;Kalmar län;0883;Västervik;0793;Dalhem;1;1.0
+08;Kalmar län;0883;Västervik;0806;Gamleby;1;1.0
+08;Kalmar län;0883;Västervik;0807;Gladhammar;1;1.0
+08;Kalmar län;0883;Västervik;0815;Hallingeberg;1;1.0
+08;Kalmar län;0883;Västervik;0817;Hjorted;1;1.0
+08;Kalmar län;0883;Västervik;0837;Lofta;1;1.0
+08;Kalmar län;0883;Västervik;0838;Loftahammar;1;1.0
+08;Kalmar län;0883;Västervik;0853;Odensvi;1;1.0
+08;Kalmar län;0883;Västervik;0875;Törnsfall;1;1.0
+08;Kalmar län;0883;Västervik;0876;Ukna;1;1.0
+08;Kalmar län;0883;Västervik;0884;Västervik;2;1.0
+08;Kalmar län;0883;Västervik;0885;Västra Ed;1;1.0
+08;Kalmar län;0883;Västervik;0886;Västrum;1;1.0
+08;Kalmar län;0883;Västervik;0891;Överum;1;1.0
+09;Gotlands län;0980;Gotland;0892;Akebäck;1;1.0
+09;Gotlands län;0980;Gotland;0893;Ala;1;1.0
+09;Gotlands län;0980;Gotland;0894;Alskog;1;1.0
+09;Gotlands län;0980;Gotland;0895;Alva;1;1.0
+09;Gotlands län;0980;Gotland;0896;Anga;1;1.0
+09;Gotlands län;0980;Gotland;0897;Ardre;1;1.0
+09;Gotlands län;0980;Gotland;0898;Atlingbo;1;1.0
+09;Gotlands län;0980;Gotland;0899;Barlingbo;1;1.0
+09;Gotlands län;0980;Gotland;0900;Björke;1;1.0
+09;Gotlands län;0980;Gotland;0901;Boge;1;1.0
+09;Gotlands län;0980;Gotland;0902;Bro;1;1.0
+09;Gotlands län;0980;Gotland;0903;Bunge;1;1.0
+09;Gotlands län;0980;Gotland;0904;Burs;1;1.0
+09;Gotlands län;0980;Gotland;0905;Buttle;1;1.0
+09;Gotlands län;0980;Gotland;0906;Bäl;1;1.0
+09;Gotlands län;0980;Gotland;0907;Dalhem;1;1.0
+09;Gotlands län;0980;Gotland;0908;Eke;1;1.0
+09;Gotlands län;0980;Gotland;0909;Ekeby;1;1.0
+09;Gotlands län;0980;Gotland;0910;Eksta;1;1.0
+09;Gotlands län;0980;Gotland;0911;Endre;1;1.0
+09;Gotlands län;0980;Gotland;0912;Eskelhem;1;1.0
+09;Gotlands län;0980;Gotland;0913;Etelhem;1;1.0
+09;Gotlands län;0980;Gotland;0914;Fardhem;1;1.0
+09;Gotlands län;0980;Gotland;0915;Fide;1;1.0
+09;Gotlands län;0980;Gotland;0916;Fleringe;1;1.0
+09;Gotlands län;0980;Gotland;0917;Fole;1;1.0
+09;Gotlands län;0980;Gotland;0918;Follingbo;1;1.0
+09;Gotlands län;0980;Gotland;0919;Fröjel;1;1.0
+09;Gotlands län;0980;Gotland;0920;Fårö;1;1.0
+09;Gotlands län;0980;Gotland;0921;Gammelgarn;1;1.0
+09;Gotlands län;0980;Gotland;0922;Ganthem;1;1.0
+09;Gotlands län;0980;Gotland;0923;Garde;1;1.0
+09;Gotlands län;0980;Gotland;0924;Gerum;1;1.0
+09;Gotlands län;0980;Gotland;0925;Gothem;1;1.0
+09;Gotlands län;0980;Gotland;0926;Grötlingbo;1;1.0
+09;Gotlands län;0980;Gotland;0927;Guldrupe;1;1.0
+09;Gotlands län;0980;Gotland;0928;Hablingbo;1;1.0
+09;Gotlands län;0980;Gotland;0929;Hall;1;1.0
+09;Gotlands län;0980;Gotland;0930;Halla;1;1.0
+09;Gotlands län;0980;Gotland;0931;Hamra;1;1.0
+09;Gotlands län;0980;Gotland;0932;Hangvar;1;1.0
+09;Gotlands län;0980;Gotland;0933;Havdhem;1;1.0
+09;Gotlands län;0980;Gotland;0934;Hejde;1;1.0
+09;Gotlands län;0980;Gotland;0935;Hejdeby;1;1.0
+09;Gotlands län;0980;Gotland;0936;Hejnum;1;1.0
+09;Gotlands län;0980;Gotland;0937;Hellvi;1;1.0
+09;Gotlands län;0980;Gotland;0938;Hemse;1;1.0
+09;Gotlands län;0980;Gotland;0939;Hogrän;1;1.0
+09;Gotlands län;0980;Gotland;0940;Hörsne-Bara;1;1.0
+09;Gotlands län;0980;Gotland;0941;Klinte;1;1.0
+09;Gotlands län;0980;Gotland;0942;Kräklingbo;1;1.0
+09;Gotlands län;0980;Gotland;0943;Källunge;1;1.0
+09;Gotlands län;0980;Gotland;0944;Lau;1;1.0
+09;Gotlands län;0980;Gotland;0945;Levide;1;1.0
+09;Gotlands län;0980;Gotland;0946;Linde;1;1.0
+09;Gotlands län;0980;Gotland;0947;Lojsta;1;1.0
+09;Gotlands län;0980;Gotland;0948;Lokrume;1;1.0
+09;Gotlands län;0980;Gotland;0949;Lummelunda;1;1.0
+09;Gotlands län;0980;Gotland;0950;Lye;1;1.0
+09;Gotlands län;0980;Gotland;0951;Lärbro;1;1.0
+09;Gotlands län;0980;Gotland;0952;Martebo;1;1.0
+09;Gotlands län;0980;Gotland;0953;Mästerby;1;1.0
+09;Gotlands län;0980;Gotland;0954;Norrlanda;1;1.0
+09;Gotlands län;0980;Gotland;0955;När;1;1.0
+09;Gotlands län;0980;Gotland;0956;Näs;1;1.0
+09;Gotlands län;0980;Gotland;0957;Othem;1;1.0
+09;Gotlands län;0980;Gotland;0958;Roma;1;1.0
+09;Gotlands län;0980;Gotland;0959;Rone;1;1.0
+09;Gotlands län;0980;Gotland;0960;Rute;1;1.0
+09;Gotlands län;0980;Gotland;0961;Sanda;1;1.0
+09;Gotlands län;0980;Gotland;0962;Silte;1;1.0
+09;Gotlands län;0980;Gotland;0963;Sjonhem;1;1.0
+09;Gotlands län;0980;Gotland;0964;Sproge;1;1.0
+09;Gotlands län;0980;Gotland;0965;Stenkumla;1;1.0
+09;Gotlands län;0980;Gotland;0966;Stenkyrka;1;1.0
+09;Gotlands län;0980;Gotland;0967;Stånga;1;1.0
+09;Gotlands län;0980;Gotland;0968;Sundre;1;1.0
+09;Gotlands län;0980;Gotland;0969;Tingstäde;1;1.0
+09;Gotlands län;0980;Gotland;0970;Tofta;1;1.0
+09;Gotlands län;0980;Gotland;0971;Träkumla;1;1.0
+09;Gotlands län;0980;Gotland;0972;Vall;1;1.0
+09;Gotlands län;0980;Gotland;0973;Vallstena;1;1.0
+09;Gotlands län;0980;Gotland;0974;Vamlingbo;1;1.0
+09;Gotlands län;0980;Gotland;0975;Viklau;1;1.0
+09;Gotlands län;0980;Gotland;0976;Visby;2;1.0
+09;Gotlands län;0980;Gotland;0977;Vänge;1;1.0
+09;Gotlands län;0980;Gotland;0978;Väskinde;1;1.0
+09;Gotlands län;0980;Gotland;0979;Västergarn;1;1.0
+09;Gotlands län;0980;Gotland;0980;Västerhejde;1;1.0
+09;Gotlands län;0980;Gotland;0981;Väte;1;1.0
+09;Gotlands län;0980;Gotland;0982;Öja;1;1.0
+09;Gotlands län;0980;Gotland;0983;Östergarn;1;1.0
+10;Blekinge län;1082;Karlshamn;0984;Asarum;1;1.0
+10;Blekinge län;1082;Karlshamn;0990;Elleholm;1;1.0
+10;Blekinge län;1082;Karlshamn;0997;Hällaryd;1;1.0
+10;Blekinge län;1082;Karlshamn;1000;Karlshamn;2;1.0
+10;Blekinge län;1082;Karlshamn;1007;Mörrum;1;1.0
+10;Blekinge län;1082;Karlshamn;1010;Ringamåla;1;1.0
+10;Blekinge län;1082;Karlshamn;1020;Åryd;1;1.0
+10;Blekinge län;1080;Karlskrona;0985;Aspö;1;1.0
+10;Blekinge län;1080;Karlskrona;0986;Augerum;1;1.0
+10;Blekinge län;1080;Karlskrona;0992;Fridlevstad;1;1.0
+10;Blekinge län;1080;Karlskrona;0995;Hasslö;1;1.0
+10;Blekinge län;1080;Karlskrona;0998;Jämjö;1;1.0
+10;Blekinge län;1080;Karlskrona;1001;Karlskrona;2;1.0
+10;Blekinge län;1080;Karlskrona;1002;Kristianopel;1;1.0
+10;Blekinge län;1080;Karlskrona;1005;Lösen;1;1.0
+10;Blekinge län;1080;Karlskrona;1008;Nättraby;1;1.0
+10;Blekinge län;1080;Karlskrona;1009;Ramdala;1;1.0
+10;Blekinge län;1080;Karlskrona;1012;Rödeby;1;1.0
+10;Blekinge län;1080;Karlskrona;1013;Sillhövda;1;1.0
+10;Blekinge län;1080;Karlskrona;1014;Sturkö;1;1.0
+10;Blekinge län;1080;Karlskrona;1016;Tjurkö;1;1.0
+10;Blekinge län;1080;Karlskrona;1017;Torhamn;1;1.0
+10;Blekinge län;1080;Karlskrona;1018;Tving;1;1.0
+10;Blekinge län;1060;Olofström;0999;Jämshög;1;1.0
+10;Blekinge län;1060;Olofström;1003;Kyrkhult;1;1.0
+10;Blekinge län;1081;Ronneby;0987;Backaryd;1;1.0
+10;Blekinge län;1081;Ronneby;0988;Bräkne-Hoby;1;1.0
+10;Blekinge län;1081;Ronneby;0989;Edestad;1;1.0
+10;Blekinge län;1081;Ronneby;0991;Eringsboda;1;1.0
+10;Blekinge län;1081;Ronneby;0993;Förkärla;1;1.0
+10;Blekinge län;1081;Ronneby;0996;Hjortsberga;1;1.0
+10;Blekinge län;1081;Ronneby;1004;Listerby;1;1.0
+10;Blekinge län;1081;Ronneby;4007;Ronneby;2;1.0
+10;Blekinge län;1081;Ronneby;1011;Ronneby;1;1.0
+10;Blekinge län;1081;Ronneby;1021;Öljehult;1;1.0
+10;Blekinge län;1083;Sölvesborg;0994;Gammalstorp;1;1.0
+10;Blekinge län;1083;Sölvesborg;1006;Mjällby;1;1.0
+10;Blekinge län;1083;Sölvesborg;4106;Sölvesborg;2;1.0
+10;Blekinge län;1083;Sölvesborg;1015;Sölvesborg;1;0.998
+10;Blekinge län;1083;Sölvesborg;1019;Ysane;1;1.0
+12;Skåne län;1260;Bjuv;1186;Bjuv;1;0.996
+12;Skåne län;1260;Bjuv;1211;Ekeby;1;0.999
+12;Skåne län;1260;Bjuv;1316;Norra Vram;1;1.0
+12;Skåne län;1260;Bjuv;1325;Risekatslösa;1;0.999
+12;Skåne län;1260;Bjuv;1367;Södra Vram;1;1.0
+12;Skåne län;1272;Bromölla;1053;Gualöv;1;1.0
+12;Skåne län;1272;Bromölla;1071;Ivetofta;1;1.0
+12;Skåne län;1272;Bromölla;1097;Näsum;1;1.0
+12;Skåne län;1231;Burlöv;1204;Burlöv;1;0.983
+12;Skåne län;1278;Båstad;1033;Båstad;1;1.0
+12;Skåne län;1278;Båstad;1046;Förslöv;1;0.999
+12;Skåne län;1278;Båstad;1050;Grevie;1;1.0
+12;Skåne län;1278;Båstad;1060;Hov;1;1.0
+12;Skåne län;1278;Båstad;1126;Torekov;1;1.0
+12;Skåne län;1278;Båstad;1148;Västra Karup;1;1.0
+12;Skåne län;1278;Båstad;1165;Östra Karup;1;1.0
+12;Skåne län;1285;Eslöv;1185;Billinge;1;1.0
+12;Skåne län;1285;Eslöv;1195;Borlunda;1;1.0
+12;Skåne län;1285;Eslöv;1197;Bosarp;1;1.0
+12;Skåne län;1285;Eslöv;4127;Eslöv;2;1.0
+12;Skåne län;1285;Eslöv;1214;Eslöv;1;1.0
+12;Skåne län;1285;Eslöv;1238;Gårdstånga;1;0.999
+12;Skåne län;1285;Eslöv;1245;Hammarlunda;1;1.0
+12;Skåne län;1285;Eslöv;1248;Harlösa;1;1.0
+12;Skåne län;1285;Eslöv;1255;Holmby;1;0.999
+12;Skåne län;1285;Eslöv;1256;Hurva;1;1.0
+12;Skåne län;1285;Eslöv;1268;Högseröd;1;0.999
+12;Skåne län;1285;Eslöv;1315;Norra Skrävlinge;1;0.049
+12;Skåne län;1285;Eslöv;1322;Remmarlöv;1;1.0
+12;Skåne län;1285;Eslöv;1323;Reslöv;1;0.999
+12;Skåne län;1285;Eslöv;1338;Skarhult;1;1.0
+12;Skåne län;1285;Eslöv;1339;Skeglinge;1;1.0
+12;Skåne län;1285;Eslöv;1347;Stehag;1;1.0
+12;Skåne län;1285;Eslöv;1381;Trollenäs;1;1.0
+12;Skåne län;1285;Eslöv;3043;Västra Sallerup;1;1.0
+12;Skåne län;1285;Eslöv;1409;Västra Strö;1;1.0
+12;Skåne län;1285;Eslöv;1420;Örtofta;1;1.0
+12;Skåne län;1285;Eslöv;1422;Östra Karaby;1;1.0
+12;Skåne län;1285;Eslöv;1426;Östra Strö;1;1.0
+12;Skåne län;1283;Helsingborg;1173;Allerum;1;0.995
+12;Skåne län;1283;Helsingborg;1205;Bårslöv;1;1.0
+12;Skåne län;1283;Helsingborg;1219;Fjärestad;1;1.0
+12;Skåne län;1283;Helsingborg;1221;Fleninge;1;0.994
+12;Skåne län;1283;Helsingborg;1224;Frillestad;1;1.0
+12;Skåne län;1283;Helsingborg;1262;Helsingborg;2;0.995
+12;Skåne län;1283;Helsingborg;1263;Härslöv;1;0.058
+12;Skåne län;1283;Helsingborg;1264;Hässlunda;1;0.999
+12;Skåne län;1283;Helsingborg;1278;Kattarp;1;0.999
+12;Skåne län;1283;Helsingborg;1281;Kropp;1;0.989
+12;Skåne län;1283;Helsingborg;1282;Kvistofta;1;0.996
+12;Skåne län;1283;Helsingborg;1311;Mörarp;1;1.0
+12;Skåne län;1283;Helsingborg;1319;Ottarp;1;0.997
+12;Skåne län;1283;Helsingborg;1397;Välinge;1;0.993
+12;Skåne län;1283;Helsingborg;1398;Välluv;1;1.0
+12;Skåne län;1293;Hässleholm;1031;Brönnestad;1;1.0
+12;Skåne län;1293;Hässleholm;1039;Farstorp;1;1.0
+12;Skåne län;1293;Hässleholm;1040;Finja;1;1.0
+12;Skåne län;1293;Hässleholm;1054;Gumlösa;1;1.0
+12;Skåne län;1293;Hässleholm;1062;Häglinge;1;1.0
+12;Skåne län;1293;Hässleholm;1063;Hässleholm;2;1.0
+12;Skåne län;1293;Hässleholm;1064;Hästveda;1;1.0
+12;Skåne län;1293;Hässleholm;1066;Hörja;1;1.0
+12;Skåne län;1293;Hässleholm;1069;Ignaberga;1;1.0
+12;Skåne län;1293;Hässleholm;1088;Matteröd;1;1.0
+12;Skåne län;1293;Hässleholm;1090;Norra Mellby;1;1.0
+12;Skåne län;1293;Hässleholm;1091;Norra Sandby;1;1.0
+12;Skåne län;1293;Hässleholm;1093;Norra Åkarp;1;1.0
+12;Skåne län;1293;Hässleholm;1098;Nävlinge;1;1.0
+12;Skåne län;1293;Hässleholm;1110;Röke;1;1.0
+12;Skåne län;1293;Hässleholm;1121;Stoby;1;1.0
+12;Skåne län;1293;Hässleholm;1124;Sörby;1;1.0
+12;Skåne län;1293;Hässleholm;1137;Vankiva;1;1.0
+12;Skåne län;1293;Hässleholm;1139;Verum;1;1.0
+12;Skåne län;1293;Hässleholm;1140;Vinslöv;1;1.0
+12;Skåne län;1293;Hässleholm;1143;Vittsjö;1;1.0
+12;Skåne län;1293;Hässleholm;1150;Västra Torup;1;1.0
+12;Skåne län;1284;Höganäs;1201;Brunnby;1;1.0
+12;Skåne län;1284;Höganäs;1216;Farhult;1;0.995
+12;Skåne län;1284;Höganäs;1266;Höganäs;2;1.0
+12;Skåne län;1284;Höganäs;1276;Jonstorp;1;1.0
+12;Skåne län;1284;Höganäs;1392;Viken;1;0.996
+12;Skåne län;1284;Höganäs;1399;Väsby;1;1.0
+12;Skåne län;1266;Hörby;1228;Fulltofta;1;0.999
+12;Skåne län;1266;Hörby;1270;Hörby;1;1.0
+12;Skåne län;1266;Hörby;1299;Lyby;1;1.0
+12;Skåne län;1266;Hörby;1301;Långaröd;1;1.0
+12;Skåne län;1266;Hörby;1359;Svensköp;1;1.0
+12;Skåne län;1266;Hörby;1364;Södra Rörum;1;1.0
+12;Skåne län;1266;Hörby;1400;Västerstad;1;1.0
+12;Skåne län;1266;Hörby;1414;Äspinge;1;1.0
+12;Skåne län;1266;Hörby;1425;Östra Sallerup;1;1.0
+12;Skåne län;1266;Hörby;1429;Östraby;1;1.0
+12;Skåne län;1267;Höör;1198;Bosjökloster;1;1.0
+12;Skåne län;1267;Höör;1236;Gudmuntorp;1;0.992
+12;Skåne län;1267;Höör;1243;Hallaröd;1;1.0
+12;Skåne län;1267;Höör;1272;Höör;1;1.0
+12;Skåne län;1267;Höör;1308;Munkarp;1;1.0
+12;Skåne län;1267;Höör;1314;Norra Rörum;1;1.0
+12;Skåne län;1267;Höör;1375;Tjörnarp;1;0.997
+12;Skåne län;1276;Klippan;1044;Färingtofta;1;1.0
+12;Skåne län;1276;Klippan;1052;Klippan;1;1.0
+12;Skåne län;1276;Klippan;1081;Källna;1;1.0
+12;Skåne län;1276;Klippan;1108;Riseberga;1;0.999
+12;Skåne län;1276;Klippan;1138;Vedby;1;1.0
+12;Skåne län;1276;Klippan;1149;Västra Sönnarslöv;1;1.0
+12;Skåne län;1276;Klippan;1166;Östra Ljungby;1;0.998
+12;Skåne län;1290;Kristianstad;1034;Degeberga;1;1.0
+12;Skåne län;1290;Kristianstad;1035;Djurröd;1;1.0
+12;Skåne län;1290;Kristianstad;1038;Everöd;1;1.0
+12;Skåne län;1290;Kristianstad;1041;Fjälkestad;1;1.0
+12;Skåne län;1290;Kristianstad;1042;Fjälkinge;1;1.0
+12;Skåne län;1290;Kristianstad;1045;Färlöv;1;1.0
+12;Skåne län;1290;Kristianstad;1055;Gustav Adolf;1;1.0
+12;Skåne län;1290;Kristianstad;1061;Huaröd;1;1.0
+12;Skåne län;1290;Kristianstad;1067;Hörröd;1;1.0
+12;Skåne län;1290;Kristianstad;1072;Ivö;1;1.0
+12;Skåne län;1290;Kristianstad;1074;Kiaby;1;1.0
+12;Skåne län;1290;Kristianstad;1077;Kristianstad;2;1.0
+12;Skåne län;1290;Kristianstad;1082;Köpinge;1;1.0
+12;Skåne län;1290;Kristianstad;1083;Linderöd;1;0.988
+12;Skåne län;1290;Kristianstad;1085;Lyngsjö;1;1.0
+12;Skåne län;1290;Kristianstad;1087;Maglehem;1;0.997
+12;Skåne län;1290;Kristianstad;1092;Norra Strö;1;1.0
+12;Skåne län;1290;Kristianstad;1095;Nosaby;1;1.0
+12;Skåne län;1290;Kristianstad;1096;Nymö;1;1.0
+12;Skåne län;1290;Kristianstad;1101;Oppmanna;1;1.0
+12;Skåne län;1290;Kristianstad;1107;Rinkaby;1;1.0
+12;Skåne län;1290;Kristianstad;1115;Skepparslöv;1;1.0
+12;Skåne län;1290;Kristianstad;1129;Trolle-Ljungby;1;1.0
+12;Skåne län;1290;Kristianstad;1131;Träne;1;1.0
+12;Skåne län;1290;Kristianstad;1144;Vittskövle;1;1.0
+12;Skåne län;1290;Kristianstad;1146;Vä;1;1.0
+12;Skåne län;1290;Kristianstad;1151;Västra Vram;1;1.0
+12;Skåne län;1290;Kristianstad;1145;Vånga;1;1.0
+12;Skåne län;1290;Kristianstad;1155;Äsphult;1;1.0
+12;Skåne län;1290;Kristianstad;1152;Åhus;1;1.0
+12;Skåne län;1290;Kristianstad;1156;Önnestad;1;1.0
+12;Skåne län;1290;Kristianstad;1160;Österslöv;1;1.0
+12;Skåne län;1290;Kristianstad;1168;Östra Sönnarslöv;1;1.0
+12;Skåne län;1290;Kristianstad;1171;Östra Vram;1;1.0
+12;Skåne län;1261;Kävlinge;1183;Barsebäck;1;1.0
+12;Skåne län;1261;Kävlinge;1208;Dagstorp;1;0.997
+12;Skåne län;1261;Kävlinge;1254;Hofterup;1;1.0
+12;Skåne län;1261;Kävlinge;1265;Hög;1;1.0
+12;Skåne län;1261;Kävlinge;1289;Kävlinge;1;1.0
+12;Skåne län;1261;Kävlinge;1290;Lackalänga;1;1.0
+12;Skåne län;1261;Kävlinge;1293;Lilla Harrie;1;0.997
+12;Skåne län;1261;Kävlinge;1302;Löddeköpinge;1;1.0
+12;Skåne län;1261;Kävlinge;1350;Stora Harrie;1;1.0
+12;Skåne län;1261;Kävlinge;1356;Stävie;1;1.0
+12;Skåne län;1261;Kävlinge;1363;Södervidinge;1;1.0
+12;Skåne län;1261;Kävlinge;1394;Virke;1;1.0
+12;Skåne län;1261;Kävlinge;1404;Västra Karaby;1;1.0
+12;Skåne län;1282;Landskrona;1175;Annelöv;1;0.998
+12;Skåne län;1282;Landskrona;1179;Asmundtorp;1;0.996
+12;Skåne län;1282;Landskrona;1234;Glumslöv;1;0.983
+12;Skåne län;1282;Landskrona;1263;Härslöv;1;0.942
+12;Skåne län;1282;Landskrona;1291;Landskrona;2;1.0
+12;Skåne län;1282;Landskrona;1329;Sankt Ibb;1;1.0
+12;Skåne län;1282;Landskrona;1331;Saxtorp;1;1.0
+12;Skåne län;1282;Landskrona;1361;Säby;1;1.0
+12;Skåne län;1282;Landskrona;1376;Tofta;1;1.0
+12;Skåne län;1282;Landskrona;1386;Vadensjö;1;1.0
+12;Skåne län;1282;Landskrona;1418;Örja;1;1.0
+12;Skåne län;1262;Lomma;1194;Borgeby;1;0.986
+12;Skåne län;1262;Lomma;1218;Fjelie;1;0.999
+12;Skåne län;1262;Lomma;1222;Flädie;1;1.0
+12;Skåne län;1262;Lomma;1297;Lomma;1;0.999
+12;Skåne län;1281;Lund;1193;Bonderup;1;1.0
+12;Skåne län;1281;Lund;1209;Dalby;1;1.0
+12;Skåne län;1281;Lund;1230;Genarp;1;0.992
+12;Skåne län;1281;Lund;1241;Gödelöv;1;1.0
+12;Skåne län;1281;Lund;1247;Hardeberga;1;0.998
+12;Skåne län;1281;Lund;1261;Hällestad;1;1.0
+12;Skåne län;1281;Lund;1260;Håstad;1;1.0
+12;Skåne län;1281;Lund;1273;Igelösa;1;1.0
+12;Skåne län;1281;Lund;1298;Lund;2;0.999
+12;Skåne län;1281;Lund;1300;Lyngby;1;0.988
+12;Skåne län;1281;Lund;1313;Norra Nöbbelöv;1;1.0
+12;Skåne län;1281;Lund;1318;Odarslöv;1;1.0
+12;Skåne län;1281;Lund;1324;Revinge;1;1.0
+12;Skåne län;1281;Lund;1332;Silvåkra;1;1.0
+12;Skåne län;1281;Lund;1355;Stångby;1;0.982
+12;Skåne län;1281;Lund;1366;Södra Sandby;1;1.0
+12;Skåne län;1281;Lund;1388;Vallkärra;1;0.999
+12;Skåne län;1281;Lund;1390;Veberöd;1;1.0
+12;Skåne län;1281;Lund;1396;Vomb;1;1.0
+12;Skåne län;1281;Lund;1402;Västra Hoby;1;0.999
+12;Skåne län;1280;Malmö;1203;Bunkeflo;1;1.0
+12;Skåne län;1280;Malmö;1233;Glostorp;1;1.0
+12;Skåne län;1280;Malmö;1296;Lockarp;1;1.0
+12;Skåne län;1280;Malmö;1306;Malmö;2;0.998
+12;Skåne län;1280;Malmö;1320;Oxie;1;0.996
+12;Skåne län;1280;Malmö;1383;Tygelsjö;1;0.999
+12;Skåne län;1280;Malmö;1405;Västra Klagstorp;1;1.0
+12;Skåne län;1273;Osby;1084;Loshult;1;1.0
+12;Skåne län;1273;Osby;1102;Osby;1;1.0
+12;Skåne län;1273;Osby;1141;Visseltofta;1;1.0
+12;Skåne län;1273;Osby;1158;Örkened;1;1.0
+12;Skåne län;1275;Perstorp;1099;Oderljunga;1;1.0
+12;Skåne län;1275;Perstorp;1103;Perstorp;1;1.0
+12;Skåne län;1291;Simrishamn;1028;Bolshög;1;1.0
+12;Skåne län;1291;Simrishamn;1029;Borrby;1;1.0
+12;Skåne län;1291;Simrishamn;1047;Gladsax;1;1.0
+12;Skåne län;1291;Simrishamn;1056;Hammenhög;1;1.0
+12;Skåne län;1291;Simrishamn;1057;Hannas;1;1.0
+12;Skåne län;1291;Simrishamn;1073;Järrestad;1;1.0
+12;Skåne län;1291;Simrishamn;1105;Ravlunda;1;0.999
+12;Skåne län;1291;Simrishamn;1111;Rörum;1;1.0
+12;Skåne län;1291;Simrishamn;1112;Sankt Olof;1;1.0
+12;Skåne län;1291;Simrishamn;1113;Simris;1;1.0
+12;Skåne län;1291;Simrishamn;1114;Simrishamn;2;1.0
+12;Skåne län;1291;Simrishamn;1120;Stiby;1;1.0
+12;Skåne län;1291;Simrishamn;1123;Södra Mellby;1;1.0
+12;Skåne län;1291;Simrishamn;1135;Vallby;1;1.0
+12;Skåne län;1291;Simrishamn;1142;Vitaby;1;1.0
+12;Skåne län;1291;Simrishamn;1162;Östra Herrestad;1;1.0
+12;Skåne län;1291;Simrishamn;1163;Östra Hoby;1;1.0
+12;Skåne län;1291;Simrishamn;1167;Östra Nöbbelöv;1;1.0
+12;Skåne län;1291;Simrishamn;1169;Östra Tommarp;1;1.0
+12;Skåne län;1291;Simrishamn;1170;Östra Vemmerlöv;1;1.0
+12;Skåne län;1265;Sjöbo;1190;Björka;1;1.0
+12;Skåne län;1265;Sjöbo;1191;Blentarp;1;0.992
+12;Skåne län;1265;Sjöbo;1199;Brandstad;1;1.0
+12;Skåne län;1265;Sjöbo;1215;Everlöv;1;1.0
+12;Skåne län;1265;Sjöbo;1226;Fränninge;1;1.0
+12;Skåne län;1265;Sjöbo;1274;Ilstorp;1;1.0
+12;Skåne län;1265;Sjöbo;1304;Lövestad;1;1.0
+12;Skåne län;1265;Sjöbo;1327;Röddinge;1;1.0
+12;Skåne län;1265;Sjöbo;1370;Södra Åsum;1;1.0
+12;Skåne län;1265;Sjöbo;1371;Sövde;1;1.0
+12;Skåne län;1265;Sjöbo;1377;Tolånga;1;1.0
+12;Skåne län;1265;Sjöbo;1389;Vanstad;1;0.998
+12;Skåne län;1265;Sjöbo;1395;Vollsjö;1;1.0
+12;Skåne län;1265;Sjöbo;1424;Östra Kärrstorp;1;1.0
+12;Skåne län;1265;Sjöbo;1430;Öved;1;1.0
+12;Skåne län;1264;Skurup;1249;Hassle Bösarp;1;1.0
+12;Skåne län;1264;Skurup;1277;Katslösa;1;0.916
+12;Skåne län;1264;Skurup;1341;Skivarp;1;1.0
+12;Skåne län;1264;Skurup;1342;Skurup;1;1.0
+12;Skåne län;1264;Skurup;1344;Slimminge;1;0.999
+12;Skåne län;1264;Skurup;1346;Solberga;1;1.0
+12;Skåne län;1264;Skurup;1360;Svenstorp;1;1.0
+12;Skåne län;1264;Skurup;1393;Villie;1;1.0
+12;Skåne län;1264;Skurup;1407;Västra Nöbbelöv;1;1.0
+12;Skåne län;1264;Skurup;1411;Västra Vemmenhög;1;0.999
+12;Skåne län;1264;Skurup;1419;Örsjö;1;1.0
+12;Skåne län;1264;Skurup;1428;Östra Vemmenhög;1;0.999
+12;Skåne län;1230;Staffanstorp;1187;Bjällerup;1;0.999
+12;Skåne län;1230;Staffanstorp;1202;Brågarp;1;1.0
+12;Skåne län;1230;Staffanstorp;1212;Esarp;1;0.998
+12;Skåne län;1230;Staffanstorp;1220;Flackarp;1;0.99
+12;Skåne län;1230;Staffanstorp;1242;Görslöv;1;0.998
+12;Skåne län;1230;Staffanstorp;1279;Knästorp;1;1.0
+12;Skåne län;1230;Staffanstorp;1283;Kyrkheddinge;1;0.999
+12;Skåne län;1230;Staffanstorp;1310;Mölleberga;1;0.998
+12;Skåne län;1230;Staffanstorp;1312;Nevishög;1;1.0
+12;Skåne län;1230;Staffanstorp;1362;Särslöv;1;0.998
+12;Skåne län;1230;Staffanstorp;1379;Tottarp;1;1.0
+12;Skåne län;1230;Staffanstorp;1385;Uppåkra;1;0.998
+12;Skåne län;1214;Svalöv;1178;Ask;1;1.0
+12;Skåne län;1214;Svalöv;1184;Billeberga;1;0.999
+12;Skåne län;1214;Svalöv;1217;Felestad;1;1.0
+12;Skåne län;1214;Svalöv;1244;Halmstad;1;1.0
+12;Skåne län;1214;Svalöv;1280;Konga;1;1.0
+12;Skåne län;1214;Svalöv;1286;Källs Nöbbelöv;1;1.0
+12;Skåne län;1214;Svalöv;1285;Kågeröd;1;0.997
+12;Skåne län;1214;Svalöv;1315;Norra Skrävlinge;1;0.951
+12;Skåne län;1214;Svalöv;1317;Norrvidinge;1;0.999
+12;Skåne län;1214;Svalöv;1328;Röstånga;1;1.0
+12;Skåne län;1214;Svalöv;1334;Sireköpinge;1;0.997
+12;Skåne län;1214;Svalöv;1348;Stenestad;1;1.0
+12;Skåne län;1214;Svalöv;1357;Svalöv;1;1.0
+12;Skåne län;1214;Svalöv;1374;Tirup;1;1.0
+12;Skåne län;1214;Svalöv;1378;Torrlösa;1;1.0
+12;Skåne län;1263;Svedala;1182;Bara;1;1.0
+12;Skåne län;1263;Svedala;1189;Bjärshög;1;0.995
+12;Skåne län;1263;Svedala;1206;Börringe;1;1.0
+12;Skåne län;1263;Svedala;1258;Hyby;1;1.0
+12;Skåne län;1263;Svedala;1336;Skabersjö;1;0.998
+12;Skåne län;1263;Svedala;1358;Svedala;1;0.998
+12;Skåne län;1263;Svedala;1384;Törringe;1;0.999
+12;Skåne län;1263;Svedala;1406;Västra Kärrstorp;1;0.999
+12;Skåne län;1270;Tomelilla;1022;Andrarum;1;1.0
+12;Skåne län;1270;Tomelilla;1025;Benestad;1;1.0
+12;Skåne län;1270;Tomelilla;1027;Bollerup;1;1.0
+12;Skåne län;1270;Tomelilla;1032;Brösarp;1;0.997
+12;Skåne län;1270;Tomelilla;1036;Eljaröd;1;1.0
+12;Skåne län;1270;Tomelilla;1043;Fågeltofta;1;1.0
+12;Skåne län;1270;Tomelilla;1080;Kverrestad;1;1.0
+12;Skåne län;1270;Tomelilla;1100;Onslunda;1;1.0
+12;Skåne län;1270;Tomelilla;1104;Ramsåsa;1;1.0
+12;Skåne län;1270;Tomelilla;1117;Smedstorp;1;1.0
+12;Skåne län;1270;Tomelilla;1118;Spjutstorp;1;1.0
+12;Skåne län;1270;Tomelilla;1127;Tosterup;1;1.0
+12;Skåne län;1270;Tomelilla;1128;Tranås;1;1.0
+12;Skåne län;1270;Tomelilla;1130;Tryde;1;1.0
+12;Skåne län;1270;Tomelilla;1134;Ullstorp;1;1.0
+12;Skåne län;1270;Tomelilla;1164;Östra Ingelstad;1;1.0
+12;Skåne län;1270;Tomelilla;1172;Övraby;1;1.0
+12;Skåne län;1287;Trelleborg;1174;Anderslöv;1;1.0
+12;Skåne län;1287;Trelleborg;1192;Bodarp;1;1.0
+12;Skåne län;1287;Trelleborg;1207;Bösarp;1;1.0
+12;Skåne län;1287;Trelleborg;1210;Dalköpinge;1;1.0
+12;Skåne län;1287;Trelleborg;1225;Fru Alstad;1;1.0
+12;Skåne län;1287;Trelleborg;1227;Fuglie;1;1.0
+12;Skåne län;1287;Trelleborg;1231;Gislöv;1;1.0
+12;Skåne län;1287;Trelleborg;1235;Grönby;1;1.0
+12;Skåne län;1287;Trelleborg;1237;Gylle;1;1.0
+12;Skåne län;1287;Trelleborg;1239;Gärdslöv;1;1.0
+12;Skåne län;1287;Trelleborg;1246;Hammarlöv;1;1.0
+12;Skåne län;1287;Trelleborg;1253;Hemmesdynge;1;1.0
+12;Skåne län;1287;Trelleborg;1284;Kyrkoköpinge;1;1.0
+12;Skåne län;1287;Trelleborg;1288;Källstorp;1;1.0
+12;Skåne län;1287;Trelleborg;1292;Lilla Beddinge;1;1.0
+12;Skåne län;1287;Trelleborg;1294;Lilla Isie;1;1.0
+12;Skåne län;1287;Trelleborg;1295;Lilla Slågarp;1;1.0
+12;Skåne län;1287;Trelleborg;1305;Maglarp;1;0.999
+12;Skåne län;1287;Trelleborg;1333;Simlinge;1;1.0
+12;Skåne län;1287;Trelleborg;1340;Skegrie;1;1.0
+12;Skåne län;1287;Trelleborg;1354;Stora Slågarp;1;1.0
+12;Skåne län;1287;Trelleborg;1368;Södra Åby;1;1.0
+12;Skåne län;1287;Trelleborg;1380;Trelleborg;2;1.0
+12;Skåne län;1287;Trelleborg;1382;Tullstorp;1;1.0
+12;Skåne län;1287;Trelleborg;1401;Västra Alstad;1;0.999
+12;Skåne län;1287;Trelleborg;1410;Västra Tommarp;1;1.0
+12;Skåne län;1287;Trelleborg;1412;Västra Vemmerlöv;1;1.0
+12;Skåne län;1287;Trelleborg;1415;Äspö;1;1.0
+12;Skåne län;1287;Trelleborg;1417;Önnarp;1;1.0
+12;Skåne län;1287;Trelleborg;1423;Östra Klagstorp;1;1.0
+12;Skåne län;1287;Trelleborg;1427;Östra Torp;1;1.0
+12;Skåne län;1233;Vellinge;1177;Arrie;1;0.998
+12;Skåne län;1233;Vellinge;1213;Eskilstorp;1;1.0
+12;Skåne län;1233;Vellinge;1240;Gessie;1;0.994
+12;Skåne län;1233;Vellinge;1259;Håslöv;1;1.0
+12;Skåne län;1233;Vellinge;1269;Hököpinge;1;1.0
+12;Skåne län;1233;Vellinge;1307;Mellan-Grevie;1;1.0
+12;Skåne län;1233;Vellinge;1326;Räng;1;1.0
+12;Skåne län;1233;Vellinge;1337;Skanör med Falsterbo;2;1.0
+12;Skåne län;1233;Vellinge;1349;Stora Hammar;1;1.0
+12;Skåne län;1233;Vellinge;1369;Södra Åkarp;1;1.0
+12;Skåne län;1233;Vellinge;1391;Vellinge;1;1.0
+12;Skåne län;1233;Vellinge;1403;Västra Ingelstad;1;1.0
+12;Skåne län;1233;Vellinge;1421;Östra Grevie;1;0.999
+12;Skåne län;1286;Ystad;1180;Baldringe;1;1.0
+12;Skåne län;1286;Ystad;1181;Balkåkra;1;1.0
+12;Skåne län;1286;Ystad;1188;Bjäresjö;1;1.0
+12;Skåne län;1286;Ystad;1196;Borrie;1;1.0
+12;Skåne län;1286;Ystad;1200;Bromma;1;1.0
+12;Skåne län;1286;Ystad;1048;Glemminge;1;1.0
+12;Skåne län;1286;Ystad;1251;Hedeskoga;1;1.0
+12;Skåne län;1286;Ystad;1267;Högestad;1;1.0
+12;Skåne län;1286;Ystad;1068;Hörup;1;1.0
+12;Skåne län;1286;Ystad;1070;Ingelstorp;1;1.0
+12;Skåne län;1286;Ystad;1277;Katslösa;1;0.084
+12;Skåne län;1286;Ystad;1086;Löderup;1;1.0
+12;Skåne län;1286;Ystad;1335;Sjörup;1;0.999
+12;Skåne län;1286;Ystad;1343;Skårby;1;1.0
+12;Skåne län;1286;Ystad;1345;Snårestad;1;1.0
+12;Skåne län;1286;Ystad;1351;Stora Herrestad;1;1.0
+12;Skåne län;1286;Ystad;1352;Stora Köpinge;1;1.0
+12;Skåne län;1286;Ystad;1372;Sövestad;1;1.0
+12;Skåne län;1286;Ystad;1136;Valleberga;1;1.0
+12;Skåne län;1286;Ystad;1413;Ystad;2;1.0
+12;Skåne län;1286;Ystad;1416;Öja;1;1.0
+12;Skåne län;1292;Ängelholm;1023;Ausås;1;1.0
+12;Skåne län;1292;Ängelholm;1024;Barkåkra;1;1.0
+12;Skåne län;1292;Ängelholm;1058;Hjärnarp;1;1.0
+12;Skåne län;1292;Ängelholm;1065;Höja;1;1.0
+12;Skåne län;1292;Ängelholm;1089;Munka Ljungby;1;1.0
+12;Skåne län;1292;Ängelholm;1106;Rebbelberga;1;1.0
+12;Skåne län;1292;Ängelholm;1119;Starby;1;1.0
+12;Skåne län;1292;Ängelholm;1122;Strövelstorp;1;0.989
+12;Skåne län;1292;Ängelholm;1132;Tåssjö;1;1.0
+12;Skåne län;1292;Ängelholm;1133;Tåstarp;1;1.0
+12;Skåne län;1292;Ängelholm;1154;Ängelholm;2;1.0
+12;Skåne län;1292;Ängelholm;1159;Össjö;1;1.0
+12;Skåne län;1277;Åstorp;1026;Björnekulla;1;0.999
+12;Skåne län;1277;Åstorp;1078;Kvidinge;1;0.999
+12;Skåne län;1277;Åstorp;1147;Västra Broby;1;0.999
+12;Skåne län;1257;Örkelljunga;1109;Rya;1;1.0
+12;Skåne län;1257;Örkelljunga;1116;Skånes-Fagerhult;1;1.0
+12;Skåne län;1257;Örkelljunga;1157;Örkelljunga;1;0.999
+12;Skåne län;1256;Östra Göinge;1037;Emmislöv;1;1.0
+12;Skåne län;1256;Östra Göinge;1049;Glimåkra;1;1.0
+12;Skåne län;1256;Östra Göinge;1051;Gryt;1;1.0
+12;Skåne län;1256;Östra Göinge;1059;Hjärsås;1;1.0
+12;Skåne län;1256;Östra Göinge;1076;Knislinge;1;1.0
+12;Skåne län;1256;Östra Göinge;1079;Kviinge;1;1.0
+12;Skåne län;1256;Östra Göinge;1161;Östra Broby;1;1.0
+13;Hallands län;1382;Falkenberg;1431;Abild;1;1.0
+13;Hallands län;1382;Falkenberg;1432;Alfshög;1;1.0
+13;Hallands län;1382;Falkenberg;1433;Asige;1;0.983
+13;Hallands län;1382;Falkenberg;1434;Askome;1;1.0
+13;Hallands län;1382;Falkenberg;1438;Eftra;1;1.0
+13;Hallands län;1382;Falkenberg;1441;Fagered;1;1.0
+13;Hallands län;1382;Falkenberg;1442;Falkenberg;2;1.0
+13;Hallands län;1382;Falkenberg;1451;Gunnarp;1;1.0
+13;Hallands län;1382;Falkenberg;1453;Gällared;1;1.0
+13;Hallands län;1382;Falkenberg;1468;Krogsered;1;1.0
+13;Hallands län;1382;Falkenberg;1472;Källsjö;1;1.0
+13;Hallands län;1382;Falkenberg;1473;Köinge;1;1.0
+13;Hallands län;1382;Falkenberg;1477;Ljungby;1;1.0
+13;Hallands län;1382;Falkenberg;1479;Morup;1;1.0
+13;Hallands län;1382;Falkenberg;1481;Okome;1;1.0
+13;Hallands län;1382;Falkenberg;1488;Skrea;1;1.0
+13;Hallands län;1382;Falkenberg;1493;Slöinge;1;1.0
+13;Hallands län;1382;Falkenberg;1496;Stafsinge;1;1.0
+13;Hallands län;1382;Falkenberg;1500;Svartrå;1;1.0
+13;Hallands län;1382;Falkenberg;1512;Ullared;1;1.0
+13;Hallands län;1382;Falkenberg;1519;Vessige;1;1.0
+13;Hallands län;1382;Falkenberg;1520;Vinberg;1;1.0
+13;Hallands län;1382;Falkenberg;1526;Älvsered;1;1.0
+13;Hallands län;1382;Falkenberg;1524;Årstad;1;1.0
+13;Hallands län;1380;Halmstad;1435;Breared;1;1.0
+13;Hallands län;1380;Halmstad;1439;Eldsberga;1;1.0
+13;Hallands län;1380;Halmstad;1440;Enslöv;1;1.0
+13;Hallands län;1380;Halmstad;1448;Getinge;1;1.0
+13;Hallands län;1380;Halmstad;1456;Halmstad;2;1.0
+13;Hallands län;1380;Halmstad;1458;Harplinge;1;1.0
+13;Hallands län;1380;Halmstad;1461;Holm;1;1.0
+13;Hallands län;1380;Halmstad;1471;Kvibille;1;1.0
+13;Hallands län;1380;Halmstad;1486;Rävinge;1;1.0
+13;Hallands län;1380;Halmstad;1492;Slättåkra;1;1.0
+13;Hallands län;1380;Halmstad;1494;Snöstorp;1;1.0
+13;Hallands län;1380;Halmstad;1498;Steninge;1;1.0
+13;Hallands län;1380;Halmstad;1503;Söndrum;1;1.0
+13;Hallands län;1380;Halmstad;1508;Trönninge;1;1.0
+13;Hallands län;1380;Halmstad;1511;Tönnersjö;1;1.0
+13;Hallands län;1380;Halmstad;1515;Vapnö;1;1.0
+13;Hallands län;1380;Halmstad;1529;Övraby;1;1.0
+13;Hallands län;1315;Hylte;1437;Drängsered;1;1.0
+13;Hallands län;1315;Hylte;0585;Femsjö;1;1.0
+13;Hallands län;1315;Hylte;0593;Färgaryd;1;1.0
+13;Hallands län;1315;Hylte;0611;Jälluntofta;1;1.0
+13;Hallands län;1315;Hylte;1466;Kinnared;1;1.0
+13;Hallands län;1315;Hylte;0628;Långaryd;1;1.0
+13;Hallands län;1315;Hylte;0668;Södra Unnaryd;1;1.0
+13;Hallands län;1315;Hylte;1506;Torup;1;1.0
+13;Hallands län;1384;Kungsbacka;1444;Fjärås;1;1.0
+13;Hallands län;1384;Kungsbacka;1445;Frillesås;1;1.0
+13;Hallands län;1384;Kungsbacka;1447;Förlanda;1;1.0
+13;Hallands län;1384;Kungsbacka;1454;Gällinge;1;1.0
+13;Hallands län;1384;Kungsbacka;1457;Hanhals;1;1.0
+13;Hallands län;1384;Kungsbacka;1463;Idala;1;1.0
+13;Hallands län;1384;Kungsbacka;1469;Kungsbacka;1;1.0
+13;Hallands län;1384;Kungsbacka;4095;Kungsbacka;2;1.0
+13;Hallands län;1384;Kungsbacka;1475;Landa;1;1.0
+13;Hallands län;1384;Kungsbacka;1482;Onsala;1;1.0
+13;Hallands län;1384;Kungsbacka;1491;Släp;1;0.998
+13;Hallands län;1384;Kungsbacka;1510;Tölö;1;1.0
+13;Hallands län;1384;Kungsbacka;1514;Vallda;1;1.0
+13;Hallands län;1384;Kungsbacka;1527;Älvsåker;1;0.998
+13;Hallands län;1384;Kungsbacka;1528;Ölmevalla;1;1.0
+13;Hallands län;1381;Laholm;1459;Hasslöv;1;1.0
+13;Hallands län;1381;Laholm;1460;Hishult;1;1.0
+13;Hallands län;1381;Laholm;1467;Knäred;1;1.0
+13;Hallands län;1381;Laholm;1474;Laholm;1;0.998
+13;Hallands län;1381;Laholm;3080;Laholm;2;1.0
+13;Hallands län;1381;Laholm;1485;Ränneslöv;1;1.0
+13;Hallands län;1381;Laholm;1489;Skummeslöv;1;1.0
+13;Hallands län;1381;Laholm;1504;Tjärby;1;1.0
+13;Hallands län;1381;Laholm;1518;Veinge;1;1.0
+13;Hallands län;1381;Laholm;1521;Våxtorp;1;1.0
+13;Hallands län;1381;Laholm;1523;Ysby;1;1.0
+13;Hallands län;1383;Varberg;1436;Dagsås;1;1.0
+13;Hallands län;1383;Varberg;1449;Grimeton;1;1.0
+13;Hallands län;1383;Varberg;1450;Grimmared;1;1.0
+13;Hallands län;1383;Varberg;1452;Gunnarsjö;1;1.0
+13;Hallands län;1383;Varberg;1455;Gödestad;1;1.0
+13;Hallands län;1383;Varberg;1462;Hunnestad;1;1.0
+13;Hallands län;1383;Varberg;1465;Karl Gustav;1;1.0
+13;Hallands län;1383;Varberg;1470;Kungsäter;1;1.0
+13;Hallands län;1383;Varberg;1476;Lindberg;1;1.0
+13;Hallands län;1383;Varberg;1480;Nösslinge;1;1.0
+13;Hallands län;1383;Varberg;1484;Rolfstorp;1;1.0
+13;Hallands län;1383;Varberg;1487;Sibbarp;1;1.0
+13;Hallands län;1383;Varberg;1490;Skällinge;1;1.0
+13;Hallands län;1383;Varberg;1495;Spannarp;1;1.0
+13;Hallands län;1383;Varberg;1497;Stamnared;1;1.0
+13;Hallands län;1383;Varberg;1499;Stråvalla;1;1.0
+13;Hallands län;1383;Varberg;1501;Sällstorp;1;1.0
+13;Hallands län;1383;Varberg;1505;Torpa;1;1.0
+13;Hallands län;1383;Varberg;1507;Träslöv;1;1.0
+13;Hallands län;1383;Varberg;1509;Tvååker;1;1.0
+13;Hallands län;1383;Varberg;1513;Valinge;1;1.0
+13;Hallands län;1383;Varberg;1516;Varberg;2;1.0
+13;Hallands län;1383;Varberg;1517;Veddige;1;1.0
+13;Hallands län;1383;Varberg;1522;Värö;1;1.0
+13;Hallands län;1383;Varberg;1525;Ås;1;1.0
+14;Västra Götalands län;1440;Ale;1697;Hålanda;1;1.0
+14;Västra Götalands län;1440;Ale;1707;Kilanda;1;1.0
+14;Västra Götalands län;1440;Ale;1748;Nödinge;1;0.999
+14;Västra Götalands län;1440;Ale;1771;Skepplanda;1;1.0
+14;Västra Götalands län;1440;Ale;1777;Starrkärr;1;1.0
+14;Västra Götalands län;1489;Alingsås;4121;Alingsås;2;1.0
+14;Västra Götalands län;1489;Alingsås;1626;Alingsås;1;1.0
+14;Västra Götalands län;1489;Alingsås;3071;Bälinge;1;1.0
+14;Västra Götalands län;1489;Alingsås;1655;Erska;1;1.0
+14;Västra Götalands län;1489;Alingsås;1681;Hemsjö;1;1.0
+14;Västra Götalands län;1489;Alingsås;1729;Långared;1;1.0
+14;Västra Götalands län;1489;Alingsås;1731;Magra;1;1.0
+14;Västra Götalands län;1489;Alingsås;3064;Rödene;1;0.999
+14;Västra Götalands län;1489;Alingsås;1780;Stora Mellby;1;0.999
+14;Västra Götalands län;1489;Alingsås;1833;Ödenäs;1;1.0
+14;Västra Götalands län;1460;Bengtsfors;1643;Bäcke;1;1.0
+14;Västra Götalands län;1460;Bengtsfors;1719;Laxarby;1;1.0
+14;Västra Götalands län;1460;Bengtsfors;1778;Steneby;1;1.0
+14;Västra Götalands län;1460;Bengtsfors;1793;Tisselskog;1;0.971
+14;Västra Götalands län;1460;Bengtsfors;1798;Torrskog;1;1.0
+14;Västra Götalands län;1460;Bengtsfors;1818;Vårvik;1;1.0
+14;Västra Götalands län;1460;Bengtsfors;1830;Ärtemark;1;1.0
+14;Västra Götalands län;1460;Bengtsfors;1834;Ödskölt;1;1.0
+14;Västra Götalands län;1443;Bollebygd;1633;Bollebygd;1;1.0
+14;Västra Götalands län;1443;Bollebygd;1809;Töllsjö;1;0.99
+14;Västra Götalands län;1490;Borås;1635;Borgstena;1;1.0
+14;Västra Götalands län;1490;Borås;1636;Borås;2;1.0
+14;Västra Götalands län;1490;Borås;1637;Bredared;1;1.0
+14;Västra Götalands län;1490;Borås;1642;Brämhult;1;1.0
+14;Västra Götalands län;1490;Borås;1650;Dannike;1;1.0
+14;Västra Götalands län;1490;Borås;1660;Fristad;1;1.0
+14;Västra Götalands län;1490;Borås;1671;Gingri;1;1.0
+14;Västra Götalands län;1490;Borås;1709;Kinnarumma;1;1.0
+14;Västra Götalands län;1490;Borås;1728;Ljushult;1;1.0
+14;Västra Götalands län;1490;Borås;1758;Rångedala;1;1.0
+14;Västra Götalands län;1490;Borås;1762;Sandhult;1;0.997
+14;Västra Götalands län;1490;Borås;1764;Seglora;1;1.0
+14;Västra Götalands län;1490;Borås;1794;Toarp;1;1.0
+14;Västra Götalands län;1490;Borås;1806;Tämta;1;0.999
+14;Västra Götalands län;1490;Borås;1807;Tärby;1;0.998
+14;Västra Götalands län;1490;Borås;1823;Vänga;1;1.0
+14;Västra Götalands län;1490;Borås;1831;Äspered;1;1.0
+14;Västra Götalands län;1438;Dals-Ed;1646;Dals-Ed;1;1.0
+14;Västra Götalands län;1438;Dals-Ed;1670;Gesäter;1;1.0
+14;Västra Götalands län;1438;Dals-Ed;1695;Håbol;1;1.0
+14;Västra Götalands län;1438;Dals-Ed;1749;Nössemark;1;1.0
+14;Västra Götalands län;1438;Dals-Ed;1761;Rölanda;1;1.0
+14;Västra Götalands län;1438;Dals-Ed;1808;Töftedal;1;1.0
+14;Västra Götalands län;1445;Essunga;1848;Barne-Åsaka;1;0.998
+14;Västra Götalands län;1445;Essunga;1870;Bäreberg;1;1.0
+14;Västra Götalands län;1445;Essunga;1884;Essunga;1;1.0
+14;Västra Götalands län;1445;Essunga;1899;Främmestad;1;0.999
+14;Västra Götalands län;1445;Essunga;1904;Fåglum;1;1.0
+14;Västra Götalands län;1445;Essunga;1961;Kyrkås;1;1.0
+14;Västra Götalands län;1445;Essunga;1970;Lekåsa;1;0.989
+14;Västra Götalands län;1445;Essunga;1984;Malma;1;1.0
+14;Västra Götalands län;1499;Falköping;1854;Bjurum;1;1.0
+14;Västra Götalands län;1499;Falköping;1859;Bolum;1;0.999
+14;Västra Götalands län;1499;Falköping;1860;Borgunda;1;0.833
+14;Västra Götalands län;1499;Falköping;1864;Brismene;1;1.0
+14;Västra Götalands län;1499;Falköping;1866;Broddetorp;1;1.0
+14;Västra Götalands län;1499;Falköping;1867;Brunnhem;1;0.999
+14;Västra Götalands län;1499;Falköping;1872;Börstig;1;1.0
+14;Västra Götalands län;1499;Falköping;1873;Dala;1;1.0
+14;Västra Götalands län;1499;Falköping;1885;Falköping;2;1.0
+14;Västra Götalands län;1499;Falköping;3028;Falköpings östra;1;1.0
+14;Västra Götalands län;1499;Falköping;1888;Fivlered;1;0.998
+14;Västra Götalands län;1499;Falköping;1892;Floby;1;1.0
+14;Västra Götalands län;1499;Falköping;1909;Grolanda;1;1.0
+14;Västra Götalands län;1499;Falköping;1911;Gudhem;1;1.0
+14;Västra Götalands län;1499;Falköping;1913;Gökhem;1;1.0
+14;Västra Götalands län;1499;Falköping;1916;Göteve;1;0.993
+14;Västra Götalands län;1499;Falköping;1928;Hornborga;1;0.991
+14;Västra Götalands län;1499;Falköping;1938;Hällestad;1;1.0
+14;Västra Götalands län;1499;Falköping;1933;Håkantorp;1;1.0
+14;Västra Götalands län;1499;Falköping;1944;Högstena;1;1.0
+14;Västra Götalands län;1499;Falköping;1948;Jäla;1;1.0
+14;Västra Götalands län;1499;Falköping;1951;Karleby;1;1.0
+14;Västra Götalands län;1499;Falköping;1956;Kinneved;1;1.0
+14;Västra Götalands län;1499;Falköping;1964;Kälvene;1;1.0
+14;Västra Götalands län;1499;Falköping;1979;Luttra;1;1.0
+14;Västra Götalands län;1499;Falköping;1986;Marka;1;1.0
+14;Västra Götalands län;1499;Falköping;1992;Mularp;1;1.0
+14;Västra Götalands län;1499;Falköping;1746;Norra Åsarp;1;1.0
+14;Västra Götalands län;1499;Falköping;2004;Näs;1;0.999
+14;Västra Götalands län;1499;Falköping;2018;Segerstad;1;1.0
+14;Västra Götalands län;1499;Falköping;2029;Skörstorp;1;0.999
+14;Västra Götalands län;1499;Falköping;2032;Slöta;1;1.0
+14;Västra Götalands län;1499;Falköping;1775;Smula;1;1.0
+14;Västra Götalands län;1499;Falköping;1776;Solberga;1;1.0
+14;Västra Götalands län;1499;Falköping;2036;Stenstorp;1;0.998
+14;Västra Götalands län;1499;Falköping;2046;Sätuna;1;1.0
+14;Västra Götalands län;1499;Falköping;2050;Södra Kyrketorp;1;1.0
+14;Västra Götalands län;1499;Falköping;2054;Sörby;1;1.0
+14;Västra Götalands län;1499;Falköping;2056;Tiarp;1;1.0
+14;Västra Götalands län;1499;Falköping;2061;Torbjörntorp;1;1.0
+14;Västra Götalands län;1499;Falköping;2067;Trävattna;1;1.0
+14;Västra Götalands län;1499;Falköping;2073;Ugglum;1;1.0
+14;Västra Götalands län;1499;Falköping;2074;Ullene;1;1.0
+14;Västra Götalands län;1499;Falköping;2082;Valtorp;1;1.0
+14;Västra Götalands län;1499;Falköping;2086;Vartofta-Åsaka;1;1.0
+14;Västra Götalands län;1499;Falköping;2089;Vilske-Kleva;1;1.0
+14;Västra Götalands län;1499;Falköping;2091;Vistorp;1;1.0
+14;Västra Götalands län;1499;Falköping;2093;Vårkumla;1;1.0
+14;Västra Götalands län;1499;Falköping;2102;Yllestad;1;0.998
+14;Västra Götalands län;1499;Falköping;2104;Åsle;1;1.0
+14;Västra Götalands län;1499;Falköping;2113;Östra Tunhem;1;1.0
+14;Västra Götalands län;1439;Färgelanda;1667;Färgelanda;1;1.0
+14;Västra Götalands län;1439;Färgelanda;1700;Högsäter;1;1.0
+14;Västra Götalands län;1439;Färgelanda;1704;Järbo;1;1.0
+14;Västra Götalands län;1439;Färgelanda;1721;Lerdal;1;1.0
+14;Västra Götalands län;1439;Färgelanda;1759;Rännelanda;1;1.0
+14;Västra Götalands län;1439;Färgelanda;1757;Råggärd;1;1.0
+14;Västra Götalands län;1439;Färgelanda;1796;Torp;1;1.0
+14;Västra Götalands län;1439;Färgelanda;1832;Ödeborg;1;1.0
+14;Västra Götalands län;1444;Grästorp;1855;Bjärby;1;1.0
+14;Västra Götalands län;1444;Grästorp;1889;Flakeberg;1;1.0
+14;Västra Götalands län;1444;Grästorp;1891;Flo;1;1.0
+14;Västra Götalands län;1444;Grästorp;1897;Friel;1;0.022
+14;Västra Götalands län;1444;Grästorp;1910;Grästorp;1;1.0
+14;Västra Götalands län;1444;Grästorp;1932;Hyringa;1;1.0
+14;Västra Götalands län;1444;Grästorp;1934;Håle;1;0.997
+14;Västra Götalands län;1444;Grästorp;1950;Karaby;1;0.022
+14;Västra Götalands län;1444;Grästorp;1983;Längnum;1;0.999
+14;Västra Götalands län;1444;Grästorp;2015;Sal;1;1.0
+14;Västra Götalands län;1444;Grästorp;2044;Särestad;1;1.0
+14;Västra Götalands län;1444;Grästorp;2055;Tengene;1;1.0
+14;Västra Götalands län;1444;Grästorp;2068;Trökörna;1;1.0
+14;Västra Götalands län;1444;Grästorp;2071;Täng;1;0.999
+14;Västra Götalands län;1444;Grästorp;2103;Ås;1;1.0
+14;Västra Götalands län;1447;Gullspång;1846;Amnehärad;1;1.0
+14;Västra Götalands län;1447;Gullspång;1929;Hova;1;0.998
+14;Västra Götalands län;1447;Gullspång;2052;Södra Råda;1;1.0
+14;Västra Götalands län;1480;Göteborg;1530;Angered;1;1.0
+14;Västra Götalands län;1480;Göteborg;1531;Askim;1;0.999
+14;Västra Götalands län;1480;Göteborg;1534;Bergum;1;0.999
+14;Västra Götalands län;1480;Göteborg;1536;Björlanda;1;1.0
+14;Västra Götalands län;1480;Göteborg;1549;Göteborg;2;1.0
+14;Västra Götalands län;1480;Göteborg;1590;Rödbo;1;0.998
+14;Västra Götalands län;1480;Göteborg;1602;Styrsö;1;0.999
+14;Västra Götalands län;1480;Göteborg;1605;Säve;1;0.999
+14;Västra Götalands län;1480;Göteborg;1611;Torslanda;1;1.0
+14;Västra Götalands län;1480;Göteborg;1613;Tuve;1;1.0
+14;Västra Götalands län;1471;Götene;1865;Broby;1;1.0
+14;Västra Götalands län;1471;Götene;1894;Forshem;1;0.997
+14;Västra Götalands län;1471;Götene;1902;Fullösa;1;1.0
+14;Västra Götalands län;1471;Götene;1915;Götene;1;1.0
+14;Västra Götalands län;1471;Götene;1921;Hangelösa;1;1.0
+14;Västra Götalands län;1471;Götene;1926;Holmestad;1;1.0
+14;Västra Götalands län;1471;Götene;1931;Husaby;1;1.0
+14;Västra Götalands län;1471;Götene;1953;Kestad;1;1.0
+14;Västra Götalands län;1471;Götene;1954;Kinne-Kleva;1;1.0
+14;Västra Götalands län;1471;Götene;1955;Kinne-Vedum;1;1.0
+14;Västra Götalands län;1471;Götene;1963;Källby;1;1.0
+14;Västra Götalands län;1471;Götene;1968;Ledsjö;1;1.0
+14;Västra Götalands län;1471;Götene;1988;Medelplana;1;1.0
+14;Västra Götalands län;1471;Götene;2008;Ova;1;1.0
+14;Västra Götalands län;1471;Götene;2019;Sil;1;1.0
+14;Västra Götalands län;1471;Götene;2025;Skeby;1;0.924
+14;Västra Götalands län;1471;Götene;2027;Skälvum;1;1.0
+14;Västra Götalands län;1471;Götene;2098;Västerplana;1;1.0
+14;Västra Götalands län;1471;Götene;2101;Vättlösa;1;1.0
+14;Västra Götalands län;1471;Götene;2111;Österplana;1;1.0
+14;Västra Götalands län;1466;Herrljunga;1623;Alboga;1;1.0
+14;Västra Götalands län;1466;Herrljunga;1638;Broddarp;1;1.0
+14;Västra Götalands län;1466;Herrljunga;1641;Bråttensby;1;1.0
+14;Västra Götalands län;1466;Herrljunga;1652;Eggvena;1;0.999
+14;Västra Götalands län;1466;Herrljunga;1653;Eriksberg;1;1.0
+14;Västra Götalands län;1466;Herrljunga;1668;Fölene;1;1.0
+14;Västra Götalands län;1466;Herrljunga;1674;Grude;1;1.0
+14;Västra Götalands län;1466;Herrljunga;1682;Herrljunga;1;1.0
+14;Västra Götalands län;1466;Herrljunga;1690;Hov;1;1.0
+14;Västra Götalands län;1466;Herrljunga;1691;Hudene;1;1.0
+14;Västra Götalands län;1466;Herrljunga;1703;Jällby;1;1.0
+14;Västra Götalands län;1466;Herrljunga;1713;Källunga;1;1.0
+14;Västra Götalands län;1466;Herrljunga;1734;Mjäldrunga;1;1.0
+14;Västra Götalands län;1466;Herrljunga;1737;Molla;1;1.0
+14;Västra Götalands län;1466;Herrljunga;1745;Norra Säm;1;1.0
+14;Västra Götalands län;1466;Herrljunga;1750;Od;1;1.0
+14;Västra Götalands län;1466;Herrljunga;1753;Remmene;1;1.0
+14;Västra Götalands län;1466;Herrljunga;1774;Skölvene;1;1.0
+14;Västra Götalands län;1466;Herrljunga;1786;Södra Björke;1;1.0
+14;Västra Götalands län;1466;Herrljunga;1791;Tarsled;1;1.0
+14;Västra Götalands län;1466;Herrljunga;1816;Vesene;1;1.0
+14;Västra Götalands län;1466;Herrljunga;1837;Öra;1;1.0
+14;Västra Götalands län;1497;Hjo;1896;Fridene;1;0.999
+14;Västra Götalands län;1497;Hjo;1908;Grevbäck;1;0.999
+14;Västra Götalands län;1497;Hjo;1924;Hjo;1;1.0
+14;Västra Götalands län;1497;Hjo;4060;Hjo;2;1.0
+14;Västra Götalands län;1497;Hjo;1957;Korsberga;1;1.0
+14;Västra Götalands län;1497;Hjo;1991;Mofalla;1;1.0
+14;Västra Götalands län;1497;Hjo;1995;Norra Fågelås;1;1.0
+14;Västra Götalands län;1497;Hjo;2048;Södra Fågelås;1;1.0
+14;Västra Götalands län;1401;Härryda;1535;Björketorp;1;1.0
+14;Västra Götalands län;1401;Härryda;1556;Härryda;1;0.989
+14;Västra Götalands län;1401;Härryda;1567;Landvetter;1;1.0
+14;Västra Götalands län;1401;Härryda;1582;Mölndal;2;0.027
+14;Västra Götalands län;1401;Härryda;1589;Råda;1;0.999
+14;Västra Götalands län;1446;Karlsborg;1863;Brevik;1;1.0
+14;Västra Götalands län;1446;Karlsborg;1952;Karlsborg;1;1.0
+14;Västra Götalands län;1446;Karlsborg;1993;Mölltorp;1;1.0
+14;Västra Götalands län;1446;Karlsborg;2076;Undenäs;1;1.0
+14;Västra Götalands län;1482;Kungälv;1550;Harestad;1;0.995
+14;Västra Götalands län;1482;Kungälv;1555;Hålta;1;1.0
+14;Västra Götalands län;1482;Kungälv;1559;Kareby;1;1.0
+14;Västra Götalands län;1482;Kungälv;1563;Kungälv;2;1.0
+14;Västra Götalands län;1482;Kungälv;1573;Lycke;1;1.0
+14;Västra Götalands län;1482;Kungälv;1577;Marstrand;2;1.0
+14;Västra Götalands län;1482;Kungälv;1588;Romelanda;1;1.0
+14;Västra Götalands län;1482;Kungälv;1597;Solberga;1;1.0
+14;Västra Götalands län;1482;Kungälv;1610;Torsby;1;1.0
+14;Västra Götalands län;1482;Kungälv;1619;Ytterby;1;0.999
+14;Västra Götalands län;1441;Lerum;1722;Lerum;1;0.999
+14;Västra Götalands län;1441;Lerum;1768;Skallsjö;1;1.0
+14;Västra Götalands län;1441;Lerum;1779;Stora Lundby;1;1.0
+14;Västra Götalands län;1441;Lerum;1840;Östad;1;0.999
+14;Västra Götalands län;1494;Lidköping;1897;Friel;1;0.978
+14;Västra Götalands län;1494;Lidköping;1907;Gillstad;1;1.0
+14;Västra Götalands län;1494;Lidköping;1914;Gösslunda;1;1.0
+14;Västra Götalands län;1494;Lidköping;1923;Hasslösa;1;1.0
+14;Västra Götalands län;1494;Lidköping;1930;Hovby;1;1.0
+14;Västra Götalands län;1494;Lidköping;1936;Häggesled;1;1.0
+14;Västra Götalands län;1494;Lidköping;1942;Härjevad;1;1.0
+14;Västra Götalands län;1494;Lidköping;1949;Järpås;1;1.0
+14;Västra Götalands län;1494;Lidköping;1950;Karaby;1;0.978
+14;Västra Götalands län;1494;Lidköping;1962;Kållands-Åsaka;1;1.0
+14;Västra Götalands län;1494;Lidköping;1967;Lavad;1;1.0
+14;Västra Götalands län;1494;Lidköping;1973;Lidköping;2;1.0
+14;Västra Götalands län;1494;Lidköping;1974;Lindärva;1;1.0
+14;Västra Götalands län;1494;Lidköping;1989;Mellby;1;1.0
+14;Västra Götalands län;1494;Lidköping;1996;Norra Härene;1;1.0
+14;Västra Götalands län;1494;Lidköping;1997;Norra Kedum;1;1.0
+14;Västra Götalands län;1494;Lidköping;2006;Otterstad;1;0.997
+14;Västra Götalands län;1494;Lidköping;2009;Rackeby;1;1.0
+14;Västra Götalands län;1494;Lidköping;2013;Råda;1;1.0
+14;Västra Götalands län;1494;Lidköping;2016;Saleby;1;0.998
+14;Västra Götalands län;1494;Lidköping;2021;Skallmeja;1;0.021
+14;Västra Götalands län;1494;Lidköping;2022;Skalunda;1;1.0
+14;Västra Götalands län;1494;Lidköping;2025;Skeby;1;0.076
+14;Västra Götalands län;1494;Lidköping;2038;Strö;1;1.0
+14;Västra Götalands län;1494;Lidköping;2039;Sunnersberg;1;1.0
+14;Västra Götalands län;1494;Lidköping;2047;Sävare;1;1.0
+14;Västra Götalands län;1494;Lidköping;2053;Söne;1;1.0
+14;Västra Götalands län;1494;Lidköping;2063;Tranum;1;1.0
+14;Västra Götalands län;1494;Lidköping;2065;Trässberg;1;1.0
+14;Västra Götalands län;1494;Lidköping;2069;Tun;1;0.988
+14;Västra Götalands län;1494;Lidköping;2070;Tådene;1;1.0
+14;Västra Götalands län;1494;Lidköping;2079;Uvered;1;0.999
+14;Västra Götalands län;1494;Lidköping;2094;Väla;1;1.0
+14;Västra Götalands län;1494;Lidköping;2109;Örslösa;1;1.0
+14;Västra Götalands län;1462;Lilla Edet;1624;Ale-Skövde;1;0.994
+14;Västra Götalands län;1462;Lilla Edet;1665;Fuxerna;1;1.0
+14;Västra Götalands län;1462;Lilla Edet;1684;Hjärtum;1;0.982
+14;Västra Götalands län;1462;Lilla Edet;1763;Sankt Peder;1;0.984
+14;Västra Götalands län;1462;Lilla Edet;1803;Tunge;1;1.0
+14;Västra Götalands län;1462;Lilla Edet;1824;Västerlanda;1;0.999
+14;Västra Götalands län;1462;Lilla Edet;1828;Åsbräcka;1;0.999
+14;Västra Götalands län;1484;Lysekil;1539;Brastad;1;1.0
+14;Västra Götalands län;1484;Lysekil;1540;Bro;1;1.0
+14;Västra Götalands län;1484;Lysekil;1574;Lyse;1;1.0
+14;Västra Götalands län;1484;Lysekil;1575;Lysekil;2;1.0
+14;Västra Götalands län;1484;Lysekil;1594;Skaftö;1;1.0
+14;Västra Götalands län;1493;Mariestad;1851;Berga;1;1.0
+14;Västra Götalands län;1493;Mariestad;1858;Björsäter;1;1.0
+14;Västra Götalands län;1493;Mariestad;1862;Bredsäter;1;0.987
+14;Västra Götalands län;1493;Mariestad;1879;Ek;1;1.0
+14;Västra Götalands län;1493;Mariestad;1880;Ekby;1;0.995
+14;Västra Götalands län;1493;Mariestad;1883;Enåsa;1;1.0
+14;Västra Götalands län;1493;Mariestad;1906;Färed;1;1.0
+14;Västra Götalands län;1493;Mariestad;1922;Hassle;1;1.0
+14;Västra Götalands län;1493;Mariestad;1969;Leksberg;1;1.0
+14;Västra Götalands län;1493;Mariestad;1978;Lugnås;1;0.995
+14;Västra Götalands län;1493;Mariestad;1980;Lyrestad;1;1.0
+14;Västra Götalands län;1493;Mariestad;1981;Låstad;1;0.989
+14;Västra Götalands län;1493;Mariestad;1985;Mariestad;2;1.0
+14;Västra Götalands län;1493;Mariestad;2005;Odensåker;1;1.0
+14;Västra Götalands län;1493;Mariestad;2059;Tidavad;1;1.0
+14;Västra Götalands län;1493;Mariestad;2062;Torsö;1;0.995
+14;Västra Götalands län;1493;Mariestad;2075;Ullervad;1;1.0
+14;Västra Götalands län;1493;Mariestad;2077;Utby;1;1.0
+14;Västra Götalands län;1463;Mark;1630;Berghem;1;1.0
+14;Västra Götalands län;1463;Mark;1659;Fotskäl;1;1.0
+14;Västra Götalands län;1463;Mark;1661;Fritsla;1;1.0
+14;Västra Götalands län;1463;Mark;1680;Hajom;1;1.0
+14;Västra Götalands län;1463;Mark;1689;Horred;1;1.0
+14;Västra Götalands län;1463;Mark;1694;Hyssna;1;1.0
+14;Västra Götalands län;1463;Mark;1702;Istorp;1;1.0
+14;Västra Götalands län;1463;Mark;1708;Kinna;1;1.0
+14;Västra Götalands län;1463;Mark;3500;Skene;1;1.0
+14;Västra Götalands län;1463;Mark;1770;Skephult;1;1.0
+14;Västra Götalands län;1463;Mark;1783;Surteby-Kattunga;1;1.0
+14;Västra Götalands län;1463;Mark;1785;Sätila;1;1.0
+14;Västra Götalands län;1463;Mark;1795;Torestorp;1;1.0
+14;Västra Götalands län;1463;Mark;1799;Tostared;1;1.0
+14;Västra Götalands län;1463;Mark;1829;Älekulla;1;1.0
+14;Västra Götalands län;1463;Mark;1838;Örby;1;1.0
+14;Västra Götalands län;1463;Mark;1842;Öxabäck;1;0.955
+14;Västra Götalands län;1463;Mark;1843;Öxnevalla;1;1.0
+14;Västra Götalands län;1461;Mellerud;1634;Bolstad;1;0.999
+14;Västra Götalands län;1461;Mellerud;1647;Dalskog;1;1.0
+14;Västra Götalands län;1461;Mellerud;1654;Erikstad;1;1.0
+14;Västra Götalands län;1461;Mellerud;1672;Grinstad;1;1.0
+14;Västra Götalands län;1461;Mellerud;1677;Gunnarsnäs;1;1.0
+14;Västra Götalands län;1461;Mellerud;1686;Holm;1;1.0
+14;Västra Götalands län;1461;Mellerud;1705;Järn;1;1.0
+14;Västra Götalands län;1461;Mellerud;1773;Skållerud;1;1.0
+14;Västra Götalands län;1461;Mellerud;1793;Tisselskog;1;0.023
+14;Västra Götalands län;1461;Mellerud;1836;Ör;1;1.0
+14;Västra Götalands län;1430;Munkedal;1541;Bärfendal;1;1.0
+14;Västra Götalands län;1430;Munkedal;1545;Foss;1;1.0
+14;Västra Götalands län;1430;Munkedal;1551;Hede;1;1.0
+14;Västra Götalands län;1430;Munkedal;1554;Håby;1;1.0
+14;Västra Götalands län;1430;Munkedal;1562;Krokstad;1;1.0
+14;Västra Götalands län;1430;Munkedal;1593;Sanne;1;1.0
+14;Västra Götalands län;1430;Munkedal;1603;Svarteborg;1;1.0
+14;Västra Götalands län;1430;Munkedal;1616;Valbo-Ryr;1;1.0
+14;Västra Götalands län;1481;Mölndal;1565;Kållered;1;0.999
+14;Västra Götalands län;1481;Mölndal;1569;Lindome;1;0.999
+14;Västra Götalands län;1481;Mölndal;1582;Mölndal;2;0.971
+14;Västra Götalands län;1421;Orust;1548;Gullholmen;1;1.0
+14;Västra Götalands län;1421;Orust;1566;Käringön;1;1.0
+14;Västra Götalands län;1421;Orust;1576;Långelanda;1;1.0
+14;Västra Götalands län;1421;Orust;1579;Mollösund;1;1.0
+14;Västra Götalands län;1421;Orust;1580;Morlanda;1;1.0
+14;Västra Götalands län;1421;Orust;1581;Myckleby;1;1.0
+14;Västra Götalands län;1421;Orust;1592;Röra;1;1.0
+14;Västra Götalands län;1421;Orust;1599;Stala;1;1.0
+14;Västra Götalands län;1421;Orust;1607;Tegneby;1;1.0
+14;Västra Götalands län;1421;Orust;1609;Torp;1;1.0
+14;Västra Götalands län;1402;Partille;1586;Partille;1;1.0
+14;Västra Götalands län;1495;Skara;1856;Bjärka;1;1.0
+14;Västra Götalands län;1495;Skara;1878;Eggby;1;0.997
+14;Västra Götalands län;1495;Skara;1940;Händene;1;1.0
+14;Västra Götalands län;1495;Skara;1943;Härlunda;1;1.0
+14;Västra Götalands län;1495;Skara;1946;Istrum;1;1.0
+14;Västra Götalands län;1495;Skara;1987;Marum;1;1.0
+14;Västra Götalands län;1495;Skara;1999;Norra Lundby;1;1.0
+14;Västra Götalands län;1495;Skara;2000;Norra Ving;1;1.0
+14;Västra Götalands län;1495;Skara;2021;Skallmeja;1;0.979
+14;Västra Götalands län;1495;Skara;2023;Skara;2;1.0
+14;Västra Götalands län;1495;Skara;2028;Skärv;1;1.0
+14;Västra Götalands län;1495;Skara;2026;Skånings-Åsaka;1;1.0
+14;Västra Götalands län;1495;Skara;2037;Stenum;1;1.0
+14;Västra Götalands län;1495;Skara;2043;Synnerby;1;1.0
+14;Västra Götalands län;1495;Skara;2084;Varnhem;1;1.0
+14;Västra Götalands län;1495;Skara;2090;Vinköl;1;0.999
+14;Västra Götalands län;1495;Skara;2099;Västra Gerum;1;1.0
+14;Västra Götalands län;1495;Skara;2106;Öglunda;1;1.0
+14;Västra Götalands län;1496;Skövde;1850;Berg;1;1.0
+14;Västra Götalands län;1496;Skövde;1852;Binneberg;1;1.0
+14;Västra Götalands län;1496;Skövde;1860;Borgunda;1;0.167
+14;Västra Götalands län;1496;Skövde;1871;Böja;1;0.996
+14;Västra Götalands län;1496;Skövde;1877;Edåsa;1;1.0
+14;Västra Götalands län;1496;Skövde;1890;Flistad;1;1.0
+14;Västra Götalands län;1496;Skövde;1893;Forsby;1;1.0
+14;Västra Götalands län;1496;Skövde;1901;Frösve;1;1.0
+14;Västra Götalands län;1496;Skövde;1917;Götlunda;1;0.998
+14;Västra Götalands län;1496;Skövde;1919;Hagelberg;1;1.0
+14;Västra Götalands län;1496;Skövde;1927;Horn;1;1.0
+14;Västra Götalands län;1496;Skövde;1937;Häggum;1;1.0
+14;Västra Götalands län;1496;Skövde;1971;Lerdala;1;0.999
+14;Västra Götalands län;1496;Skövde;1975;Ljunghem;1;1.0
+14;Västra Götalands län;1496;Skövde;1976;Locketorp;1;1.0
+14;Västra Götalands län;1496;Skövde;1998;Norra Kyrketorp;1;1.0
+14;Västra Götalands län;1496;Skövde;2014;Rådene;1;1.0
+14;Västra Götalands län;1496;Skövde;2020;Sjogerstad;1;1.0
+14;Västra Götalands län;1496;Skövde;2030;Skövde;2;0.999
+14;Västra Götalands län;1496;Skövde;2042;Sventorp;1;1.0
+14;Västra Götalands län;1496;Skövde;2045;Säter;1;1.0
+14;Västra Götalands län;1496;Skövde;2060;Timmersdala;1;0.999
+14;Västra Götalands län;1496;Skövde;2080;Vad;1;1.0
+14;Västra Götalands län;1496;Skövde;2085;Varola;1;1.0
+14;Västra Götalands län;1496;Skövde;2095;Väring;1;1.0
+14;Västra Götalands län;1496;Skövde;2096;Värsås;1;1.0
+14;Västra Götalands län;1427;Sotenäs;1532;Askum;1;1.0
+14;Västra Götalands län;1427;Sotenäs;1612;Tossene;1;1.0
+14;Västra Götalands län;1415;Stenungsund;1558;Jörlanda;1;1.0
+14;Västra Götalands län;1415;Stenungsund;1584;Norum;1;1.0
+14;Västra Götalands län;1415;Stenungsund;1598;Spekeröd;1;1.0
+14;Västra Götalands län;1415;Stenungsund;1614;Ucklum;1;1.0
+14;Västra Götalands län;1415;Stenungsund;1622;Ödsmål;1;1.0
+14;Västra Götalands län;1486;Strömstad;1553;Hogdal;1;0.998
+14;Västra Götalands län;1486;Strömstad;1571;Lommeland;1;1.0
+14;Västra Götalands län;1486;Strömstad;1585;Näsinge;1;1.0
+14;Västra Götalands län;1486;Strömstad;1595;Skee;1;1.0
+14;Västra Götalands län;1486;Strömstad;1601;Strömstad;2;1.0
+14;Västra Götalands län;1486;Strömstad;1608;Tjärnö;1;1.0
+14;Västra Götalands län;1465;Svenljunga;1683;Hillared;1;1.0
+14;Västra Götalands län;1465;Svenljunga;1687;Holsljunga;1;1.0
+14;Västra Götalands län;1465;Svenljunga;1696;Håcksvik;1;1.0
+14;Västra Götalands län;1465;Svenljunga;1706;Kalv;1;1.0
+14;Västra Götalands län;1465;Svenljunga;1735;Mjöbäck;1;1.0
+14;Västra Götalands län;1465;Svenljunga;1741;Mårdaklev;1;1.0
+14;Västra Götalands län;1465;Svenljunga;1752;Redslared;1;1.0
+14;Västra Götalands län;1465;Svenljunga;1754;Revesjö;1;1.0
+14;Västra Götalands län;1465;Svenljunga;1755;Roasjö;1;1.0
+14;Västra Götalands län;1465;Svenljunga;1765;Sexdrega;1;1.0
+14;Västra Götalands län;1465;Svenljunga;1784;Svenljunga;1;1.0
+14;Västra Götalands län;1465;Svenljunga;1811;Ullasjö;1;1.0
+14;Västra Götalands län;1465;Svenljunga;1839;Örsås;1;0.989
+14;Västra Götalands län;1465;Svenljunga;1841;Östra Frölunda;1;1.0
+14;Västra Götalands län;1465;Svenljunga;1842;Öxabäck;1;0.045
+14;Västra Götalands län;1435;Tanum;1538;Bottna;1;1.0
+14;Västra Götalands län;1435;Tanum;1564;Kville;1;1.0
+14;Västra Götalands län;1435;Tanum;1572;Lur;1;1.0
+14;Västra Götalands län;1435;Tanum;1578;Mo;1;1.0
+14;Västra Götalands län;1435;Tanum;1583;Naverstad;1;0.999
+14;Västra Götalands län;1435;Tanum;1604;Svenneby;1;1.0
+14;Västra Götalands län;1435;Tanum;1606;Tanum;1;1.0
+14;Västra Götalands län;1472;Tibro;2010;Ransberg;1;1.0
+14;Västra Götalands län;1472;Tibro;2057;Tibro;1;1.0
+14;Västra Götalands län;1498;Tidaholm;1844;Acklinga;1;1.0
+14;Västra Götalands län;1498;Tidaholm;1845;Agnetorp;1;1.0
+14;Västra Götalands län;1498;Tidaholm;1847;Baltak;1;1.0
+14;Västra Götalands län;1498;Tidaholm;1874;Daretorp;1;1.0
+14;Västra Götalands län;1498;Tidaholm;1875;Dimbo;1;1.0
+14;Västra Götalands län;1498;Tidaholm;1900;Fröjered;1;1.0
+14;Västra Götalands län;1498;Tidaholm;1941;Härja;1;1.0
+14;Västra Götalands län;1498;Tidaholm;1935;Hångsdala;1;1.0
+14;Västra Götalands län;1498;Tidaholm;1945;Hömb;1;1.0
+14;Västra Götalands län;1498;Tidaholm;1958;Kungslena;1;1.0
+14;Västra Götalands län;1498;Tidaholm;1960;Kymbo;1;1.0
+14;Västra Götalands län;1498;Tidaholm;2007;Ottravad;1;1.0
+14;Västra Götalands län;1498;Tidaholm;2040;Suntak;1;1.0
+14;Västra Götalands län;1498;Tidaholm;2058;Tidaholm;2;1.0
+14;Västra Götalands län;1498;Tidaholm;2081;Valstad;1;1.0
+14;Västra Götalands län;1498;Tidaholm;2087;Varv;1;1.0
+14;Västra Götalands län;1498;Tidaholm;2088;Velinga;1;1.0
+14;Västra Götalands län;1498;Tidaholm;2100;Vättak;1;1.0
+14;Västra Götalands län;1498;Tidaholm;2112;Östra Gerum;1;0.999
+14;Västra Götalands län;1419;Tjörn;1560;Klädesholmen;1;1.0
+14;Västra Götalands län;1419;Tjörn;1561;Klövedal;1;1.0
+14;Västra Götalands län;1419;Tjörn;1591;Rönnäng;1;0.997
+14;Västra Götalands län;1419;Tjörn;1600;Stenkyrka;1;1.0
+14;Västra Götalands län;1419;Tjörn;1617;Valla;1;1.0
+14;Västra Götalands län;1452;Tranemo;1627;Ambjörnarp;1;1.0
+14;Västra Götalands län;1452;Tranemo;1648;Dalstorp;1;1.0
+14;Västra Götalands län;1452;Tranemo;1692;Hulared;1;1.0
+14;Västra Götalands län;1452;Tranemo;1725;Limmared;1;1.0
+14;Västra Götalands län;1452;Tranemo;1726;Ljungsarp;1;1.0
+14;Västra Götalands län;1452;Tranemo;1730;Länghem;1;1.0
+14;Västra Götalands län;1452;Tranemo;1738;Mossebo;1;1.0
+14;Västra Götalands län;1452;Tranemo;1740;Månstad;1;1.0
+14;Västra Götalands län;1452;Tranemo;1743;Nittorp;1;1.0
+14;Västra Götalands län;1452;Tranemo;1767;Sjötofta;1;1.0
+14;Västra Götalands län;1452;Tranemo;1800;Tranemo;1;0.999
+14;Västra Götalands län;1452;Tranemo;1835;Ölsremma;1;0.844
+14;Västra Götalands län;1488;Trollhättan;1658;Fors;1;1.0
+14;Västra Götalands län;1488;Trollhättan;1679;Gärdhem;1;0.999
+14;Västra Götalands län;1488;Trollhättan;1717;Lagmansered;1;0.999
+14;Västra Götalands län;1488;Trollhättan;1744;Norra Björke;1;1.0
+14;Västra Götalands län;1488;Trollhättan;1756;Rommele;1;1.0
+14;Västra Götalands län;1488;Trollhättan;1801;Trollhättan;2;0.999
+14;Västra Götalands län;1488;Trollhättan;1813;Upphärad;1;1.0
+14;Västra Götalands län;1488;Trollhättan;1820;Väne-Åsaka;1;1.0
+14;Västra Götalands län;1473;Töreboda;1849;Beateberg;1;0.988
+14;Västra Götalands län;1473;Töreboda;1868;Bäck;1;1.0
+14;Västra Götalands län;1473;Töreboda;1869;Bällefors;1;0.988
+14;Västra Götalands län;1473;Töreboda;1881;Ekeskog;1;1.0
+14;Västra Götalands län;1473;Töreboda;1895;Fredsberg;1;0.998
+14;Västra Götalands län;1473;Töreboda;1905;Fägre;1;1.0
+14;Västra Götalands län;1473;Töreboda;1920;Halna;1;0.999
+14;Västra Götalands län;1473;Töreboda;1925;Hjälstad;1;1.0
+14;Västra Götalands län;1473;Töreboda;1990;Mo;1;1.0
+14;Västra Götalands län;1473;Töreboda;2041;Sveneby;1;1.0
+14;Västra Götalands län;1473;Töreboda;2066;Trästena;1;1.0
+14;Västra Götalands län;1473;Töreboda;1857;Töreboda;1;1.0
+14;Västra Götalands län;1473;Töreboda;2105;Älgarås;1;0.999
+14;Västra Götalands län;1485;Uddevalla;1537;Bokenäs;1;1.0
+14;Västra Götalands län;1485;Uddevalla;3003;Bäve;1;1.0
+14;Västra Götalands län;1485;Uddevalla;1543;Dragsmark;1;1.0
+14;Västra Götalands län;1485;Uddevalla;1544;Forshälla;1;1.0
+14;Västra Götalands län;1485;Uddevalla;1547;Grinneröd;1;1.0
+14;Västra Götalands län;1485;Uddevalla;1552;Herrestad;1;1.0
+14;Västra Götalands län;1485;Uddevalla;1557;Högås;1;1.0
+14;Västra Götalands län;1485;Uddevalla;1568;Lane-Ryr;1;0.999
+14;Västra Götalands län;1485;Uddevalla;1570;Ljung;1;1.0
+14;Västra Götalands län;1485;Uddevalla;1587;Resteröd;1;1.0
+14;Västra Götalands län;1485;Uddevalla;1596;Skredsvik;1;1.0
+14;Västra Götalands län;1485;Uddevalla;1615;Uddevalla;2;1.0
+14;Västra Götalands län;1491;Ulricehamn;1632;Blidsberg;1;1.0
+14;Västra Götalands län;1491;Ulricehamn;1645;Böne;1;1.0
+14;Västra Götalands län;1491;Ulricehamn;1649;Dalum;1;1.0
+14;Västra Götalands län;1491;Ulricehamn;1656;Finnekumla;1;1.0
+14;Västra Götalands län;1491;Ulricehamn;1666;Fänneslunda;1;0.997
+14;Västra Götalands län;1491;Ulricehamn;1673;Grovare;1;1.0
+14;Västra Götalands län;1491;Ulricehamn;1675;Grönahög;1;1.0
+14;Västra Götalands län;1491;Ulricehamn;1676;Gullered;1;1.0
+14;Västra Götalands län;1491;Ulricehamn;1678;Gällstad;1;1.0
+14;Västra Götalands län;1491;Ulricehamn;1693;Humla;1;1.0
+14;Västra Götalands län;1491;Ulricehamn;1698;Hällstad;1;1.0
+14;Västra Götalands län;1491;Ulricehamn;1699;Härna;1;1.0
+14;Västra Götalands län;1491;Ulricehamn;1701;Hössna;1;1.0
+14;Västra Götalands län;1491;Ulricehamn;1710;Knätte;1;1.0
+14;Västra Götalands län;1491;Ulricehamn;1714;Kärråkra;1;1.0
+14;Västra Götalands län;1491;Ulricehamn;1715;Kölaby;1;0.998
+14;Västra Götalands län;1491;Ulricehamn;1716;Kölingared;1;1.0
+14;Västra Götalands län;1491;Ulricehamn;1723;Liared;1;1.0
+14;Västra Götalands län;1491;Ulricehamn;1732;Marbäck;1;1.0
+14;Västra Götalands län;1491;Ulricehamn;1739;Murum;1;1.0
+14;Västra Götalands län;1491;Ulricehamn;1742;Möne;1;1.0
+14;Västra Götalands län;1491;Ulricehamn;1781;Strängsered;1;1.0
+14;Västra Götalands län;1491;Ulricehamn;1788;Södra Säm;1;1.0
+14;Västra Götalands län;1491;Ulricehamn;1789;Södra Ving;1;1.0
+14;Västra Götalands län;1491;Ulricehamn;1790;Södra Vånga;1;1.0
+14;Västra Götalands län;1491;Ulricehamn;1792;Timmele;1;1.0
+14;Västra Götalands län;1491;Ulricehamn;1804;Tvärred;1;1.0
+14;Västra Götalands län;1491;Ulricehamn;1812;Ulricehamn;2;1.0
+14;Västra Götalands län;1491;Ulricehamn;1814;Varnum;1;1.0
+14;Västra Götalands län;1491;Ulricehamn;1835;Ölsremma;1;0.156
+14;Västra Götalands län;1470;Vara;1876;Edsvära;1;1.0
+14;Västra Götalands län;1470;Vara;1882;Eling;1;1.0
+14;Västra Götalands län;1470;Vara;1903;Fyrunga;1;1.0
+14;Västra Götalands län;1470;Vara;1939;Hällum;1;1.0
+14;Västra Götalands län;1470;Vara;1947;Jung;1;0.988
+14;Västra Götalands län;1470;Vara;1959;Kvänum;1;1.0
+14;Västra Götalands län;1470;Vara;1965;Larv;1;1.0
+14;Västra Götalands län;1470;Vara;1966;Laske-Vedum;1;1.0
+14;Västra Götalands län;1470;Vara;1972;Levene;1;1.0
+14;Västra Götalands län;1470;Vara;1977;Long;1;1.0
+14;Västra Götalands län;1470;Vara;1982;Längjum;1;1.0
+14;Västra Götalands län;1470;Vara;1994;Naum;1;1.0
+14;Västra Götalands län;1470;Vara;2001;Norra Vånga;1;1.0
+14;Västra Götalands län;1470;Vara;2012;Ryda;1;1.0
+14;Västra Götalands län;1470;Vara;2024;Skarstad;1;1.0
+14;Västra Götalands län;1470;Vara;2031;Slädene;1;1.0
+14;Västra Götalands län;1470;Vara;2035;Sparlösa;1;1.0
+14;Västra Götalands län;1470;Vara;2049;Södra Kedum;1;1.0
+14;Västra Götalands län;1470;Vara;2051;Södra Lundby;1;1.0
+14;Västra Götalands län;1470;Vara;2064;Tråvad;1;1.0
+14;Västra Götalands län;1470;Vara;2083;Vara;1;1.0
+14;Västra Götalands län;1470;Vara;2097;Västerbitterna;1;1.0
+14;Västra Götalands län;1470;Vara;2108;Önum;1;1.0
+14;Västra Götalands län;1470;Vara;2110;Österbitterna;1;0.999
+14;Västra Götalands län;1470;Vara;2114;Öttum;1;0.999
+14;Västra Götalands län;1487;Vänersborg;1640;Brålanda;1;1.0
+14;Västra Götalands län;1487;Vänersborg;1662;Frändefors;1;1.0
+14;Västra Götalands län;1487;Vänersborg;1669;Gestad;1;1.0
+14;Västra Götalands län;1487;Vänersborg;1782;Sundals-Ryr;1;1.0
+14;Västra Götalands län;1487;Vänersborg;1819;Väne-Ryr;1;0.999
+14;Västra Götalands län;1487;Vänersborg;1821;Vänersborg;2;1.0
+14;Västra Götalands län;1487;Vänersborg;1822;Vänersnäs;1;0.994
+14;Västra Götalands län;1487;Vänersborg;1825;Västra Tunhem;1;0.999
+14;Västra Götalands län;1442;Vårgårda;1625;Algutstorp;1;1.0
+14;Västra Götalands län;1442;Vårgårda;1628;Asklanda;1;1.0
+14;Västra Götalands län;1442;Vårgårda;1631;Bergstena;1;1.0
+14;Västra Götalands län;1442;Vårgårda;1664;Fullestad;1;1.0
+14;Västra Götalands län;1442;Vårgårda;1685;Hol;1;1.0
+14;Västra Götalands län;1442;Vårgårda;1688;Horla;1;1.0
+14;Västra Götalands län;1442;Vårgårda;1711;Kullings-Skövde;1;1.0
+14;Västra Götalands län;1442;Vårgårda;1712;Kvinnestad;1;1.0
+14;Västra Götalands län;1442;Vårgårda;1718;Landa;1;1.0
+14;Västra Götalands län;1442;Vårgårda;1720;Lena;1;1.0
+14;Västra Götalands län;1442;Vårgårda;1727;Ljur;1;1.0
+14;Västra Götalands län;1442;Vårgårda;1747;Nårunga;1;1.0
+14;Västra Götalands län;1442;Vårgårda;1751;Ornunga;1;1.0
+14;Västra Götalands län;1442;Vårgårda;1766;Siene;1;1.0
+14;Västra Götalands län;1442;Vårgårda;1772;Skogsbygden;1;1.0
+14;Västra Götalands län;1442;Vårgårda;1787;Södra Härene;1;1.0
+14;Västra Götalands län;1442;Vårgårda;1802;Tumberg;1;1.0
+14;Västra Götalands län;1492;Åmål;1651;Edsleskog;1;1.0
+14;Västra Götalands län;1492;Åmål;1663;Fröskog;1;1.0
+14;Västra Götalands län;1492;Åmål;1736;Mo;1;1.0
+14;Västra Götalands län;1492;Åmål;1805;Tydje;1;1.0
+14;Västra Götalands län;1492;Åmål;1810;Tösse;1;1.0
+14;Västra Götalands län;1492;Åmål;4120;Åmål;2;1.0
+14;Västra Götalands län;1492;Åmål;1826;Åmål;1;0.998
+14;Västra Götalands län;1492;Åmål;1827;Ånimskog;1;1.0
+14;Västra Götalands län;1407;Öckerö;1621;Öckerö;1;1.0
+17;Värmlands län;1784;Arvika;2116;Arvika;2;1.0
+17;Värmlands län;1784;Arvika;2120;Bogen;1;1.0
+17;Värmlands län;1784;Arvika;2125;Brunskog;1;1.0
+17;Värmlands län;1784;Arvika;2139;Glava;1;1.0
+17;Värmlands län;1784;Arvika;2143;Gunnarskog;1;1.0
+17;Värmlands län;1784;Arvika;2150;Högerud;1;1.0
+17;Värmlands län;1784;Arvika;2163;Mangskog;1;1.0
+17;Värmlands län;1784;Arvika;2172;Ny;1;1.0
+17;Värmlands län;1784;Arvika;2182;Stavnäs;1;1.0
+17;Värmlands län;1784;Arvika;2205;Älgå;1;1.0
+17;Värmlands län;1730;Eda;2130;Eda;1;1.0
+17;Värmlands län;1730;Eda;2151;Järnskog;1;1.0
+17;Värmlands län;1730;Eda;2157;Köla;1;1.0
+17;Värmlands län;1730;Eda;2181;Skillingmark;1;0.999
+17;Värmlands län;1782;Filipstad;2123;Brattfors;1;1.0
+17;Värmlands län;1782;Filipstad;2133;Filipstad;2;1.0
+17;Värmlands län;1782;Filipstad;2137;Färnebo;1;1.0
+17;Värmlands län;1782;Filipstad;2145;Gåsborn;1;1.0
+17;Värmlands län;1782;Filipstad;2156;Kroppa;1;0.998
+17;Värmlands län;1782;Filipstad;2168;Nordmark;1;1.0
+17;Värmlands län;1782;Filipstad;2177;Rämmen;1;1.0
+17;Värmlands län;1763;Forshaga;2134;Forshaga;1;1.0
+17;Värmlands län;1763;Forshaga;2166;Nedre Ullerud;1;1.0
+17;Värmlands län;1763;Forshaga;2213;Övre Ullerud;1;0.999
+17;Värmlands län;1764;Grums;2121;Borgvik;1;1.0
+17;Värmlands län;1764;Grums;2129;Ed;1;1.0
+17;Värmlands län;1764;Grums;2141;Grums;1;1.0
+17;Värmlands län;1764;Grums;2199;Värmskog;1;0.999
+17;Värmlands län;1783;Hagfors;2131;Ekshärad;1;1.0
+17;Värmlands län;1783;Hagfors;2144;Gustav Adolf;1;1.0
+17;Värmlands län;1783;Hagfors;2146;Hagfors;2;1.0
+17;Värmlands län;1783;Hagfors;2171;Norra Råda;1;1.0
+17;Värmlands län;1783;Hagfors;2186;Sunnemo;1;1.0
+17;Värmlands län;1761;Hammarö;2147;Hammarö;1;1.0
+17;Värmlands län;1780;Karlstad;2115;Alster;1;1.0
+17;Värmlands län;1780;Karlstad;2140;Grava;1;1.0
+17;Värmlands län;1780;Karlstad;2153;Karlstad;2;1.0
+17;Värmlands län;1780;Karlstad;2167;Nor;1;0.989
+17;Värmlands län;1780;Karlstad;2173;Nyed;1;1.0
+17;Värmlands län;1780;Karlstad;2178;Segerstad;1;1.0
+17;Värmlands län;1780;Karlstad;2200;Väse;1;1.0
+17;Värmlands län;1780;Karlstad;2206;Älvsbacka;1;1.0
+17;Värmlands län;1780;Karlstad;2211;Östra Fågelvik;1;1.0
+17;Värmlands län;1715;Kil;2119;Boda;1;1.0
+17;Värmlands län;1715;Kil;2135;Frykerud;1;1.0
+17;Värmlands län;1715;Kil;2183;Stora Kil;1;1.0
+17;Värmlands län;1781;Kristinehamn;2155;Kristinehamn;2;1.0
+17;Värmlands län;1781;Kristinehamn;2176;Rudskoga;1;1.0
+17;Värmlands län;1781;Kristinehamn;3057;Varnum;1;1.0
+17;Värmlands län;1781;Kristinehamn;2196;Visnum;1;1.0
+17;Värmlands län;1781;Kristinehamn;2197;Visnums-Kil;1;0.999
+17;Värmlands län;1781;Kristinehamn;2207;Ölme;1;0.999
+17;Värmlands län;1762;Munkfors;2175;Ransäter;1;1.0
+17;Värmlands län;1760;Storfors;2117;Bjurtjärn;1;1.0
+17;Värmlands län;1760;Storfors;2160;Lungsund;1;1.0
+17;Värmlands län;1760;Storfors;3501;Storfors;1;1.0
+17;Värmlands län;1766;Sunne;2142;Gräsmark;1;1.0
+17;Värmlands län;1766;Sunne;2161;Lysvik;1;1.0
+17;Värmlands län;1766;Sunne;2185;Sunne;1;1.0
+17;Värmlands län;1766;Sunne;2202;Västra Ämtervik;1;1.0
+17;Värmlands län;1766;Sunne;2212;Östra Ämtervik;1;1.0
+17;Värmlands län;1785;Säffle;2122;Botilsäter;1;1.0
+17;Värmlands län;1785;Säffle;2124;Bro;1;1.0
+17;Värmlands län;1785;Säffle;2132;Eskilsäter;1;0.999
+17;Värmlands län;1785;Säffle;2138;Gillberga;1;1.0
+17;Värmlands län;1785;Säffle;2149;Huggenäs;1;1.0
+17;Värmlands län;1785;Säffle;2154;Kila;1;1.0
+17;Värmlands län;1785;Säffle;2162;Långserud;1;1.0
+17;Värmlands län;1785;Säffle;2164;Millesvik;1;1.0
+17;Värmlands län;1785;Säffle;2187;Svanskog;1;1.0
+17;Värmlands län;1785;Säffle;2188;Säffle;2;1.0
+17;Värmlands län;1785;Säffle;2190;Södra Ny;1;1.0
+17;Värmlands län;1785;Säffle;3056;Tveta;1;1.0
+17;Värmlands län;1785;Säffle;2208;Ölserud;1;1.0
+17;Värmlands län;1737;Torsby;2127;Dalby;1;1.0
+17;Värmlands län;1737;Torsby;2136;Fryksände;1;1.0
+17;Värmlands län;1737;Torsby;2158;Lekvattnet;1;1.0
+17;Värmlands län;1737;Torsby;2169;Norra Finnskoga;1;1.0
+17;Värmlands län;1737;Torsby;2170;Norra Ny;1;1.0
+17;Värmlands län;1737;Torsby;2174;Nyskoga;1;1.0
+17;Värmlands län;1737;Torsby;2189;Södra Finnskoga;1;1.0
+17;Värmlands län;1737;Torsby;2198;Vitsand;1;1.0
+17;Värmlands län;1737;Torsby;2210;Östmark;1;1.0
+17;Värmlands län;1765;Årjäng;2118;Blomskog;1;1.0
+17;Värmlands län;1765;Årjäng;2148;Holmedal;1;1.0
+17;Värmlands län;1765;Årjäng;2152;Karlanda;1;1.0
+17;Värmlands län;1765;Årjäng;2179;Silbodal;1;1.0
+17;Värmlands län;1765;Årjäng;2180;Sillerud;1;1.0
+17;Värmlands län;1765;Årjäng;2192;Trankil;1;1.0
+17;Värmlands län;1765;Årjäng;2194;Töcksmark;1;1.0
+17;Värmlands län;1765;Årjäng;2201;Västra Fågelvik;1;1.0
+17;Värmlands län;1765;Årjäng;2209;Östervallskog;1;1.0
+18;Örebro län;1882;Askersund;2215;Askersund;1;1.0
+18;Örebro län;1882;Askersund;4038;Askersund;2;1.0
+18;Örebro län;1882;Askersund;2232;Hammar;1;1.0
+18;Örebro län;1882;Askersund;2247;Lerbäck;1;1.0
+18;Örebro län;1882;Askersund;2261;Snavlunda;1;1.0
+18;Örebro län;1862;Degerfors;2218;Degerfors;1;1.0
+18;Örebro län;1862;Degerfors;2256;Nysund;1;1.0
+18;Örebro län;1861;Hallsberg;2217;Bo;1;1.0
+18;Örebro län;1861;Hallsberg;2231;Hallsberg;1;1.0
+18;Örebro län;1861;Hallsberg;2233;Hardemo;1;0.04
+18;Örebro län;1861;Hallsberg;2260;Sköllersta;1;1.0
+18;Örebro län;1861;Hallsberg;2263;Svennevad;1;1.0
+18;Örebro län;1861;Hallsberg;2268;Viby;1;0.908
+18;Örebro län;1863;Hällefors;2226;Grythyttan;1;0.999
+18;Örebro län;1863;Hällefors;2235;Hjulsjö;1;0.999
+18;Örebro län;1863;Hällefors;2237;Hällefors;1;1.0
+18;Örebro län;1883;Karlskoga;2239;Karlskoga;1;1.0
+18;Örebro län;1883;Karlskoga;4094;Karlskoga;2;1.0
+18;Örebro län;1881;Kumla;2220;Ekeby;1;1.0
+18;Örebro län;1881;Kumla;2233;Hardemo;1;0.96
+18;Örebro län;1881;Kumla;2244;Kumla;1;1.0
+18;Örebro län;1881;Kumla;4067;Kumla;2;1.0
+18;Örebro län;1860;Laxå;2223;Finnerödja;1;1.0
+18;Örebro län;1860;Laxå;2242;Laxå;1;1.0
+18;Örebro län;1860;Laxå;2259;Skagershult;1;1.0
+18;Örebro län;1860;Laxå;2264;Tived;1;1.0
+18;Örebro län;1860;Laxå;2268;Viby;1;0.084
+18;Örebro län;1814;Lekeberg;2219;Edsberg;1;1.0
+18;Örebro län;1814;Lekeberg;2230;Hackvad;1;1.0
+18;Örebro län;1814;Lekeberg;2234;Hidinge;1;0.998
+18;Örebro län;1814;Lekeberg;2241;Knista;1;1.0
+18;Örebro län;1814;Lekeberg;2243;Kräcklinge;1;1.0
+18;Örebro län;1814;Lekeberg;2245;Kvistbro;1;1.0
+18;Örebro län;1814;Lekeberg;2266;Tångeråsa;1;1.0
+18;Örebro län;1885;Lindesberg;2222;Fellingsbro;1;1.0
+18;Örebro län;1885;Lindesberg;2246;Frövi;1;0.999
+18;Örebro län;1885;Lindesberg;2249;Linde;1;1.0
+18;Örebro län;1885;Lindesberg;2250;Lindesberg;1;1.0
+18;Örebro län;1885;Lindesberg;4069;Lindesberg;2;1.0
+18;Örebro län;1885;Lindesberg;2257;Ramsberg;1;1.0
+18;Örebro län;1864;Ljusnarsberg;2251;Ljusnarsberg;1;1.0
+18;Örebro län;1884;Nora;2238;Järnboås;1;1.0
+18;Örebro län;1884;Nora;4077;Nora;2;1.0
+18;Örebro län;1884;Nora;2254;Nora;1;0.999
+18;Örebro län;1884;Nora;2269;Viker;1;1.0
+18;Örebro län;1880;Örebro;2214;Asker;1;1.0
+18;Örebro län;1880;Örebro;2216;Axberg;1;1.0
+18;Örebro län;1880;Örebro;2221;Ervalla;1;1.0
+18;Örebro län;1880;Örebro;2225;Glanshammar;1;1.0
+18;Örebro län;1880;Örebro;2227;Gräve;1;1.0
+18;Örebro län;1880;Örebro;2228;Gällersta;1;1.0
+18;Örebro län;1880;Örebro;2236;Hovsta;1;1.0
+18;Örebro län;1880;Örebro;2240;Kil;1;1.0
+18;Örebro län;1880;Örebro;2248;Lillkyrka;1;1.0
+18;Örebro län;1880;Örebro;2252;Lännäs;1;0.987
+18;Örebro län;1880;Örebro;2253;Mosjö;1;1.0
+18;Örebro län;1880;Örebro;2255;Norrbyås;1;1.0
+18;Örebro län;1880;Örebro;2258;Rinkaby;1;1.0
+18;Örebro län;1880;Örebro;2262;Stora Mellösa;1;1.0
+18;Örebro län;1880;Örebro;2265;Tysslinge;1;1.0
+18;Örebro län;1880;Örebro;2267;Täby;1;1.0
+18;Örebro län;1880;Örebro;2270;Vintrosa;1;0.993
+18;Örebro län;1880;Örebro;2271;Ödeby;1;1.0
+18;Örebro län;1880;Örebro;2272;Örebro;2;1.0
+19;Västmanlands län;1984;Arboga;2273;Arboga;2;1.0
+19;Västmanlands län;1984;Arboga;3077;Arboga;1;1.0
+19;Västmanlands län;1984;Arboga;2229;Götlunda;1;1.0
+19;Västmanlands län;1984;Arboga;2305;Medåker;1;1.0
+19;Västmanlands län;1982;Fagersta;2281;Fagersta;2;1.0
+19;Västmanlands län;1982;Fagersta;2333;Västervåla;1;1.0
+19;Västmanlands län;1961;Hallstahammar;2275;Berg;1;1.0
+19;Västmanlands län;1961;Hallstahammar;2322;Hallstahammar;1;0.981
+19;Västmanlands län;1961;Hallstahammar;2295;Kolbäck;1;1.0
+19;Västmanlands län;1961;Hallstahammar;2323;Säby;1;1.0
+19;Västmanlands län;1960;Kungsör;2277;Björskog;1;0.993
+19;Västmanlands län;1960;Kungsör;2298;Kung Karl;1;1.0
+19;Västmanlands län;1960;Kungsör;2299;Kungs-Barkarö;1;1.0
+19;Västmanlands län;1960;Kungsör;2326;Torpa;1;1.0
+19;Västmanlands län;1983;Köping;2289;Himmeta;1;0.999
+19;Västmanlands län;1983;Köping;2296;Kolsva;1;0.992
+19;Västmanlands län;1983;Köping;2302;Köping;2;1.0
+19;Västmanlands län;1983;Köping;2306;Munktorp;1;1.0
+19;Västmanlands län;1983;Köping;2311;Odensvi;1;0.998
+19;Västmanlands län;1983;Köping;2337;Västra Skedvi;1;1.0
+19;Västmanlands län;1962;Norberg;2293;Karbenning;1;1.0
+19;Västmanlands län;1962;Norberg;2309;Norberg;1;0.996
+19;Västmanlands län;1981;Sala;2282;Fläckebo;1;1.0
+19;Västmanlands län;1981;Sala;2294;Kila;1;1.0
+19;Västmanlands län;1981;Sala;2297;Kumla;1;0.993
+19;Västmanlands län;1981;Sala;2307;Möklinta;1;1.0
+19;Västmanlands län;1981;Sala;2310;Norrby;1;0.999
+19;Västmanlands län;1981;Sala;2315;Sala;2;1.0
+19;Västmanlands län;1981;Sala;3078;Sala;1;1.0
+19;Västmanlands län;1981;Sala;2328;Tärna;1;0.999
+19;Västmanlands län;1981;Sala;2331;Västerfärnebo;1;1.0
+19;Västmanlands län;1904;Skinnskatteberg;2283;Gunnilbo;1;1.0
+19;Västmanlands län;1904;Skinnskatteberg;2288;Hed;1;1.0
+19;Västmanlands län;1904;Skinnskatteberg;2319;Skinnskatteberg;1;1.0
+19;Västmanlands län;1907;Surahammar;2312;Ramnäs;1;1.0
+19;Västmanlands län;1907;Surahammar;2321;Sura;1;0.996
+19;Västmanlands län;1980;Västerås;2276;Björksta;1;1.0
+19;Västmanlands län;1980;Västerås;2279;Dingtuna;1;1.0
+19;Västmanlands län;1980;Västerås;2286;Haraker;1;1.0
+19;Västmanlands län;1980;Västerås;2290;Hubbo;1;1.0
+19;Västmanlands län;1980;Västerås;2292;Irsta;1;1.0
+19;Västmanlands län;1980;Västerås;2300;Kungsåra;1;1.0
+19;Västmanlands län;1980;Västerås;2301;Kärrbo;1;1.0
+19;Västmanlands län;1980;Västerås;2303;Lillhärad;1;1.0
+19;Västmanlands län;1980;Västerås;2313;Romfartuna;1;1.0
+19;Västmanlands län;1980;Västerås;2314;Rytterne;1;1.0
+19;Västmanlands län;1980;Västerås;2317;Sevalla;1;1.0
+19;Västmanlands län;1980;Västerås;2320;Skultuna;1;1.0
+19;Västmanlands län;1980;Västerås;2325;Tillberga;1;1.0
+19;Västmanlands län;1980;Västerås;2327;Tortuna;1;1.0
+19;Västmanlands län;1980;Västerås;2334;Västerås;2;1.0
+19;Västmanlands län;1980;Västerås;2336;Västerås-Barkarö;1;1.0
+19;Västmanlands län;1980;Västerås;2338;Ängsö;1;1.0
+20;Dalarnas län;2084;Avesta;2341;Avesta;2;1.0
+20;Dalarnas län;2084;Avesta;2345;By;1;1.0
+20;Dalarnas län;2084;Avesta;2349;Folkärna;1;0.999
+20;Dalarnas län;2084;Avesta;2353;Grytnäs;1;1.0
+20;Dalarnas län;2081;Borlänge;2344;Borlänge;2;1.0
+20;Dalarnas län;2081;Borlänge;2378;Stora Tuna;1;0.999
+20;Dalarnas län;2081;Borlänge;2386;Torsång;1;1.0
+20;Dalarnas län;2080;Falun;2340;Aspeboda;1;0.994
+20;Dalarnas län;2080;Falun;2342;Bjursås;1;0.984
+20;Dalarnas län;2080;Falun;2346;Enviken;1;1.0
+20;Dalarnas län;2080;Falun;2347;Falun;2;1.0
+20;Dalarnas län;2080;Falun;2376;Stora Kopparberg;1;0.999
+20;Dalarnas län;2080;Falun;2379;Sundborn;1;1.0
+20;Dalarnas län;2080;Falun;2380;Svartnäs;1;1.0
+20;Dalarnas län;2080;Falun;2381;Svärdsjö;1;0.999
+20;Dalarnas län;2080;Falun;2388;Vika;1;1.0
+20;Dalarnas län;2026;Gagnef;2348;Floda;1;1.0
+20;Dalarnas län;2026;Gagnef;2350;Gagnef;1;1.0
+20;Dalarnas län;2083;Hedemora;2351;Garpenberg;1;1.0
+20;Dalarnas län;2083;Hedemora;4059;Hedemora;2;1.0
+20;Dalarnas län;2083;Hedemora;2355;Hedemora;1;1.0
+20;Dalarnas län;2083;Hedemora;2356;Husby;1;0.999
+20;Dalarnas län;2029;Leksand;2360;Leksand;1;0.995
+20;Dalarnas län;2029;Leksand;2372;Siljansnäs;1;0.987
+20;Dalarnas län;2029;Leksand;2391;Ål;1;0.998
+20;Dalarnas län;2085;Ludvika;2352;Grangärde;1;1.0
+20;Dalarnas län;2085;Ludvika;2363;Ludvika;1;1.0
+20;Dalarnas län;2085;Ludvika;4097;Ludvika;2;1.0
+20;Dalarnas län;2085;Ludvika;2382;Säfsnäs;1;1.0
+20;Dalarnas län;2023;Malung-Sälen;2362;Lima;1;1.0
+20;Dalarnas län;2023;Malung-Sälen;2365;Malung;1;1.0
+20;Dalarnas län;2023;Malung-Sälen;2387;Transtrand;1;1.0
+20;Dalarnas län;2062;Mora;2366;Mora;1;1.0
+20;Dalarnas län;2062;Mora;2375;Sollerön;1;1.0
+20;Dalarnas län;2062;Mora;2390;Venjan;1;1.0
+20;Dalarnas län;2062;Mora;2389;Våmhus;1;1.0
+20;Dalarnas län;2034;Orsa;2370;Orsa;1;1.0
+20;Dalarnas län;2031;Rättvik;2343;Boda;1;1.0
+20;Dalarnas län;2031;Rättvik;2369;Ore;1;1.0
+20;Dalarnas län;2031;Rättvik;2371;Rättvik;1;0.999
+20;Dalarnas län;2061;Smedjebacken;2364;Malingsbo;1;1.0
+20;Dalarnas län;2061;Smedjebacken;2367;Norrbärke;1;1.0
+20;Dalarnas län;2061;Smedjebacken;2385;Söderbärke;1;1.0
+20;Dalarnas län;2082;Säter;2354;Gustafs;1;1.0
+20;Dalarnas län;2082;Säter;2373;Silvberg;1;0.999
+20;Dalarnas län;2082;Säter;2377;Stora Skedvi;1;1.0
+20;Dalarnas län;2082;Säter;4104;Säter;2;1.0
+20;Dalarnas län;2082;Säter;2384;Säter;1;1.0
+20;Dalarnas län;2021;Vansbro;2358;Järna;1;1.0
+20;Dalarnas län;2021;Vansbro;2368;Nås;1;0.999
+20;Dalarnas län;2021;Vansbro;2393;Äppelbo;1;1.0
+20;Dalarnas län;2039;Älvdalen;2357;Idre;1;1.0
+20;Dalarnas län;2039;Älvdalen;2383;Särna;1;1.0
+20;Dalarnas län;2039;Älvdalen;2392;Älvdalen;1;1.0
+21;Gävleborgs län;2183;Bollnäs;2395;Arbrå;1;1.0
+21;Gävleborgs län;2183;Bollnäs;4019;Bollnäs;2;1.0
+21;Gävleborgs län;2183;Bollnäs;2399;Bollnäs;1;1.0
+21;Gävleborgs län;2183;Bollnäs;2408;Hanebo;1;1.0
+21;Gävleborgs län;2183;Bollnäs;2433;Rengsjö;1;1.0
+21;Gävleborgs län;2183;Bollnäs;2436;Segersta;1;1.0
+21;Gävleborgs län;2183;Bollnäs;2443;Undersvik;1;1.0
+21;Gävleborgs län;2180;Gävle;2405;Gävle;2;1.0
+21;Gävleborgs län;2180;Gävle;2407;Hamrånge;1;1.0
+21;Gävleborgs län;2180;Gävle;2411;Hedesunda;1;0.999
+21;Gävleborgs län;2180;Gävle;2412;Hille;1;1.0
+21;Gävleborgs län;2180;Gävle;2444;Valbo;1;0.996
+21;Gävleborgs län;2104;Hofors;2441;Torsåker;1;1.0
+21;Gävleborgs län;2184;Hudiksvall;2397;Bjuråker;1;1.0
+21;Gävleborgs län;2184;Hudiksvall;2400;Delsbo;1;1.0
+21;Gävleborgs län;2184;Hudiksvall;2401;Enånger;1;1.0
+21;Gävleborgs län;2184;Hudiksvall;2402;Forsa;1;1.0
+21;Gävleborgs län;2184;Hudiksvall;2413;Hudiksvall;2;1.0
+21;Gävleborgs län;2184;Hudiksvall;2414;Hälsingtuna;1;1.0
+21;Gävleborgs län;2184;Hudiksvall;2415;Hög;1;1.0
+21;Gävleborgs län;2184;Hudiksvall;2417;Idenor;1;1.0
+21;Gävleborgs län;2184;Hudiksvall;2406;Nianfors;1;1.0
+21;Gävleborgs län;2184;Hudiksvall;2426;Njutånger;1;1.0
+21;Gävleborgs län;2184;Hudiksvall;2428;Norrbo;1;1.0
+21;Gävleborgs län;2184;Hudiksvall;2434;Rogsta;1;1.0
+21;Gävleborgs län;2161;Ljusdal;2403;Färila;1;1.0
+21;Gävleborgs län;2161;Ljusdal;3502;Hamra;1;1.0
+21;Gävleborgs län;2161;Ljusdal;2420;Järvsö;1;1.0
+21;Gävleborgs län;2161;Ljusdal;2422;Ljusdal;1;1.0
+21;Gävleborgs län;2161;Ljusdal;2423;Los;1;0.999
+21;Gävleborgs län;2161;Ljusdal;2432;Ramsjö;1;1.0
+21;Gävleborgs län;2132;Nordanstig;2396;Bergsjö;1;1.0
+21;Gävleborgs län;2132;Nordanstig;2404;Gnarp;1;1.0
+21;Gävleborgs län;2132;Nordanstig;2409;Harmånger;1;1.0
+21;Gävleborgs län;2132;Nordanstig;2410;Hassela;1;1.0
+21;Gävleborgs län;2132;Nordanstig;2418;Ilsbo;1;1.0
+21;Gävleborgs län;2132;Nordanstig;2421;Jättendal;1;1.0
+21;Gävleborgs län;2101;Ockelbo;2429;Ockelbo;1;1.0
+21;Gävleborgs län;2101;Ockelbo;2437;Skog;1;0.153
+21;Gävleborgs län;2121;Ovanåker;2394;Alfta;1;1.0
+21;Gävleborgs län;2121;Ovanåker;2431;Ovanåker;1;1.0
+21;Gävleborgs län;2121;Ovanåker;2445;Voxna;1;1.0
+21;Gävleborgs län;2181;Sandviken;2419;Järbo;1;1.0
+21;Gävleborgs län;2181;Sandviken;2430;Ovansjö;1;1.0
+21;Gävleborgs län;2181;Sandviken;2435;Sandviken;2;1.0
+21;Gävleborgs län;2181;Sandviken;2446;Årsunda;1;0.993
+21;Gävleborgs län;2181;Sandviken;2447;Österfärnebo;1;0.998
+21;Gävleborgs län;2182;Söderhamn;2424;Mo;1;1.0
+21;Gävleborgs län;2182;Söderhamn;2427;Norrala;1;1.0
+21;Gävleborgs län;2182;Söderhamn;2437;Skog;1;0.846
+21;Gävleborgs län;2182;Söderhamn;2439;Söderala;1;1.0
+21;Gävleborgs län;2182;Söderhamn;2440;Söderhamn;2;1.0
+21;Gävleborgs län;2182;Söderhamn;2442;Trönö;1;1.0
+22;Västernorrlands län;2280;Härnösand;2467;Hemsö;1;1.0
+22;Västernorrlands län;2280;Härnösand;2469;Häggdånger;1;1.0
+22;Västernorrlands län;2280;Härnösand;2470;Härnösand;2;1.0
+22;Västernorrlands län;2280;Härnösand;2472;Högsjö;1;1.0
+22;Västernorrlands län;2280;Härnösand;2494;Stigsjö;1;1.0
+22;Västernorrlands län;2280;Härnösand;2499;Säbrå;1;1.0
+22;Västernorrlands län;2280;Härnösand;2510;Viksjö;1;1.0
+22;Västernorrlands län;2282;Kramfors;2452;Bjärtrå;1;1.0
+22;Västernorrlands län;2282;Kramfors;2457;Dal;1;1.0
+22;Västernorrlands län;2282;Kramfors;2475;Gudmundrå;1;1.0
+22;Västernorrlands län;2282;Kramfors;4020;Kramfors;2;1.0
+22;Västernorrlands län;2282;Kramfors;2482;Nora;1;1.0
+22;Västernorrlands län;2282;Kramfors;2483;Nordingrå;1;1.0
+22;Västernorrlands län;2282;Kramfors;2490;Skog;1;1.0
+22;Västernorrlands län;2282;Kramfors;2495;Styrnäs;1;1.0
+22;Västernorrlands län;2282;Kramfors;2503;Torsåker;1;1.0
+22;Västernorrlands län;2282;Kramfors;2508;Ullånger;1;1.0
+22;Västernorrlands län;2282;Kramfors;2509;Vibyggerå;1;1.0
+22;Västernorrlands län;2282;Kramfors;2511;Ytterlännäs;1;1.0
+22;Västernorrlands län;2283;Sollefteå;2456;Boteå;1;1.0
+22;Västernorrlands län;2283;Sollefteå;2458;Ed;1;1.0
+22;Västernorrlands län;2283;Sollefteå;2459;Edsele;1;1.0
+22;Västernorrlands län;2283;Sollefteå;2462;Graninge;1;1.0
+22;Västernorrlands län;2283;Sollefteå;2466;Helgum;1;1.0
+22;Västernorrlands län;2283;Sollefteå;2474;Junsele;1;1.0
+22;Västernorrlands län;2283;Sollefteå;2478;Långsele;1;1.0
+22;Västernorrlands län;2283;Sollefteå;3059;Multrå;1;1.0
+22;Västernorrlands län;2283;Sollefteå;2485;Ramsele;1;1.0
+22;Västernorrlands län;2283;Sollefteå;2486;Resele;1;1.0
+22;Västernorrlands län;2283;Sollefteå;4025;Sollefteå;2;1.0
+22;Västernorrlands län;2283;Sollefteå;2493;Sollefteå;1;1.0
+22;Västernorrlands län;2283;Sollefteå;2498;Sånga;1;1.0
+22;Västernorrlands län;2283;Sollefteå;2512;Ådals-Liden;1;1.0
+22;Västernorrlands län;2283;Sollefteå;2515;Överlännäs;1;1.0
+22;Västernorrlands län;2281;Sundsvall;2448;Alnö;1;1.0
+22;Västernorrlands län;2281;Sundsvall;2451;Attmar;1;1.0
+22;Västernorrlands län;2281;Sundsvall;2468;Holm;1;1.0
+22;Västernorrlands län;2281;Sundsvall;2473;Indal;1;1.0
+22;Västernorrlands län;2281;Sundsvall;2476;Liden;1;1.0
+22;Västernorrlands län;2281;Sundsvall;2481;Njurunda;1;1.0
+22;Västernorrlands län;2281;Sundsvall;2487;Selånger;1;1.0
+22;Västernorrlands län;2281;Sundsvall;2492;Skön;1;1.0
+22;Västernorrlands län;2281;Sundsvall;2496;Stöde;1;1.0
+22;Västernorrlands län;2281;Sundsvall;2497;Sundsvall;2;1.0
+22;Västernorrlands län;2281;Sundsvall;2500;Sättna;1;1.0
+22;Västernorrlands län;2281;Sundsvall;2505;Tuna;1;1.0
+22;Västernorrlands län;2262;Timrå;2471;Hässjö;1;1.0
+22;Västernorrlands län;2262;Timrå;2477;Ljustorp;1;1.0
+22;Västernorrlands län;2262;Timrå;2501;Timrå;1;1.0
+22;Västernorrlands län;2262;Timrå;2506;Tynderö;1;1.0
+22;Västernorrlands län;2260;Ånge;2455;Borgsjö;1;1.0
+22;Västernorrlands län;2260;Ånge;2465;Haverö;1;1.0
+22;Västernorrlands län;2260;Ånge;2502;Torp;1;1.0
+22;Västernorrlands län;2284;Örnsköldsvik;2449;Anundsjö;1;1.0
+22;Västernorrlands län;2284;Örnsköldsvik;2450;Arnäs;1;1.0
+22;Västernorrlands län;2284;Örnsköldsvik;2453;Björna;1;1.0
+22;Västernorrlands län;2284;Örnsköldsvik;2461;Gideå;1;1.0
+22;Västernorrlands län;2284;Örnsköldsvik;2463;Grundsunda;1;1.0
+22;Västernorrlands län;2284;Örnsköldsvik;2479;Mo;1;1.0
+22;Västernorrlands län;2284;Örnsköldsvik;2484;Nätra;1;1.0
+22;Västernorrlands län;2284;Örnsköldsvik;2488;Sidensjö;1;1.0
+22;Västernorrlands län;2284;Örnsköldsvik;2489;Själevad;1;1.0
+22;Västernorrlands län;2284;Örnsköldsvik;2491;Skorped;1;1.0
+22;Västernorrlands län;2284;Örnsköldsvik;2504;Trehörningsjö;1;1.0
+22;Västernorrlands län;2284;Örnsköldsvik;2514;Örnsköldsvik;2;1.0
+23;Jämtlands län;2326;Berg;2519;Berg;1;1.0
+23;Jämtlands län;2326;Berg;2531;Hackås;1;1.0
+23;Jämtlands län;2326;Berg;2541;Klövsjö;1;1.0
+23;Jämtlands län;2326;Berg;2551;Myssjö;1;1.0
+23;Jämtlands län;2326;Berg;2558;Oviken;1;1.0
+23;Jämtlands län;2326;Berg;2561;Rätan;1;1.0
+23;Jämtlands län;2326;Berg;2563;Storsjö;1;1.0
+23;Jämtlands län;2326;Berg;2577;Åsarne;1;1.0
+23;Jämtlands län;2305;Bräcke;2520;Bodsjö;1;1.0
+23;Jämtlands län;2305;Bräcke;2524;Bräcke;1;1.0
+23;Jämtlands län;2305;Bräcke;2538;Hällesjö;1;1.0
+23;Jämtlands län;2305;Bräcke;2536;Håsjö;1;1.0
+23;Jämtlands län;2305;Bräcke;2554;Nyhem;1;1.0
+23;Jämtlands län;2305;Bräcke;2560;Revsund;1;1.0
+23;Jämtlands län;2305;Bräcke;2567;Sundsjö;1;1.0
+23;Jämtlands län;2361;Härjedalen;2534;Hede;1;1.0
+23;Jämtlands län;2361;Härjedalen;2544;Lillhärdal;1;1.0
+23;Jämtlands län;2361;Härjedalen;2545;Linsell;1;1.0
+23;Jämtlands län;2361;Härjedalen;2569;Sveg;1;1.0
+23;Jämtlands län;2361;Härjedalen;2571;Tännäs;1;1.0
+23;Jämtlands län;2361;Härjedalen;2573;Vemdalen;1;1.0
+23;Jämtlands län;2361;Härjedalen;2574;Ytterhogdal;1;1.0
+23;Jämtlands län;2361;Härjedalen;2578;Älvros;1;1.0
+23;Jämtlands län;2361;Härjedalen;2579;Ängersjö;1;1.0
+23;Jämtlands län;2361;Härjedalen;2581;Överhogdal;1;1.0
+23;Jämtlands län;2309;Krokom;2517;Alsen;1;1.0
+23;Jämtlands län;2309;Krokom;2518;Aspås;1;1.0
+23;Jämtlands län;2309;Krokom;2529;Föllinge;1;1.0
+23;Jämtlands län;2309;Krokom;2535;Hotagen;1;1.0
+23;Jämtlands län;2309;Krokom;2543;Laxsjö;1;1.0
+23;Jämtlands län;2309;Krokom;2556;Näskott;1;1.0
+23;Jämtlands län;2309;Krokom;2557;Offerdal;1;1.0
+23;Jämtlands län;2309;Krokom;2562;Rödön;1;1.0
+23;Jämtlands län;2309;Krokom;2576;Ås;1;1.0
+23;Jämtlands län;2303;Ragunda;2522;Borgvattnet;1;1.0
+23;Jämtlands län;2303;Ragunda;2526;Fors;1;1.0
+23;Jämtlands län;2303;Ragunda;2559;Ragunda;1;1.0
+23;Jämtlands län;2303;Ragunda;2566;Stugun;1;1.0
+23;Jämtlands län;2313;Strömsund;2516;Alanäs;1;1.0
+23;Jämtlands län;2313;Strömsund;2454;Bodum;1;1.0
+23;Jämtlands län;2313;Strömsund;2460;Fjällsjö;1;1.0
+23;Jämtlands län;2313;Strömsund;2527;Frostviken;1;1.0
+23;Jämtlands län;2313;Strömsund;2530;Gåxsjö;1;1.0
+23;Jämtlands län;2313;Strömsund;2533;Hammerdal;1;1.0
+23;Jämtlands län;2313;Strömsund;2564;Ström;1;1.0
+23;Jämtlands län;2313;Strömsund;2507;Tåsjö;1;1.0
+23;Jämtlands län;2321;Åre;2532;Hallen;1;1.0
+23;Jämtlands län;2321;Åre;2540;Kall;1;1.0
+23;Jämtlands län;2321;Åre;2548;Marby;1;1.0
+23;Jämtlands län;2321;Åre;2550;Mattmar;1;1.0
+23;Jämtlands län;2321;Åre;2552;Mörsil;1;1.0
+23;Jämtlands län;2321;Åre;2572;Undersåker;1;1.0
+23;Jämtlands län;2321;Åre;2575;Åre;1;1.0
+23;Jämtlands län;2380;Östersund;2523;Brunflo;1;1.0
+23;Jämtlands län;2380;Östersund;2528;Frösö;1;1.0
+23;Jämtlands län;2380;Östersund;2537;Häggenås;1;1.0
+23;Jämtlands län;2380;Östersund;2542;Kyrkås;1;1.0
+23;Jämtlands län;2380;Östersund;2546;Lit;1;1.0
+23;Jämtlands län;2380;Östersund;2547;Lockne;1;1.0
+23;Jämtlands län;2380;Östersund;2549;Marieby;1;1.0
+23;Jämtlands län;2380;Östersund;2553;Norderön;1;0.999
+23;Jämtlands län;2380;Östersund;2555;Näs;1;1.0
+23;Jämtlands län;2380;Östersund;2568;Sunne;1;1.0
+23;Jämtlands län;2380;Östersund;2580;Östersund;2;1.0
+24;Västerbottens län;2403;Bjurholm;0130;Bjurholm;1;1.0
+24;Västerbottens län;2425;Dorotea;0136;Dorotea;1;0.999
+24;Västerbottens län;2481;Lycksele;4028;Lycksele;2;1.0
+24;Västerbottens län;2481;Lycksele;0143;Lycksele;1;1.0
+24;Västerbottens län;2481;Lycksele;0159;Örträsk;1;0.998
+24;Västerbottens län;2418;Malå;0145;Malå;1;1.0
+24;Västerbottens län;2401;Nordmaling;0146;Nordmaling;1;1.0
+24;Västerbottens län;2417;Norsjö;0147;Norsjö;1;1.0
+24;Västerbottens län;2409;Robertsfors;0133;Bygdeå;1;1.0
+24;Västerbottens län;2409;Robertsfors;0148;Nysätra;1;1.0
+24;Västerbottens län;2482;Skellefteå;0131;Bureå;1;1.0
+24;Västerbottens län;2482;Skellefteå;0132;Burträsk;1;1.0
+24;Västerbottens län;2482;Skellefteå;0134;Byske;1;1.0
+24;Västerbottens län;2482;Skellefteå;0141;Jörn;1;1.0
+24;Västerbottens län;2482;Skellefteå;0144;Lövånger;1;1.0
+24;Västerbottens län;2482;Skellefteå;0150;Skellefteå;2;1.0
+24;Västerbottens län;2482;Skellefteå;0149;Skellefteå;1;1.0
+24;Västerbottens län;2422;Sorsele;0151;Sorsele;1;1.0
+24;Västerbottens län;2421;Storuman;0152;Stensele;1;1.0
+24;Västerbottens län;2421;Storuman;0154;Tärna;1;1.0
+24;Västerbottens län;2480;Umeå;4124;Backen;1;1.0
+24;Västerbottens län;2480;Umeå;0139;Holmön;1;1.0
+24;Västerbottens län;2480;Umeå;0140;Hörnefors;1;1.0
+24;Västerbottens län;2480;Umeå;0153;Sävar;1;1.0
+24;Västerbottens län;2480;Umeå;0142;Umeå;1;0.999
+24;Västerbottens län;2480;Umeå;0155;Umeå;2;1.0
+24;Västerbottens län;2462;Vilhelmina;0156;Vilhelmina;1;1.0
+24;Västerbottens län;2404;Vindeln;0135;Degerfors;1;1.0
+24;Västerbottens län;2460;Vännäs;0157;Vännäs;1;1.0
+24;Västerbottens län;2463;Åsele;0137;Fredrika;1;1.0
+24;Västerbottens län;2463;Åsele;0158;Åsele;1;1.0
+25;Norrbottens län;2506;Arjeplog;0160;Arjeplog;1;1.0
+25;Norrbottens län;2505;Arvidsjaur;0161;Arvidsjaur;1;1.0
+25;Norrbottens län;2582;Boden;0163;Boden;2;1.0
+25;Norrbottens län;2582;Boden;0164;Edefors;1;1.0
+25;Norrbottens län;2582;Boden;0190;Råneå;1;0.516
+25;Norrbottens län;2582;Boden;0198;Överluleå;1;1.0
+25;Norrbottens län;2523;Gällivare;0165;Gällivare;1;1.0
+25;Norrbottens län;2583;Haparanda;0168;Haparanda;2;1.0
+25;Norrbottens län;2583;Haparanda;0177;Karl Gustav;1;1.0
+25;Norrbottens län;2583;Haparanda;0186;Nedertorneå;1;1.0
+25;Norrbottens län;2510;Jokkmokk;0171;Jokkmokk;1;1.0
+25;Norrbottens län;2514;Kalix;0184;Nederkalix;1;1.0
+25;Norrbottens län;2514;Kalix;0192;Töre;1;1.0
+25;Norrbottens län;2584;Kiruna;0176;Karesuando;1;1.0
+25;Norrbottens län;2584;Kiruna;0172;Kiruna;1;1.0
+25;Norrbottens län;2584;Kiruna;0179;Kiruna;2;1.0
+25;Norrbottens län;2580;Luleå;0181;Luleå;2;1.0
+25;Norrbottens län;2580;Luleå;0185;Nederluleå;1;0.998
+25;Norrbottens län;2580;Luleå;0190;Råneå;1;0.484
+25;Norrbottens län;2521;Pajala;0173;Junosuando;1;1.0
+25;Norrbottens län;2521;Pajala;0180;Korpilombolo;1;1.0
+25;Norrbottens län;2521;Pajala;3503;Muonionalusta;1;1.0
+25;Norrbottens län;2521;Pajala;0188;Pajala;1;1.0
+25;Norrbottens län;2521;Pajala;0191;Tärendö;1;1.0
+25;Norrbottens län;2581;Piteå;0170;Hortlax;1;1.0
+25;Norrbottens län;2581;Piteå;0187;Norrfjärden;1;1.0
+25;Norrbottens län;2581;Piteå;0195;Piteå;1;1.0
+25;Norrbottens län;2581;Piteå;0189;Piteå;2;1.0
+25;Norrbottens län;2560;Älvsbyn;0193;Älvsby;1;1.0
+25;Norrbottens län;2513;Överkalix;0197;Överkalix;1;0.999
+25;Norrbottens län;2518;Övertorneå;0169;Hietaniemi;1;1.0
+25;Norrbottens län;2518;Övertorneå;0199;Övertorneå;1;0.999

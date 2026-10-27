@@ -1,0 +1,24 @@
+[general]
+name=LM Historiska kartor – hämta
+qgisMinimumVersion=3.40
+qgisMaximumVersion=4.99
+description=Sök lantmäteriakter i Lantmäteriets arkiv för ett område, gallra dem och ladda ner kartbladen som TIFF med ett register.
+version=0.1.0
+author=Karl-Johan Olofsson
+email=kaje@bahnhof.se
+about=Sök, gallra och ladda ner lantmäteriakter ur Lantmäteriets arkiv Historiska kartor.
+    Ange ett arbetsområde (indexrutor, ritad yta, objekt i ett lager eller
+    socknar på namn), bekräfta socknar och trakter, så söker pluginet akterna
+    i båda arkiven (REG och LMS), gallrar bort dem utan karta och visar resten
+    i en kontaktkarta. Behållna kartsidor laddas ned som TIFF till arkivet, och
+    ett register (GeoPackage) håller reda på akter, sidor och filer.
+    Tjänsten är Lantmäteriets egen webbsidas bakända och är inofficiell: den
+    kan ändras eller stängas utan förvarning. Pluginet är hyggligt mot den --
+    ett anrop i taget, paus mellan anropen, cache så att inget hämtas två
+    gånger -- och laddar bara ner det du själv gallrat fram.
+tracker=https://github.com/kaje-home/lm-historiska-kartor-hamta/issues
+repository=https://github.com/kaje-home/lm-historiska-kartor-hamta
+homepage=https://github.com/kaje-home/lm-historiska-kartor-hamta
+tags=lantmäteriet,historiska kartor,skifteskartor,arkiv
+category=Plugins
+experimental=True
