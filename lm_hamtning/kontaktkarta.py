@@ -68,7 +68,10 @@ TANGENT = {Qt.Key.Key_Space: "behall", Qt.Key.Key_X: "kasta",
            Qt.Key.Key_O: "osaker"}
 KNAPPAR = (("behall", "✓", "Behåll"), ("osaker", "?", "Osäker"),
            ("kasta", "✕", "Kasta"))
-HJALP = ("Klicka ✓ ? ✕ på kartan · dubbelklick förstorar · "
+# Första raden: Anna 2026-10-27 tog förhandsbilderna för nedladdningen
+HJALP = ("Bilderna är små förhandsbilder. Markera ✓ Behåll på de akter du vill ha; "
+         "kartorna i full upplösning hämtar du sedan med knappen Ladda ned de kartor du behållit.\n"
+         "Klicka ✓ ? ✕ på kartan · dubbelklick förstorar · "
          "högerklick meny\n"
          "Tangenter: pilar · mellanslag behåll · o osäker · x kasta · "
          "Enter förstora · PgUp/PgDn vy")

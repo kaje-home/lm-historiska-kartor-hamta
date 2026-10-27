@@ -76,6 +76,7 @@ def uttagets_omrade(sokvag: str) -> str | None:
 
 def standardklient(inst) -> Klient:
     """Klienten mot tjansten, med cachen ur installningarna."""
+    _inst.markera_cache(inst.cachekatalog)
     return Klient(transport=QgisTransport(), cache=inst.cachekatalog or None)
 
 
@@ -624,19 +625,22 @@ class GallraDialog(QDialog):
 
     # ------------------------------------------------------------ steg 3
     def _steg3(self) -> QGroupBox:
-        g = QGroupBox("3. Gallra")
+        g = QGroupBox("3. Sök, välj och ladda ned" if variant.BARA_HAMTNING else "3. Gallra")
         lay = QVBoxLayout(g)
         rad = QHBoxLayout()
-        self.gallra_knapp = QPushButton("Gallra och visa kontaktkartan")
+        # Knapparna säger ordningen. Anna 2026-10-27, första användaren: tog kontaktkartans
+        # förhandsbilder för nedladdningen, "funderade å vad skillnaden mellan de knapparna var"
+        self.gallra_knapp = QPushButton("Sök akter och visa kontaktkartan")
         self.gallra_knapp.clicked.connect(self._gallra)
         self.avbryt_knapp = QPushButton("Avbryt")
         self.avbryt_knapp.setEnabled(False)
         self.avbryt_knapp.clicked.connect(self._avbryt)
-        self.ladda_knapp = QPushButton("Ladda ned behållna kartsidor")
+        self.ladda_knapp = QPushButton("Ladda ned de kartor du behållit")
         self.ladda_knapp.setToolTip(
-            "Kartsidorna i akter med beslutet Behåll hämtas som TIFF, lagras "
-            "förlustfritt (ZSTD) i arkivet under kartor/<socken>/ och förs in i "
-            "registret. Redan hämtade sidor hoppas över. Ca 10 s per sida.")
+            "Kartsidorna i akter du markerat Behåll i kontaktkartan hämtas i full "
+            "upplösning som TIFF, lagras förlustfritt (ZSTD) i arkivet under "
+            "kartor/<socken>/ och förs in i registret. Redan hämtade sidor hoppas "
+            "över. Ca 10 s per sida.")
         self.ladda_knapp.clicked.connect(self._ladda_ned)
         self.aven_textakt = QCheckBox("även textakten")
         self.aven_textakt.setToolTip("Varje behållen akts textsidor -- protokoll, beskrivning, beslut -- "
@@ -698,6 +702,12 @@ class GallraDialog(QDialog):
         typrad.addStretch(1)
         lay.addLayout(typrad)
         lay.addLayout(rad)
+        ordning = QLabel("Först Sök akter, sedan ✓ Behåll i kontaktkartan, sist Ladda ned. "
+                         "Kontaktkartan visar små förhandsbilder; kartorna i full upplösning "
+                         "hämtas av Ladda ned, som TIFF till kartor/<socken>/ i arkivmappen.")
+        ordning.setStyleSheet("color: gray")
+        ordning.setWordWrap(True)
+        lay.addWidget(ordning)
         self.forlopp = QProgressBar()
         self.forlopp.setRange(0, 100)
         self.status = QLabel()
@@ -1464,14 +1474,35 @@ class GallraDialog(QDialog):
             delar.append(f"{_antal(len(n.textakt_fel), 'textakt', 'textakter')} misslyckades")
         if n.avbrutet:
             delar.append("avbrutet — fortsätter där det slutade nästa gång")
-        if not (n.hamtade or n.aterfunna or n.fel):
-            delar = ["Inga nya kartsidor att ladda ned — alla behållna finns redan."]
-        self.status.setText(" · ".join(delar) + "\n"
-                            + os.path.join(self.inst.arkiv, "kartor"))
+        mapp = os.path.join(self.inst.arkiv, "kartor")
+        inget_behallet = getattr(n, "behallna", 1) == 0 and not (n.hamtade or n.aterfunna or n.fel)
+        if inget_behallet:
+            delar = ["Inga akter är markerade Behåll, så det finns inget att ladda ned."]
+        elif not (n.hamtade or n.aterfunna or n.fel):
+            delar = ["Inga nya kartsidor att ladda ned: alla behållna finns redan."]
+        self.status.setText(" · ".join(delar) + "\n" + mapp)
         alla_fel = list(n.fel) + list(getattr(n, "textakt_fel", []))
         self.status.setToolTip("\n".join(alla_fel))
         if alla_fel:
             QMessageBox.warning(self, "Några sidor misslyckades", "\n".join(alla_fel[:15]))
+        # Beskedet som ruta med knappen till mappen, som Spara listan (Anna 2026-10-27:
+        # hittade inte kartorna utan tog förhandsbilderna i tjanstecache)
+        ruta = QMessageBox(self)
+        ruta.setWindowTitle("Ladda ned")
+        if inget_behallet:
+            ruta.setText("Inga akter är markerade Behåll.\n\nTryck Sök akter och visa kontaktkartan, "
+                         "markera de akter du vill ha med ✓ Behåll, och tryck sedan Ladda ned igen.")
+            ruta.addButton(QMessageBox.StandardButton.Ok)
+            ruta.exec()
+            return
+        ruta.setText(" · ".join(delar) + f"\n\nKartorna ligger som TIFF i\n{mapp}\nen mapp per socken, "
+                     "med åtgärd, år och beteckning i filnamnet.")
+        oppna = ruta.addButton("Öppna mappen", QMessageBox.ButtonRole.ActionRole) if os.path.isdir(mapp) else None
+        ruta.addButton(QMessageBox.StandardButton.Ok)
+        ruta.exec()
+        if oppna is not None and ruta.clickedButton() is oppna:
+            from .kontaktkarta import oppna_fil
+            oppna_fil(mapp)
 
     # ------------------------------------------------------------- jobb
     def _starta(self, namn: str, funktion, klar) -> None:

@@ -51,12 +51,15 @@ class Nedladdat:
     avbrutet: bool = False
     textakter: int = 0                                     # textakter sparade (steg.ladda_ned)
     textakt_fel: list[str] = field(default_factory=list)
+    behallna: int = 0                                      # akter med beslutet behall (dialogens besked)
 
 
 def ladda_ned(arkiv: str, cache: str, klient, register, mall: str = MALL,
               framsteg=None, avbruten=None) -> Nedladdat:
     ut = Nedladdat()
-    arbete = [(a, s) for a in register.behallna_akter()
+    akter = register.behallna_akter()
+    ut.behallna = len(akter)
+    arbete = [(a, s) for a in akter
               for s in register.kartsidor_utan_fil(a["nyckel"])]
     for i, (a, s) in enumerate(arbete):
         if avbruten is not None and avbruten():

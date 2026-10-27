@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <plugins>
-  <pyqgis_plugin name="LM Historiska kartor – hämta" version="0.1.1">
+  <pyqgis_plugin name="LM Historiska kartor – hämta" version="0.1.2">
     <description>Fristående tillägg (inte från Lantmäteriet): sök lantmäteriakter i arkivet Historiska kartor för ett område, gallra dem och ladda ner kartbladen som TIFF med ett register.</description>
     <about>Fristående tillägg, inte från Lantmäteriet. Söker, gallrar och laddar ner lantmäteriakter ur Lantmäteriets arkiv Historiska kartor. Hämtningsdelen av ett större verktyg för rektifiering av historiska kartor som fortfarande byggs; rektifieringen kommer senare som ett eget tillägg.
 Ange ett arbetsområde (indexrutor, ritad yta, objekt i ett lager eller
@@ -12,13 +12,13 @@ Tjänsten är Lantmäteriets egen webbsidas bakända och är inofficiell: den
 kan ändras eller stängas utan förvarning. Pluginet är hyggligt mot den --
 ett anrop i taget, paus mellan anropen, cache så att inget hämtas två
 gånger -- och laddar bara ner det du själv gallrat fram.</about>
-    <version>0.1.1</version>
+    <version>0.1.2</version>
     <qgis_minimum_version>3.40</qgis_minimum_version>
     <qgis_maximum_version>4.99</qgis_maximum_version>
     <homepage>https://github.com/kaje-home/lm-historiska-kartor-hamta</homepage>
     <file_name>lm_hamtning.zip</file_name>
     <author_name>Karl-Johan Olofsson</author_name>
-    <download_url>https://github.com/kaje-home/lm-historiska-kartor-hamta/releases/download/v0.1.1/lm_hamtning.zip</download_url>
+    <download_url>https://github.com/kaje-home/lm-historiska-kartor-hamta/releases/download/v0.1.2/lm_hamtning.zip</download_url>
     <uploaded_by>kaje-home</uploaded_by>
     <create_date>2026-10-27</create_date>
     <update_date>2026-10-27</update_date>

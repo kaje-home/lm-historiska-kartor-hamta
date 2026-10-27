@@ -19,8 +19,49 @@ from dataclasses import dataclass, field, fields
 from .fastighet import ar_fil as _ar_fastighetsfil
 from .kommuner import ar_kommunfil as _ar_kommunfil
 from .ortnamn import registret as _ortnamnsregistret
+from . import variant
 
 PREFIX = "lm_historiska_kartor/"
+
+# En textfil i tjänstecachen som säger vad mappen är. Anna 2026-10-27, första
+# användaren: tog miniatyrerna i tjanstecache/miniatyrer (JPG, 20 dpi, tekniska namn)
+# för de nedladdade kartorna -- "bildkvalitet kass", "tappar aktnamnet".
+LAS_MIG_CACHE = "LÄS MIG.txt"
+TEXT_CACHE = """Det här är pluginets arbetsfiler (LM Historiska kartor).
+
+Här ligger kontaktkartans små förhandsbilder (mappen miniatyrer: JPG i låg
+upplösning med tekniska namn) och svar från Lantmäteriets tjänster, så att
+inget behöver hämtas två gånger. Inget här är till för att öppnas i QGIS.
+
+Kartorna i full upplösning hamnar inte här. De hämtas av knappen Ladda ned
+i pluginet, sedan du markerat Behåll i kontaktkartan, och läggs som TIFF i
+mappen kartor i arkivmappen, en undermapp per socken, med åtgärd, år och
+aktbeteckning i filnamnet.
+"""
+TEXT_CACHE_HAMTNING = """
+Mappen kan tas bort när du vill; pluginet bygger upp den igen vid behov,
+men då hämtas förhandsbilderna om.
+"""
+TEXT_CACHE_HELA = """
+Hela verktyget har också sina arbetsfiler här: automatikens historik, lästa
+kartor, passpunkter. Ta inte bort mappen i onödan.
+"""
+
+
+def markera_cache(katalog: str) -> None:
+    """Skriver LÄS MIG.txt i tjänstecachen om den saknas. Fel ignoreras: cachen
+    är inget krav och texten är bara en upplysning."""
+    if not katalog:
+        return
+    fil = os.path.join(katalog, LAS_MIG_CACHE)
+    if os.path.exists(fil):
+        return
+    try:
+        os.makedirs(katalog, exist_ok=True)
+        with open(fil, "w", encoding="utf-8") as f:
+            f.write(TEXT_CACHE + (TEXT_CACHE_HAMTNING if variant.BARA_HAMTNING else TEXT_CACHE_HELA))
+    except OSError:
+        pass
 
 
 @dataclass
