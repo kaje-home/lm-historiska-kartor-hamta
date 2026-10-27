@@ -81,6 +81,15 @@ def oppna_fil(fil: str) -> None:
     QDesktopServices.openUrl(QUrl.fromLocalFile(fil))
 
 
+def kopiera_kallhanvisning(akt) -> str:
+    """Kartarkiv, karttyp och kartakt till urklipp (tjanst.kallhanvisning). -> texten."""
+    from qgis.PyQt.QtWidgets import QApplication
+    from .tjanst import kallhanvisning_for
+    t = kallhanvisning_for(akt)
+    QApplication.clipboard().setText(t)
+    return t
+
+
 def text_for(k) -> str:
     a = k.akt
     rad1 = f"{a.ar or '–'} {', '.join(a.atgarder) or ''}".strip()
@@ -342,6 +351,7 @@ class Forstoring(QDialog):
         m.addSeparator()
         m.addAction("Öppna akten som PDF hos Lantmäteriet", self._oppna_hos_lantmateriet)
         m.addAction("Öppna akten på Lantmäteriets webbsida", lambda: self._oppna_hos_lantmateriet(webb=True))
+        m.addAction("Kopiera källhänvisning", lambda: kopiera_kallhanvisning(self.k.akt))
         m.addSeparator()
         m.addAction("Stäng", self.reject)
         return m
@@ -849,6 +859,8 @@ class Kontaktkarta(QDockWidget):
             m.addSeparator()
             m.addAction("Öppna akten som PDF hos Lantmäteriet", lambda: self._oppna_hos_lantmateriet(k))
             m.addAction("Öppna akten på Lantmäteriets webbsida", lambda: self._oppna_hos_lantmateriet(k, webb=True))
+            m.addAction("Kopiera källhänvisning", lambda: self.status.setText(
+                "Kopierat till urklipp: " + kopiera_kallhanvisning(k.akt).replace("\n", " · ")))
         m.exec(self.lista.viewport().mapToGlobal(pos))
 
     def _oppna_hos_lantmateriet(self, k, webb: bool = False) -> None:

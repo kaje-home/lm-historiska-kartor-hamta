@@ -87,7 +87,10 @@ class Installningar:
     def fastighetsfiler(self, koder=None) -> list[str]:
         """Fastighetsindelningens geopackage (fastighet.py): arkivets referens/fastighetsindelning
         (hämtade med kontot) och de i referensdatan (nedladdade för hand, `hitta`). `koder`:
-        bara de kommunerna (kn2380 i filnamnet); tomt = alla."""
+        bara de kommunerna (kn2380 i filnamnet); tomt = alla. En fil utan kommunkod i namnet
+        (levererad per län eller omdöpt) läses alltid (användaren 2026-10-27: "är väl län
+        och inte kommun?" -- produkten är per kommun, men namnet ska inte avgöra)."""
+        import re
         from .fastighet import filer as _fastighetsfiler
         ut = _fastighetsfiler(os.path.join(self.arkiv, "referens")) if self.arkiv else []
         setts = {os.path.normcase(os.path.abspath(f)) for f in ut}
@@ -95,7 +98,8 @@ class Installningar:
             if os.path.normcase(os.path.abspath(f)) not in setts:
                 ut.append(f)
         if koder:
-            ut = [f for f in ut if any(f"kn{k}" in os.path.basename(f).lower() for k in koder)]
+            ut = [f for f in ut if not re.search(r"kn\d{4}", os.path.basename(f).lower())
+                  or any(f"kn{k}" in os.path.basename(f).lower() for k in koder)]
         return ut
 
     def saknas(self) -> list[str]:

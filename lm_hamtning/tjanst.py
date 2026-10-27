@@ -136,6 +136,23 @@ def url_pdf(akt: "Akt") -> str:
             + urlencode({"archive": akt.bas, "id": _akt_id(akt)}))
 
 
+ARKIVNAMN = {REG: "Lantmäterimyndigheternas arkiv", LMS: "Lantmäteristyrelsens arkiv"}
+
+
+def kallhanvisning(arkiv: str, beteckning: str, atgard: str | None, ar: int | None) -> str:
+    """Kartan som källa, tre rader: kartarkiv, karttyp och kartakt med år -- den form
+    Fornreg vill ha (användaren 2026-10-27: "när man registrerar lämningar i Fornreg ska
+    det se ut som detta"), men allmän nog för en fotnot. Karttypen är aktens första
+    åtgärd som arkivet skriver den."""
+    typ = (atgard or "").split(";")[0].strip() or "Okänd"
+    return (f"Kartarkiv: {ARKIVNAMN.get(arkiv, arkiv)}\nKarttyp: {typ}\n"
+            f"Kartakt: {beteckning}" + (f"/{ar}" if ar else ""))
+
+
+def kallhanvisning_for(akt: "Akt") -> str:
+    return kallhanvisning(akt.arkiv, akt.beteckning, "; ".join(akt.atgarder or []), akt.ar)
+
+
 def url_webb(akt: "Akt") -> str:
     """Akten i webbsidans egen visare (adressen kartlagd i webbläsaren 2026-10-27):
     sex led efter /hk/viewer/internal -- id som i bildtjänsten, ktun, delarkivet,

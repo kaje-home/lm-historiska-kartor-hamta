@@ -342,21 +342,22 @@ def gallra(klient, register, socknar, trakter: dict[str, list[str]] | None = Non
 # ------------------------------------------------------------------ listan
 CSV_RUBRIKER = ("arkiv", "beteckning", "år", "åtgärder", "socken", "trakter", "kartsidor", "sidor",
                 "kvar", "varför inte", "osäker", "länk till akten (PDF hos Lantmäteriet)",
-                "länk till akten (Lantmäteriets webbsida)")
+                "länk till akten (Lantmäteriets webbsida)", "källhänvisning")
 
 
 def csv_rader(kandidater) -> list[list[str]]:
     """Gallringens akter som rader till en CSV-fil (användaren 2026-10-26: "många vill
     bara ha inventeringen"). Länkarna är aktens PDF i Lantmäteriets bildtjänst och
     akten i webbsidans visare (tjanst.url_webb, 2026-10-27)."""
-    from .tjanst import url_pdf, url_webb
+    from .tjanst import kallhanvisning_for, url_pdf, url_webb
     ut = []
     for k in kandidater:
         a = k.akt
         ut.append([a.arkiv, a.beteckning, str(a.ar or ""), "; ".join(a.atgarder or []), a.socken or "",
                    "; ".join(a.trakter or []), str(getattr(a, "antal_kartsidor", None) or ""),
                    str(a.antal_sidor or ""), "ja" if k.kvar else "nej", k.utgallrad or "",
-                   "ja" if k.osaker else "", url_pdf(a), url_webb(a)])
+                   "ja" if k.osaker else "", url_pdf(a), url_webb(a),
+                   kallhanvisning_for(a).replace("\n", " · ")])    # en rad i cellen, utan CSV:ns semikolon
     return ut
 
 
