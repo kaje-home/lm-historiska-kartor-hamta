@@ -3,7 +3,7 @@ name=LM Historiska kartor – hämta
 qgisMinimumVersion=3.40
 qgisMaximumVersion=4.99
 description=Fristående tillägg (inte från Lantmäteriet): sök lantmäteriakter i arkivet Historiska kartor för ett område, gallra dem och ladda ner kartbladen som TIFF med ett register.
-version=0.1.2
+version=0.1.3
 author=Karl-Johan Olofsson
 email=kaje@bahnhof.se
 about=Fristående tillägg, inte från Lantmäteriet. Söker, gallrar och laddar ner lantmäteriakter ur Lantmäteriets arkiv Historiska kartor. Hämtningsdelen av ett större verktyg för rektifiering av historiska kartor som fortfarande byggs; rektifieringen kommer senare som ett eget tillägg.
@@ -19,7 +19,9 @@ about=Fristående tillägg, inte från Lantmäteriet. Söker, gallrar och laddar
 tracker=https://github.com/kaje-home/lm-historiska-kartor-hamta/issues
 repository=https://github.com/kaje-home/lm-historiska-kartor-hamta
 homepage=https://github.com/kaje-home/lm-historiska-kartor-hamta
-changelog=0.1.2 (2026-10-27)
+changelog=0.1.3 (2026-10-28)
+    - Inställningar: ett tomt fält visar i grått vad pluginet hittat och använder (Tjänstecache, Socken och stad, Kommun, län och rike, Ortnamnsregistret), i stället för att se ut som om något saknas.
+    0.1.2 (2026-10-27)
     - Knapparna säger ordningen: Sök akter och visa kontaktkartan, sedan Ladda ned de kartor du behållit; en rad under förklarar att kontaktkartans bilder är förhandsbilder.
     - Efter nedladdningen visas var kartorna hamnade, med knappen Öppna mappen, och ett tydligt besked när inga akter är markerade Behåll.
     - En textfil i tjanstecache säger att mappen är arbetsfiler och var kartorna ligger; kontaktkartan säger detsamma.

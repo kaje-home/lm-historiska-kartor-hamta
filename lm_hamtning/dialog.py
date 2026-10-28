@@ -223,6 +223,15 @@ class ValjSocknarDialog(QDialog):
 from . import variant  # noqa: E402
 
 
+def gra_text(cache: str, socken_och_stad: str, lan: str, ortnamn_mapp: str) -> dict:
+    """Den grå texten i inställningsdialogens tomma fält: det pluginet använder när fältet
+    lämnas tomt. {fält: text}"""
+    def hittat(sokvag: str) -> str:
+        return f"hittas: {sokvag}" if sokvag else "hittas inte"
+    return {"cache": f"i arkivet: {cache}" if cache else "i arkivet (välj arkivet först)",
+            "socken_och_stad": hittat(socken_och_stad), "lan": hittat(lan), "ortnamn": hittat(ortnamn_mapp)}
+
+
 class InstallningarDialog(QDialog):
     def __init__(self, inst: _inst.Installningar, parent=None):
         super().__init__(parent)
@@ -277,6 +286,9 @@ class InstallningarDialog(QDialog):
         lay.addWidget(self.hittat)
         lay.addWidget(knappar)
         self.resize(760, 0)
+        # den grå texten i de tomma fälten följer arkivet och referensdatan
+        for namn in ("arkiv", "referensdata"):
+            self.falt[namn].editingFinished.connect(self._leta)
         self._leta()
 
     def _valj(self, falt: QLineEdit, mapp) -> None:
@@ -320,6 +332,13 @@ class InstallningarDialog(QDialog):
         if r.traktlager and not self.falt["traktlager"].text():
             self.falt["traktlager"].setText(r.traktlager[0])
         self.hittat.setText("\n".join(rader))
+        # Det som letas upp står grått i det tomma fältet (användaren 2026-10-28: "varför står
+        # bl.a. ortnamnsregistret tomt i den ena?" -- Kom igång visade sökvägen, Inställningar
+        # ett tomt fält). Fältet förblir tomt, så att uppletandet fortsätter att gälla.
+        cache = os.path.join(arkiv, "tjanstecache") if arkiv else ""
+        for namn, vad in gra_text(cache, r.socken_och_stad, r.lan or lan_i_arkivet,
+                                  os.path.dirname(reg) if reg else "").items():
+            self.falt[namn].setPlaceholderText(vad)
 
     @staticmethod
     def _kontoval(inst) -> QComboBox:

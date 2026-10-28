@@ -79,6 +79,8 @@ Därefter visar fliken *Uppgraderingsbara* när en ny version finns, och ett kli
 
 ## Vanliga frågor
 
+**Fälten i Inställningar är tomma, men Kom igång visar sökvägar. Saknas något?** Nej. Ett tomt fält betyder att pluginet letar upp det själv, och det som hittas står i grått i fältet (*hittas: …*), under *Leta upp i referensdatan* och i Kom igång. Står det *hittas inte* saknas filen. Skriv bara i fältet om du vill använda något annat än det som hittas.
+
 **Jag valde socknar på namn och tryckte på knappen, men inget hämtas.** Rätt: då fylls listan i steg 2 ur arkivets vokabulär, som pluginet redan har. Knappen heter därför *Visa socknarna*. Akterna hämtas först när du trycker *Sök akter och visa kontaktkartan*.
 
 **Vad är en trakt, och varför kan jag inte bocka i både ”alla akter i socknen” och en trakt?** En trakt är ett byområde som arkivet sorterar akterna under, ungefär en by med sin utmark. ”Alla akter i socknen” betyder hela socknen; enskilda trakter smalnar av. De två utesluter varandra, annars skulle ”alla” tyst vinna.

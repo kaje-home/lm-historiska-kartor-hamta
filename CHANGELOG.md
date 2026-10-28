@@ -1,5 +1,9 @@
 # Ändringar
 
+## 0.1.3 (2026-10-28)
+
+- Inställningar: ett tomt fält visar i grått vad pluginet hittat och använder (Tjänstecache, Socken och stad, Kommun, län och rike, Ortnamnsregistret), i stället för att se ut som om något saknas.
+
 ## 0.1.2 (2026-10-27)
 
 - Knapparna säger ordningen: Sök akter och visa kontaktkartan, sedan Ladda ned de kartor du behållit; en rad under förklarar att kontaktkartans bilder är förhandsbilder.
