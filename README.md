@@ -17,7 +17,7 @@ En zip-fil som installeras i QGIS, se Snabbstart här nedanför.
 
 Allt annat är valfritt. Kom igång säger vad som saknas.
 
-**QGIS-versioner:** provat i QGIS 3.44 på Windows; kräver 3.40 eller nyare. QGIS 4 är anpassat från version 0.1.4 men ännu inte provat hela vägen – säg gärna till under *Issues* om något inte fungerar.
+**QGIS-versioner:** provat i QGIS 3.44 och QGIS 4.2.3 på Windows (sökning och hämtning av kartor); kräver 3.40 eller nyare. Säg gärna till under *Issues* om något inte fungerar i din version.
 
 ## Läs detta först
 

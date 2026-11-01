@@ -237,6 +237,14 @@ def foljer_omdirigeringar(beg) -> None:
                      QNetworkRequest.RedirectPolicy.NoLessSafeRedirectPolicy)
 
 
+def natfel(fel) -> bool:
+    """Gick anropet fel? `fel` ur svarets error(). I Qt6 (QGIS 4) är Qt:s enum
+    Python-enum, och NoError är sann: `if svar.error()` gav fel på varje svar, också
+    status 200 med "Okänt fel" (ärende 2 på GitHub 2026-11-01). Jämför med NoError."""
+    from qgis.PyQt.QtNetwork import QNetworkReply
+    return fel != QNetworkReply.NetworkError.NoError
+
+
 class QgisTransport:
     """Anrop genom QGIS natverkslager, sa att proxyinstallningar foljer med.
 
@@ -270,7 +278,7 @@ class QgisTransport:
                             QNetworkReply.NetworkError.OperationCanceledError):
             raise Tidsgrans(f"Historiska kartor svarade inte på {self.tidsgrans_s} s: "
                             f"{svar.errorString()}\n{url}")
-        if svar.error() or (status and int(status) >= 400):
+        if natfel(svar.error()) or (status and int(status) >= 400):
             raise TjanstFel(f"Historiska kartor svarade inte ({status or '–'}): "
                             f"{svar.errorString()}\n{url}")
         return bytes(svar.content())

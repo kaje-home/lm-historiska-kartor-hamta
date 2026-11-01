@@ -1,5 +1,9 @@
 # Ändringar
 
+## 0.1.5 (2026-11-01)
+
+- QGIS 4 (Qt6): Sök och hämta fastnade på vokabulären med "svarade inte (200): Okänt fel". Svaret räknades som fel fast det kom fram, eftersom "inget fel" ser ut som ett fel i Qt6 (ärende 2).
+
 ## 0.1.4 (2026-11-01)
 
 - Kommun, län och rike behövs inte längre: länet för varje socken tas ur tabellen som följer med pluginet. Kom igång bad om en fil som Lantmäteriet inte levererar som fil (ärende 1).
