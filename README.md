@@ -1,5 +1,34 @@
 # LM Historiska kartor – hämta
 
+Sök lantmäteriakter i Lantmäteriets arkiv Historiska kartor för en socken eller ett område, välj de kartor du vill ha i en kontaktkarta, och ladda ner dem till din dator för att använda i QGIS.
+
+![Kontaktkartan: miniatyrer av kartorna i en socken, de valda inramade i grönt](docs/kontaktkartan.png)
+
+## ⬇️ [Ladda ner senaste versionen](https://github.com/kaje-home/lm-historiska-kartor-hamta/releases/latest/download/lm_hamtning.zip)
+
+En zip-fil som installeras i QGIS, se Snabbstart här nedanför.
+
+## Snabbstart
+
+1. **Installera.** Ladda ner zip-filen ovan. Öppna QGIS och välj **Insticksprogram → Hantera och installera insticksprogram…**, fliken **Installera från ZIP**. Peka på filen och tryck *Installera insticksprogram*.
+2. **Kom igång.** Välj **Insticksprogram → Historiska kartor (hämta) → Kom igång…** och välj en arkivmapp **utanför OneDrive**, till exempel `C:\HistoriskaKartor`. Där hamnar kartorna.
+3. **Socken och stad.** Tryck *Öppna Geotorget* på raden Socken och stad i Kom igång och ladda ner *Socken och stad Nedladdning, vektor* för hela Sverige (gratis; du behöver ett Geotorget-konto, som också är gratis). Packa upp och lägg filen `sockenstad.gpkg` i mappen Referensdata.
+4. **Sök och hämta.** Välj **Insticksprogram → Historiska kartor (hämta) → Sök och hämta…**. Välj *Socknar på namn*, skriv socknen och tryck *Lägg till* och *Visa socknarna*. Tryck **Sök akter och visa kontaktkartan**, bocka ✓ **Behåll** på de kartor du vill ha och tryck **Ladda ned de kartor du behållit**.
+
+Allt annat är valfritt. Kom igång säger vad som saknas.
+
+**QGIS-versioner:** provat i QGIS 3.44 på Windows; kräver 3.40 eller nyare. QGIS 4 är anpassat från version 0.1.4 men ännu inte provat hela vägen – säg gärna till under *Issues* om något inte fungerar.
+
+## Läs detta först
+
+**Tjänsten är inofficiell.** Pluginet pratar med samma bakända som webbsidan [historiskakartor.lantmateriet.se](https://historiskakartor.lantmateriet.se) själv använder. Det finns inget offentligt gränssnitt för det här, och Lantmäteriet kan ändra eller stänga tjänsten när som helst utan förvarning. Då slutar pluginet fungera tills det är anpassat. Allt som rör tjänsten ligger i en enda modul (`tjanst.py`), så en ändring är avgränsad.
+
+**Pluginet är hyggligt mot tjänsten.** Ett anrop i taget, en paus mellan anropen, och en cache på disk så att inget hämtas två gånger. Det laddar bara ner det du själv har gallrat fram, och bara kartsidorna, inte textsidorna. Sök inte större områden än du behöver, och kör inte flera QGIS samtidigt mot tjänsten.
+
+**Villkoren för bilderna är dina att följa.** Kartorna visas fritt på Lantmäteriets webbplats; vad du får göra med nedladdade bilder styrs av Lantmäteriets villkor för Historiska kartor. Kolla dem innan du sprider bilder vidare.
+
+## Om pluginet
+
 Ett tillägg till QGIS som söker lantmäteriakter i Lantmäteriets arkiv Historiska kartor för ett område, låter dig gallra dem och laddar ner kartbladen som TIFF till ett arkiv med register. Det är ett fristående tillägg, inte från Lantmäteriet: frågor om pluginet hör hemma i förrådets ärenden på GitHub, inte hos Lantmäteriets support. Det kräver QGIS 3.40 eller nyare.
 
 Det här är hämtningsdelen av ett större verktyg för att rektifiera historiska kartor i QGIS, som fortfarande byggs. Den här delen går att använda för sig redan nu; rektifieringen kommer senare som ett eget tillägg.
@@ -21,14 +50,6 @@ Vill du få nya versioner som vanliga uppdateringar i QGIS, i stället för att 
 3. Tryck **Lägg till…** under *Förråd av insticksprogram*. Namn: `Historiska kartor`. Adress: `https://raw.githubusercontent.com/kaje-home/lm-historiska-kartor-hamta/main/plugins.xml`. Tryck OK.
 
 Därefter visar fliken *Uppgraderingsbara* när en ny version finns, och ett klick installerar den. Ändringarna version för version står i `CHANGELOG.md`.
-
-## Läs detta först
-
-**Tjänsten är inofficiell.** Pluginet pratar med samma bakända som webbsidan [historiskakartor.lantmateriet.se](https://historiskakartor.lantmateriet.se) själv använder. Det finns inget offentligt gränssnitt för det här, och Lantmäteriet kan ändra eller stänga tjänsten när som helst utan förvarning. Då slutar pluginet fungera tills det är anpassat. Allt som rör tjänsten ligger i en enda modul (`tjanst.py`), så en ändring är avgränsad.
-
-**Pluginet är hyggligt mot tjänsten.** Ett anrop i taget, en paus mellan anropen, och en cache på disk så att inget hämtas två gånger. Det laddar bara ner det du själv har gallrat fram, och bara kartsidorna, inte textsidorna. Sök inte större områden än du behöver, och kör inte flera QGIS samtidigt mot tjänsten.
-
-**Villkoren för bilderna är dina att följa.** Kartorna visas fritt på Lantmäteriets webbplats; vad du får göra med nedladdade bilder styrs av Lantmäteriets villkor för Historiska kartor. Kolla dem innan du sprider bilder vidare.
 
 ## Första gången: Kom igång
 
