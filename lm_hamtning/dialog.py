@@ -30,9 +30,9 @@ from qgis.PyQt.QtWidgets import (QButtonGroup, QCheckBox, QComboBox, QCompleter,
                                  QProgressBar, QPushButton, QRadioButton,
                                  QTreeWidget, QTreeWidgetItem, QVBoxLayout,
                                  QWidget)
-from qgis.core import (QgsCoordinateReferenceSystem, QgsCoordinateTransform,
+from qgis.core import (Qgis, QgsCoordinateReferenceSystem, QgsCoordinateTransform,
                        QgsFeature, QgsFillSymbol, QgsGeometry,
-                       QgsMapLayerProxyModel, QgsProject, QgsSettings,
+                       QgsMessageLog, QgsProject, QgsSettings,
                        QgsVectorFileWriter, QgsVectorLayer)
 from qgis.gui import QgsMapLayerComboBox
 
@@ -45,7 +45,7 @@ from .gallra import (ANNAN_ATGARD, ANNAN_TRAKT, ANNAT_AR, INGA_KARTSIDOR, INGEN_
                      KASTAD, METADATA_FEL)
 from .kontaktkarta import GUL, Kontaktkarta
 from .register import Register
-from .tjanst import Klient, QgisTransport
+from .tjanst import Klient, QgisTransport, begripligt
 
 SWEREF = QgsCoordinateReferenceSystem("EPSG:3006")
 GRUPP = "Historiska kartor"             # lagergruppen i projektet
@@ -251,8 +251,8 @@ class InstallningarDialog(QDialog):
                 ("traktlager_sockenfalt", "  fält för socken (tomt = skärs mot Socken och stad)", "text"),
                 ("ortnamn", "Ortnamnsregister, mapp med ortnamn_se.gpkg (tomt = referensdatan eller arkivets referens/ortnamn)", True),
                 ("api_nyckel", "API-nyckel för Läs kartan (Anthropic; tomt = knappen är avstängd)", "text")):
-            if variant.BARA_HAMTNING and namn == "api_nyckel":
-                continue                                    # hämtningen för sig läser inga kartor
+            if variant.BARA_HAMTNING and namn in ("api_nyckel", "lan"):
+                continue    # hämtningen läser inga kartor, och länet tas ur kommuner.csv (ärende 1)
             rad = QHBoxLayout()
             if namn == "ortnamn" and not variant.BARA_HAMTNING:
                 # Geotorget-kontot före ortnamnsregistret: pluginets eget, så att
@@ -325,7 +325,8 @@ class InstallningarDialog(QDialog):
         reg = _inst.Installningar(arkiv=arkiv, referensdata=self.falt["referensdata"].text(),
                                   ortnamn=self.falt["ortnamn"].text()).ortnamnsregister()
         rader = [f"Socken och stad: {r.socken_och_stad or '— hittas inte'}",
-                 f"Kommun, län och rike: {lan}",
+                 f"Kommun, län och rike: {lan}" if not variant.BARA_HAMTNING else
+                 "Kommun, län och rike: behövs inte (länet tas ur pluginets medskickade tabell)",
                  f"Traktlager: {', '.join(r.traktlager) or '— inga'}",
                  f"Fastighetsindelning: {fast_text}",
                  f"Ortnamnsregistret: {reg or '— hittas inte'}"]
@@ -338,7 +339,8 @@ class InstallningarDialog(QDialog):
         cache = os.path.join(arkiv, "tjanstecache") if arkiv else ""
         for namn, vad in gra_text(cache, r.socken_och_stad, r.lan or lan_i_arkivet,
                                   os.path.dirname(reg) if reg else "").items():
-            self.falt[namn].setPlaceholderText(vad)
+            if namn in self.falt:                   # hämtningen saknar fältet lan (ärende 1)
+                self.falt[namn].setPlaceholderText(vad)
 
     @staticmethod
     def _kontoval(inst) -> QComboBox:
@@ -381,6 +383,8 @@ class GallraDialog(QDialog):
         self.inst = inst or _inst.las()
         self.klient_fabrik = klient_fabrik or (lambda: standardklient(self.inst))
         self.vok = None
+        self._vok_fel: str | None = None      # varför vokabulären inte kunde läsas (_vokabular_fel)
+        self._vok_jobb = None                  # jobbet som läser den
         self.omrade: str | None = None          # WKT i SWEREF 99 TM
         self.omrade_for_jobb: str | None = None  # området urvalet hämtades för
         self.urvalet: steg.Urval | None = None
@@ -416,7 +420,7 @@ class GallraDialog(QDialog):
 
         self.r_lager = QRadioButton("Objekt i ett polygonlager")
         self.lager = QgsMapLayerComboBox()
-        self.lager.setFilters(QgsMapLayerProxyModel.Filter.PolygonLayer)
+        self.lager.setFilters(Qgis.LayerFilter.PolygonLayer)     # QgsMapLayerProxyModel.Filter är ett gammalt namn (QGIS 4)
         self.bara_valda = QCheckBox("bara valda objekt")
         self.bara_valda.setChecked(True)
         rad = QHBoxLayout()
@@ -752,6 +756,9 @@ class GallraDialog(QDialog):
             self.r_namn.setChecked(True)
         self.gallra_knapp.setEnabled(bool(self.inst.arkiv))
         self.ladda_knapp.setEnabled(bool(self.inst.arkiv))
+        # nya inställningar (t.ex. arkivet flyttat ut ur OneDrive): läs vokabulären igen
+        if self.vok is None and self.jobb is None and self._vok_fel:
+            self._las_vokabular()
 
     def _installningar(self) -> None:
         d = InstallningarDialog(self.inst, self)
@@ -759,13 +766,55 @@ class GallraDialog(QDialog):
             self._uppdatera_saknas()
 
     # ---------------------------------------------------------- vokabular
+    # Vokabulären läses när fönstret skapas, och fönstret skapas en gång per QGIS-session.
+    # Misslyckades läsningen stod det "läses fortfarande in" vid varje Hämta tills QGIS
+    # startades om (ärende 2 på GitHub, 2026-11-01). Nu: felet står i panelen, Hämta och
+    # sparade inställningar försöker igen, och en läsning som inte blivit klar på
+    # VOK_VAKT_S släpps så att fönstret går att använda.
+    VOK_VAKT_S = 180
+
     def _las_vokabular(self) -> None:
-        self._starta("Läser arkivens socknar och trakter",
-                     lambda f, a: steg.vokabular(self.klient_fabrik(), f, a),
-                     self._vokabular_klar)
+        if self.jobb is not None:
+            return
+        self._vok_fel = None
+        self._starta("Läser arkivens socknar och trakter (en gång, sedan sparas de)",
+                     self._vokabular_jobb, self._vokabular_klar, fel=self._vokabular_fel)
+        self._vok_jobb = self.jobb
+        from qgis.PyQt.QtCore import QTimer
+        QTimer.singleShot(int(self.VOK_VAKT_S * 1000), lambda j=self.jobb: self._vokabular_vakt(j))
+
+    def _vokabular_jobb(self, framsteg, avbruten):
+        k = self.klient_fabrik()
+        try:
+            vok = steg.vokabular(k, framsteg, avbruten)
+        except Exception as e:
+            raise RuntimeError(f"{begripligt(e)}\n\n(Tekniskt: {e})") from e
+        for f in k.cachefel:        # svaret används ändå (tjanst.Klient._skriv_cache)
+            QgsMessageLog.logMessage(f"Kunde inte spara i tjänstecachen: {f}", "Historiska kartor",
+                                     Qgis.MessageLevel.Warning)
+        return vok
+
+    def _vokabular_fel(self, text: str) -> None:
+        self._vok_fel = text.split("\n\n")[0]
+        QgsMessageLog.logMessage(f"Arkivets socknar och trakter: {text}", "Historiska kartor",
+                                 Qgis.MessageLevel.Warning)
+        self.status.setText("Arkivets socknar och trakter kunde inte läsas in. " + self._vok_fel
+                            + " Tryck Hämta socknar och trakter för att försöka igen.")
+
+    def _vokabular_vakt(self, jobb) -> None:
+        """Läsningen hänger (nätet, eller en fil som OneDrive håller i molnet): släpp den,
+        så att Hämta kan försöka igen. Jobbet får gå klart i bakgrunden; svaret används
+        om det kommer."""
+        if self.jobb is not jobb or self.vok is not None:
+            return
+        self._jobb_klart()
+        self._vokabular_fel("Det har tagit mer än tre minuter. Ligger arkivet i OneDrive kan en "
+                            "fil som bara finns i molnet hålla emot; flytta i så fall arkivet "
+                            "till en mapp utanför OneDrive (Inställningar…).")
 
     def _vokabular_klar(self, vok) -> None:
         self.vok = vok
+        self._vok_fel = None
         self.namn_modell.setStringList(sorted(
             f"{s.namn} ({l.namn})" for l in vok.lan for s in l.socknar
             if s.trakter))
@@ -1066,7 +1115,10 @@ class GallraDialog(QDialog):
     # ---------------------------------------------------------- hamta
     def _hamta(self) -> None:
         if self.vok is None:
-            self.status.setText("Vokabulären läses fortfarande in …")
+            if self.jobb is not None and self.jobb is self._vok_jobb:
+                self.status.setText("Arkivets socknar och trakter läses fortfarande in …")
+            else:
+                self._las_vokabular()           # misslyckades eller släpptes: försök igen
             return
         if self.r_namn.isChecked():
             self._visa_namn()
@@ -1524,7 +1576,10 @@ class GallraDialog(QDialog):
             oppna_fil(mapp)
 
     # ------------------------------------------------------------- jobb
-    def _starta(self, namn: str, funktion, klar) -> None:
+    def _starta(self, namn: str, funktion, klar, fel=None) -> None:
+        """Kör `funktion` som bakgrundsjobb. `fel(text)` i stället för felrutan. Ett jobb
+        som släppts (_vokabular_vakt) styr inte längre fönstret när det till slut blir
+        klart, men ett resultat tas emot."""
         if self.jobb is not None:
             self.status.setText("Vänta — ett jobb pågår redan.")
             return
@@ -1534,10 +1589,25 @@ class GallraDialog(QDialog):
         for b in (self.hamta, self.gallra_knapp, self.ladda_knapp):
             b.setEnabled(False)
         j = Jobb(namn, funktion)
-        j.meddelande.connect(lambda t, a: (self.status.setText(t),
-                                           self.forlopp.setValue(int(100 * a))))
-        j.klart.connect(lambda r: (self._jobb_klart(), klar(r)))
-        j.fel.connect(self._jobb_fel)
+
+        def _klart(r, j=j):
+            if self.jobb is j:
+                self._jobb_klart()
+            klar(r)
+
+        def _fel(text, j=j):
+            if self.jobb is not j:
+                return
+            if fel is None:
+                self._jobb_fel(text)
+            else:
+                self._jobb_klart()
+                self.forlopp.setValue(0)
+                fel(text)
+        j.meddelande.connect(lambda t, a, j=j: self.jobb is j and (
+            self.status.setText(t), self.forlopp.setValue(int(100 * a))))
+        j.klart.connect(_klart)
+        j.fel.connect(_fel)
         self.jobb = j.starta()
 
     def _jobb_klart(self) -> None:

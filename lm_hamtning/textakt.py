@@ -14,6 +14,7 @@ import os
 import shutil
 
 from .nedladdning import _rent
+from .tjanst import byt_namn
 
 MALL = "{atgard}_{ar}_{beteckning}_{socken}_textakt.pdf"
 
@@ -53,7 +54,7 @@ def sidor_ur_pdf(pdf: str, sidor: list[int], mal: str) -> int:
             from pypdf import PdfReader, PdfWriter
         except ImportError:
             shutil.copyfile(pdf, tmp)
-            os.replace(tmp, mal)
+            byt_namn(tmp, mal)
             return 0
         las = PdfReader(pdf)
         skriv = PdfWriter()
@@ -62,7 +63,7 @@ def sidor_ur_pdf(pdf: str, sidor: list[int], mal: str) -> int:
                 skriv.add_page(las.pages[n - 1])
         with open(tmp, "wb") as fh:
             skriv.write(fh)
-        os.replace(tmp, mal)
+        byt_namn(tmp, mal)
         return len(skriv.pages)
     finally:
         if os.path.exists(tmp):

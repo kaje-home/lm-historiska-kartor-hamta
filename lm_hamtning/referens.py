@@ -119,6 +119,42 @@ def _traktytor(inst, socken: str, trakter: list[str]):
     return [], ""
 
 
+def trakt_rutnat(inst, socken: str, trakter: list[str], steg_m: float = 2000.0,
+                 hogst: int = 40) -> list[tuple[float, float, str]]:
+    """Punkter i ett rutnät över trakternas ytor (startregler.TRAKTRUTNAT): rutorna
+    vars mitt ligger i trakten eller närmare den än halva steget. Blir de fler än
+    `hogst` glesas rutnätet ut. -> [(x, y, text)]"""
+    import math
+    from osgeo import ogr
+    ytor, _ = _traktytor(inst, socken, trakter)
+    geom = [(y.namn, ogr.CreateGeometryFromWkb(bytes(y.wkb))) for y in ytor]
+    geom = [(n, g) for n, g in geom if g is not None and not g.IsEmpty()]
+    if not geom:
+        return []
+
+    def rutnat(steg):
+        ut = []
+        for namn_, g in geom:
+            x0, x1, y0, y1 = g.GetEnvelope()
+            yy = y0 + steg / 2
+            while yy < y1:
+                xx = x0 + steg / 2
+                while xx < x1:
+                    p = ogr.Geometry(ogr.wkbPoint)
+                    p.AddPoint_2D(xx, yy)
+                    if g.Distance(p) < steg / 2:
+                        ut.append((xx, yy, f"rutnät i {namn_.capitalize()}"))
+                    xx += steg
+                yy += steg
+        return ut
+
+    ut = rutnat(steg_m)
+    while len(ut) > hogst:
+        steg_m *= max(1.1, math.sqrt(len(ut) / hogst))
+        ut = rutnat(steg_m)
+    return ut
+
+
 def traktlage(inst, socken: str, trakter: list[str]) -> Lage | None:
     """Var akten ligger: traktens yta ur traktlagret, annars ur fastighetsindelningen,
     annars traktens lage ur ortnamnen, annars socknen."""

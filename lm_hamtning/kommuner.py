@@ -204,6 +204,20 @@ def lanskoder(ytor: dict, fil: str, hogst_m: float = 10_000) -> dict[str, str]:
     return ut
 
 
+def lanskoder_ur_tabell(koder, tabell: list[dict] | None = None) -> dict[str, str]:
+    """Dagens länskod för socknarna (sockenstadkod) ur den medskickade tabellen: länet med
+    störst summerad andel av socknen. Samma som `lanskoder` ur filen för alla 2 473
+    socknar i Socken och stad (provat 2026-11-01), så hämtningen behöver inte filen
+    (ärende 1 på GitHub). En kod som saknas i tabellen (en annan version av Socken och
+    stad) får inget län, som utan filen förut."""
+    tabell = las_tabell() if tabell is None else tabell
+    andel: dict[str, dict[str, float]] = {}
+    for r in tabell:
+        d = andel.setdefault(str(r["sockenstadkod"]), {})
+        d[r["lanskod"]] = d.get(r["lanskod"], 0.0) + float(r["andel"])
+    return {k: max(andel[k], key=andel[k].get) for k in (str(x) for x in koder) if andel.get(k)}
+
+
 # ------------------------------------------------------------------ hämtning
 def katalogpost() -> dict:
     """Den aktuella filen i STAC-katalogen: {id, titel, href, byte, uppdaterad}. Katalogen

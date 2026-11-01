@@ -118,13 +118,14 @@ def socknar_i_omrade(omrade, socken_och_stad: str,
             ut[kod] = SockenIOmrade(f["sockenstadnamn"], kod,
                                     f["sockenstadtyp"], yta)
             lage[kod] = sg.Clone()
-    if lan:
-        # Lanet med storst overlapp mot HELA socknen -- inte en punkt i den -- ur
-        # Lantmateriets Kommun, lan och rike (kommuner.lanskoder; forut SCB:s lansfil,
-        # bytt 2026-10-26). Finns ingen overlapp alls, narmaste lanet inom 10 km.
-        from . import kommuner
-        for kod, lk in kommuner.lanskoder(lage, lan).items():
-            ut[kod].lanskod = lk
+    # Lanet med storst overlapp mot HELA socknen -- inte en punkt i den -- ur
+    # Lantmateriets Kommun, lan och rike (kommuner.lanskoder; forut SCB:s lansfil,
+    # bytt 2026-10-26). Finns ingen overlapp alls, narmaste lanet inom 10 km. Utan filen
+    # ur den medskickade tabellen, som ger samma lan (2026-11-01, arende 1 pa GitHub).
+    from . import kommuner
+    lk_ = kommuner.lanskoder(lage, lan) if lan else kommuner.lanskoder_ur_tabell(ut)
+    for kod, lk in lk_.items():
+        ut[kod].lanskod = lk
     for kod, s in ut.items():
         s.wkb = bytes(lage[kod].ExportToWkb())
     return sorted(ut.values(), key=lambda s: -s.yta_m2)

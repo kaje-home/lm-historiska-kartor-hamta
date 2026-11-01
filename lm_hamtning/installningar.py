@@ -14,6 +14,7 @@ utan Socken och stad gar urvalet bara pa socknar valda pa namn.
 from __future__ import annotations
 
 import os
+import re
 from dataclasses import dataclass, field, fields
 
 from .fastighet import ar_fil as _ar_fastighetsfil
@@ -150,9 +151,38 @@ class Installningar:
             ut.append("Arkivet är inte angivet — besluten och kartorna har ingenstans att ta vägen.")
         if not self.sokvag_socken_och_stad():
             ut.append("Socken och stad hittas inte — arbetsområdet kan bara anges som socknar på namn.")
-        if not self.sokvag_lan():
-            ut.append("Kommun, län och rike hittas inte — socknar med samma namn i flera län måste väljas för hand.")
+        # länet per socken tas ur den medskickade kommuner.csv när filen saknas (2026-11-01,
+        # ärende 1), så hämtningen behöver den inte; hela verktyget behöver den för
+        # fastighetsindelningen per kommun
+        if not self.sokvag_lan() and not variant.BARA_HAMTNING:
+            ut.append("Kommun, län och rike hittas inte — fastighetsindelningen kan inte väljas per kommun.")
+        if i_onedrive(self.arkiv):
+            ut.append(ONEDRIVE_VARNING)
         return ut
+
+
+ONEDRIVE_VARNING = ("Arkivet ligger i OneDrive. OneDrive kan låsa filer medan de synkas, och "
+                    "kartorna tar mycket plats i molnet. Välj hellre en mapp utanför OneDrive, "
+                    "till exempel C:\\HistoriskaKartor.")
+
+
+def i_onedrive(sokvag: str, miljo=None) -> bool:
+    """Ligger `sokvag` i en OneDrive-mapp? Windows anger mapparna i miljövariablerna
+    OneDrive, OneDriveCommercial och OneDriveConsumer; en mapp som heter OneDrive eller
+    "OneDrive - Företaget" räknas också (ärende 2 på GitHub, 2026-11-01: vokabulären
+    fastnade med arkivet i OneDrive)."""
+    if not sokvag:
+        return False
+    miljo = os.environ if miljo is None else miljo
+    s = os.path.normcase(os.path.abspath(sokvag))
+    for v in ("OneDrive", "OneDriveCommercial", "OneDriveConsumer"):
+        rot = miljo.get(v)
+        if rot:
+            r = os.path.normcase(os.path.abspath(rot))
+            if s == r or s.startswith(r.rstrip("\\/") + os.sep):
+                return True
+    delar = [d.lower() for d in re.split(r"[\\/]", sokvag)]
+    return any(d == "onedrive" or d.startswith("onedrive - ") for d in delar)
 
 
 @dataclass

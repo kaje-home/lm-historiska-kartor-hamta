@@ -71,6 +71,59 @@ class EjIFixtur(TjanstFel):
     """Anropet finns inte i testdatan. Ett fel -- aldrig ett tyst natanrop."""
 
 
+class Tidsgrans(TjanstFel):
+    """Inget svar inom transportens tidsgrans."""
+
+
+class Felsida(TjanstFel):
+    """Svaret var inte JSON -- en stangd tjanst svarar ofta med en HTML-sida."""
+
+
+def begripligt(e: BaseException) -> str:
+    """Ett fel sagt sa att den som inte programmerar forstar vad som hant och vad man kan
+    gora (malgruppen 65+, arende 2 pa GitHub: "[Errno 32] ..." sade ingenting). Den
+    tekniska texten hor hemma i loggen."""
+    if isinstance(e, OSError) and (isinstance(e, PermissionError)
+                                   or getattr(e, "winerror", None) in (5, 32, 33)):
+        return ("En fil i arkivmappen kunde inte sparas eftersom ett annat program använder den "
+                "– oftast OneDrive när det synkar, ibland ett virusskydd. Flytta arkivet till en "
+                "mapp utanför OneDrive (Inställningar…), eller försök igen om en stund.")
+    if isinstance(e, Tidsgrans):
+        return ("Lantmäteriets Historiska kartor svarade inte på en minut. Kontrollera "
+                "internetförbindelsen och försök igen.")
+    if isinstance(e, Felsida):
+        return ("Lantmäteriets Historiska kartor svarade med en felsida i stället för data – "
+                "tjänsten kan vara stängd en stund. Försök igen senare.")
+    if isinstance(e, TjanstFel):
+        return ("Fick ingen kontakt med Lantmäteriets Historiska kartor. Kontrollera "
+                "internetförbindelsen (en brandvägg på jobbet kan stoppa den) och försök igen.")
+    if isinstance(e, OSError):
+        return f"En fil kunde inte läsas eller sparas: {e}"
+    return str(e).splitlines()[0] if str(e) else type(e).__name__
+
+
+# OneDrive (och virusskydd) haller en ny fil oppen en stund medan den laddas upp eller
+# granskas, och da nekar Windows omdopningen: WinError 32 nar .delvis-filen ar oppen, 5
+# nar malfilen ar det (provat 2026-11-01, arende 2 pa GitHub: "Vokabularen lases
+# fortfarande in" i fyra dagar med arkivet i OneDrive). Laset slapper oftast inom en
+# sekund eller tva, sa omdopningen provas nagra ganger.
+BYT_NAMN_FORSOK = 6
+BYT_NAMN_PAUS_S = 0.5
+
+
+def byt_namn(tmp: str, mal: str, forsok: int = BYT_NAMN_FORSOK,
+             paus_s: float = BYT_NAMN_PAUS_S, sov=time.sleep) -> None:
+    """os.replace(tmp, mal), med nya forsok sa lange Windows nekar (PermissionError)."""
+    for i in range(forsok):
+        try:
+            os.replace(tmp, mal)
+            return
+        except PermissionError:
+            if i == forsok - 1:
+                raise
+            sov(paus_s)
+
+
 # =========================================================================
 # Adresser
 # =========================================================================
@@ -175,8 +228,21 @@ def url_pdf_storlek(akt: "Akt") -> str:
 # Transport
 # =========================================================================
 
+def foljer_omdirigeringar(beg) -> None:
+    """Låt anropet följa omdirigeringar i både Qt5 och Qt6. FollowRedirectsAttribute finns
+    inte i Qt6 (QGIS 4, ärende 1 och 2 på GitHub 2026-11-01); RedirectPolicyAttribute finns
+    i båda."""
+    from qgis.PyQt.QtNetwork import QNetworkRequest
+    beg.setAttribute(QNetworkRequest.Attribute.RedirectPolicyAttribute,
+                     QNetworkRequest.RedirectPolicy.NoLessSafeRedirectPolicy)
+
+
 class QgisTransport:
-    """Anrop genom QGIS natverkslager, sa att proxyinstallningar foljer med."""
+    """Anrop genom QGIS natverkslager, sa att proxyinstallningar foljer med.
+
+    `tidsgrans_s`: anropet avbryts nar inget kommit pa sa lang tid (Qt:s transferTimeout,
+    som borjar om for varje bit som kommer -- vokabularens 15,7 MB far ta sin tid). Den
+    satt till 60 men anvandes inte fore 2026-11-01."""
 
     def __init__(self, tidsgrans_s: int = 60):
         self.tidsgrans_s = tidsgrans_s
@@ -185,10 +251,12 @@ class QgisTransport:
                  accept: str = "application/json") -> bytes:
         from qgis.core import QgsNetworkAccessManager
         from qgis.PyQt.QtCore import QUrl
-        from qgis.PyQt.QtNetwork import QNetworkRequest
+        from qgis.PyQt.QtNetwork import QNetworkReply, QNetworkRequest
 
         beg = QNetworkRequest(QUrl(url))
-        beg.setAttribute(QNetworkRequest.Attribute.FollowRedirectsAttribute, True)
+        foljer_omdirigeringar(beg)
+        if self.tidsgrans_s and hasattr(beg, "setTransferTimeout"):
+            beg.setTransferTimeout(int(self.tidsgrans_s * 1000))
         beg.setRawHeader(b"Accept", accept.encode())
         if metod == "POST":
             beg.setHeader(QNetworkRequest.KnownHeaders.ContentTypeHeader,
@@ -198,6 +266,10 @@ class QgisTransport:
         else:
             svar = QgsNetworkAccessManager.blockingGet(beg, forceRefresh=True)
         status = svar.attribute(QNetworkRequest.Attribute.HttpStatusCodeAttribute)
+        if svar.error() in (QNetworkReply.NetworkError.TimeoutError,
+                            QNetworkReply.NetworkError.OperationCanceledError):
+            raise Tidsgrans(f"Historiska kartor svarade inte på {self.tidsgrans_s} s: "
+                            f"{svar.errorString()}\n{url}")
         if svar.error() or (status and int(status) >= 400):
             raise TjanstFel(f"Historiska kartor svarade inte ({status or '–'}): "
                             f"{svar.errorString()}\n{url}")
@@ -228,6 +300,8 @@ class UrllibTransport:
             with urllib.request.urlopen(beg, timeout=self.tidsgrans_s) as s:
                 return s.read()
         except (urllib.error.URLError, OSError) as e:
+            if isinstance(e, TimeoutError) or isinstance(getattr(e, "reason", None), TimeoutError):
+                raise Tidsgrans(f"Historiska kartor svarade inte på {self.tidsgrans_s} s: {e}\n{url}") from e
             raise TjanstFel(f"Historiska kartor svarade inte: {e}\n{url}") from e
 
 
@@ -795,6 +869,7 @@ class Klient:
         self._sov = sov
         self._senast: float | None = None
         self.natanrop = 0       # hur manga anrop som faktiskt gick ut
+        self.cachefel: list[str] = []   # svar som inte kunde sparas (_skriv_cache)
 
     # ---------------------------------------------------------------- cache
     def _cachefil(self, del_: str, namn: str) -> str | None:
@@ -815,18 +890,27 @@ class Klient:
         except (OSError, ValueError, KeyError):
             return None     # trasig cachefil -- hamta om
 
-    @staticmethod
-    def _skriv_cache(fil: str | None, metod: str, url: str,
+    def _skriv_cache(self, fil: str | None, metod: str, url: str,
                      fraga: dict | None, svar) -> None:
+        """Sparar svaret. Gar det inte (OneDrive laser filen, mappen ar skrivskyddad)
+        anvands svaret anda och felet hamnar i `cachefel`: cachen ar ingen forutsattning,
+        och vokabularen fastnade nar den var det (arende 2, 2026-11-01)."""
         if not fil:
             return
-        os.makedirs(os.path.dirname(fil), exist_ok=True)
         tmp = f"{fil}.{os.getpid()}.{threading.get_ident()}.delvis"
-        with open(tmp, "w", encoding="utf-8") as f:
-            json.dump({"metod": metod, "url": url, "fraga": fraga,
-                       "hamtad": datetime.now().isoformat(timespec="seconds"),
-                       "svar": svar}, f, ensure_ascii=False)
-        os.replace(tmp, fil)
+        try:
+            os.makedirs(os.path.dirname(fil), exist_ok=True)
+            with open(tmp, "w", encoding="utf-8") as f:
+                json.dump({"metod": metod, "url": url, "fraga": fraga,
+                           "hamtad": datetime.now().isoformat(timespec="seconds"),
+                           "svar": svar}, f, ensure_ascii=False)
+            byt_namn(tmp, fil, sov=self._sov)
+        except OSError as e:
+            self.cachefel.append(f"{fil}: {e}")
+            try:
+                os.remove(tmp)
+            except OSError:
+                pass
 
     # ---------------------------------------------------------------- anrop
     def _skicka(self, metod: str, url: str, kropp: bytes | None,
@@ -862,7 +946,7 @@ class Klient:
         except (UnicodeDecodeError, ValueError) as e:
             # En stangd tjanst svarar ofta med en HTML-sida och status 200.
             borjan = ra[:120].decode("utf-8", "replace").strip()
-            raise TjanstFel(f"Historiska kartor svarade inte med JSON: "
+            raise Felsida(f"Historiska kartor svarade inte med JSON: "
                             f"{borjan!r}\n{url}") from e
         self._skriv_cache(cachefil, metod, url, fraga, svar)
         return svar
@@ -965,7 +1049,7 @@ class Klient:
         tmp = f"{fil}.{os.getpid()}.{threading.get_ident()}.delvis"
         with open(tmp, "wb") as f:
             f.write(ra)
-        os.replace(tmp, fil)
+        byt_namn(tmp, fil, sov=self._sov)
         return fil
 
     def hamta_tiff(self, bas: str, ktun: str, handling: int, sidn: int,
@@ -982,7 +1066,7 @@ class Klient:
         tmp = f"{mal}.{os.getpid()}.{threading.get_ident()}.delvis"
         with open(tmp, "wb") as f:
             f.write(ra)
-        os.replace(tmp, mal)
+        byt_namn(tmp, mal, sov=self._sov)
         return mal
 
     # ------------------------------------------------------------ metadata

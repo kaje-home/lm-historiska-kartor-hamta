@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from qgis.PyQt.QtCore import Qt, pyqtSignal
 from qgis.PyQt.QtGui import QColor
-from qgis.core import QgsGeometry, QgsPointXY, QgsWkbTypes
+from qgis.core import Qgis, QgsGeometry, QgsPointXY
 from qgis.gui import QgsMapTool, QgsRubberBand
 
 
@@ -15,7 +15,7 @@ class RitaYta(QgsMapTool):
     def __init__(self, canvas):
         super().__init__(canvas)
         self.punkter: list[QgsPointXY] = []
-        self.band = QgsRubberBand(canvas, QgsWkbTypes.GeometryType.PolygonGeometry)
+        self.band = QgsRubberBand(canvas, Qgis.GeometryType.Polygon)
         self.band.setColor(QColor(30, 100, 200, 180))
         self.band.setFillColor(QColor(30, 100, 200, 40))
         self.band.setWidth(2)
@@ -50,7 +50,7 @@ class RitaYta(QgsMapTool):
 
     def rensa(self) -> None:
         self.punkter = []
-        self.band.reset(QgsWkbTypes.GeometryType.PolygonGeometry)
+        self.band.reset(Qgis.GeometryType.Polygon)
 
     def deactivate(self):
         self.rensa()

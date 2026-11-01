@@ -25,6 +25,7 @@ from __future__ import annotations
 import hashlib
 import os
 from dataclasses import dataclass
+from .tjanst import byt_namn
 
 SKAPA = ["COMPRESS=ZSTD", "PREDICTOR=2", "TILED=YES", "BIGTIFF=IF_SAFER"]
 FORMAT = "GTiff/ZSTD"
@@ -122,7 +123,7 @@ def lagra_tiff(hamtad: str, mal: str, ta_bort_hamtad: bool = True) -> Lagrad:
                               f"{skillnad}")
         bredd, hojd = kalla.RasterXSize, kalla.RasterYSize
         kalla = None
-        os.replace(tmp, mal)
+        byt_namn(tmp, mal)          # OneDrive kan hålla den nya filen en stund (tjanst.byt_namn)
     except BaseException:
         kalla = None
         if os.path.exists(tmp):

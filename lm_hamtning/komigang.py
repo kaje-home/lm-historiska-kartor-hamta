@@ -76,7 +76,10 @@ def har_opencv(extra: str = "") -> bool:
 def kontroller(inst: _inst.Installningar, faltunderlag_auth: str = "",
                prova_opencv: bool = True) -> list[Kontroll]:
     ut: list[Kontroll] = []
-    if inst.arkiv and os.path.isdir(inst.arkiv):
+    if inst.arkiv and os.path.isdir(inst.arkiv) and _inst.i_onedrive(inst.arkiv):
+        ut.append(Kontroll("Arkiv", VARNING, f"{inst.arkiv}. {_inst.ONEDRIVE_VARNING}",
+                           "arkiv", "Välj mapp…"))
+    elif inst.arkiv and os.path.isdir(inst.arkiv):
         ut.append(Kontroll("Arkiv", OK, inst.arkiv))
     else:
         ut.append(Kontroll("Arkiv", SAKNAS, "Mappen där registret och de nedladdade kartorna "
@@ -100,23 +103,31 @@ def kontroller(inst: _inst.Installningar, faltunderlag_auth: str = "",
                        "Geotorget-konto, som också är gratis); 2) packa upp och lägg filen sockenstad.gpkg i "
                        "mappen Referensdata ovan; 3) tryck Kontrollera igen.",
                        "socken_och_stad", "Öppna Geotorget"))
+    # Kommun, län och rike: hämtningen behöver den inte -- länet per socken tas ur den
+    # medskickade kommuner.csv, som ger samma län för alla 2 473 socknar (ärende 1 på
+    # GitHub, 2026-11-01: produkten levereras genom Lantmäteriets nedladdnings-API, det
+    # finns ingen fil att ladda ner från produktsidan). Hela verktyget behöver den för
+    # fastighetsindelningen per kommun, och hämtar den med Geotorget-kontot.
     lan = inst.sokvag_lan()
-    if lan:
+    if variant.BARA_HAMTNING:
+        pass
+    elif lan:
         ut.append(Kontroll("Kommun, län och rike", OK, lan))
-    elif faltunderlag_auth and not variant.BARA_HAMTNING:
+    elif faltunderlag_auth:
         ut.append(Kontroll("Kommun, län och rike", VARNING, "Lantmäteriets kommun- och länsytor, avgiftsfria. "
                            "Gör så här: 1) beställ produkten Kommun, Län och Rike Nedladdning på Geotorget, "
                            "fliken Beställning, med samma konto som i QGIS (utan juridisk prövning; "
                            "behörigheten kommer inom en kvart); 2) tryck Hämta, så läggs filen i arkivets "
-                           "referensmapp. Utan den måste socknar med samma namn i flera län väljas för hand, "
-                           "och fastighetsindelningen kan inte väljas per kommun.", "kommuner", "Hämta"))
+                           "referensmapp. Utan den kan fastighetsindelningen inte väljas per kommun.",
+                           "kommuner", "Hämta"))
     else:
-        ut.append(Kontroll("Kommun, län och rike", VARNING, "Lantmäteriets kommun- och länsgränser, så att "
-                           "socknar med samma namn i flera län skiljs åt av sig själva. Gör så här: 1) tryck "
-                           "Öppna Geotorget och beställ Kommun, Län och Rike Nedladdning (gratis, utan "
-                           "prövning; du behöver ett Geotorget-konto); 2) ladda ner filen och lägg den i "
-                           "mappen Referensdata ovan; 3) tryck Kontrollera igen. Utan filen måste sådana "
-                           "socknar väljas för hand.", "kommun_lan_rike", "Öppna Geotorget"))
+        ut.append(Kontroll("Kommun, län och rike", VARNING, "Lantmäteriets kommun- och länsytor, för "
+                           "fastighetsindelningen per kommun. Lantmäteriet levererar dem genom sitt "
+                           "nedladdnings-API, inte som en fil på produktsidan, så pluginet hämtar dem med "
+                           "ditt Geotorget-konto. Gör så här: 1) tryck Öppna Geotorget och beställ Kommun, "
+                           "Län och Rike Nedladdning (gratis, utan prövning); 2) välj kontot under "
+                           "Inställningar…, Geotorget-konto; 3) tryck Kontrollera igen och sedan Hämta.",
+                           "kommun_lan_rike", "Öppna Geotorget"))
     # hämtningen för sig behöver varken Topografi 10, fastighetsindelningen, Geotorget-kontot
     # eller OpenCV: de hör till rektifieringen (variant.py)
     if not variant.BARA_HAMTNING:

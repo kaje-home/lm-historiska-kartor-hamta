@@ -15,6 +15,7 @@ fel -- en miniatyr av fel sida ar varre an ingen.
 from __future__ import annotations
 
 import os
+from .tjanst import byt_namn
 
 DPI = 20            # kontaktkartan
 DPI_STOR = 60       # forstoringen: 23-hag-10 s. 1 blir ca 1450 px
@@ -53,7 +54,7 @@ def sida_ur_pdf(pdf: str, sidnr: int, mal: str, dpi: int = DPI) -> str:
             ds = gdal.OpenEx(kalla, gdal.OF_RASTER, open_options=[f"DPI={dpi}"])
             gdal.Translate(tmp, ds, format="JPEG", creationOptions=["QUALITY=85"])
             ds = None
-        os.replace(tmp, mal)
+        byt_namn(tmp, mal)
     finally:
         for rest in (tmp, tmp + ".aux.xml"):
             if os.path.exists(rest):
