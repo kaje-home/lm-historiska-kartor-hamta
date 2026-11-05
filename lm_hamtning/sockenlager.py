@@ -50,6 +50,22 @@ def _las_val(ds) -> dict[str, list[dict]]:
     return {kod: json.loads(a) for _, _, kod, a in rader}
 
 
+def klart(sokvag: str) -> bool:
+    """Finns lagret och har det socknar? Ett bygge som brots (QGIS stangt, fel i
+    kopplingen) lamnade en fil utan `socknar` eller med ett tomt lager, och den byggdes
+    aldrig om eftersom filen fanns (granskningen 2026-11-05)."""
+    if not os.path.exists(sokvag):
+        return False
+    from osgeo import gdal, ogr
+    gdal.UseExceptions()
+    try:
+        ds = ogr.Open(sokvag)
+        lager = ds.GetLayerByName(LAGER) if ds is not None else None
+        return lager is not None and lager.GetFeatureCount() > 0
+    except RuntimeError:
+        return False
+
+
 def bygg(sokvag: str, socken_och_stad: str, lan: str | None, vokabular,
          omrade=None) -> dict[str, int]:
     """Bygg (om) `socknar`. `val` behalls. Returnerar antal per `hur`.
@@ -64,8 +80,16 @@ def bygg(sokvag: str, socken_och_stad: str, lan: str | None, vokabular,
     socknar = urval.koppla(urval.socknar_i_omrade(omrade, socken_och_stad, lan),
                            vokabular)
 
+    ds = None
     if os.path.exists(sokvag):
-        ds = ogr.Open(sokvag, 1)
+        try:
+            ds = ogr.Open(sokvag, 1)
+        except RuntimeError:
+            ds = None
+        if ds is None:
+            # ingen geopackage (trasig): läggs undan och byggs ny; valen går inte att läsa ur den
+            os.replace(sokvag, sokvag + f".trasig-{os.getpid()}")
+    if ds is not None:
         for i in range(ds.GetLayerCount() - 1, -1, -1):
             if ds.GetLayer(i).GetName() == LAGER:
                 ds.DeleteLayer(i)

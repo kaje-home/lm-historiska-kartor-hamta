@@ -24,7 +24,7 @@ from . import variant
 
 PREFIX = "lm_historiska_kartor/"
 
-# En textfil i tjänstecachen som säger vad mappen är. Anna 2026-10-27, första
+# En textfil i tjänstecachen som säger vad mappen är. 2026-10-27, första
 # användaren: tog miniatyrerna i tjanstecache/miniatyrer (JPG, 20 dpi, tekniska namn)
 # för de nedladdade kartorna -- "bildkvalitet kass", "tappar aktnamnet".
 LAS_MIG_CACHE = "LÄS MIG.txt"

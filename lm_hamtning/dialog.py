@@ -651,7 +651,7 @@ class GallraDialog(QDialog):
         g = QGroupBox("3. Sök, välj och ladda ned" if variant.BARA_HAMTNING else "3. Gallra")
         lay = QVBoxLayout(g)
         rad = QHBoxLayout()
-        # Knapparna säger ordningen. Anna 2026-10-27, första användaren: tog kontaktkartans
+        # Knapparna säger ordningen. Första användaren 2026-10-27 tog kontaktkartans
         # förhandsbilder för nedladdningen, "funderade å vad skillnaden mellan de knapparna var"
         self.gallra_knapp = QPushButton("Sök akter och visa kontaktkartan")
         self.gallra_knapp.clicked.connect(self._gallra)
@@ -1556,7 +1556,7 @@ class GallraDialog(QDialog):
         self.status.setToolTip("\n".join(alla_fel))
         if alla_fel:
             QMessageBox.warning(self, "Några sidor misslyckades", "\n".join(alla_fel[:15]))
-        # Beskedet som ruta med knappen till mappen, som Spara listan (Anna 2026-10-27:
+        # Beskedet som ruta med knappen till mappen, som Spara listan (första användaren 2026-10-27:
         # hittade inte kartorna utan tog förhandsbilderna i tjanstecache)
         ruta = QMessageBox(self)
         ruta.setWindowTitle("Ladda ned")

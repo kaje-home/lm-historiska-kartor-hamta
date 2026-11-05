@@ -1,5 +1,12 @@
 # Ändringar
 
+## 0.1.6 (2026-11-05)
+
+- Ett anrop i taget till Lantmäteriet gäller nu hela pluginet: kontaktkartans bilder, förstoringen, sökningen och nedladdningen väntar på varandra, och pausen mellan anropen räknas för dem tillsammans. Förut kunde de fråga samtidigt.
+- En nedladdning av fastighetsindelningen eller kommunfilen som avbryts räknas inte längre som klar. Zip-filen kontrolleras innan den sparas, filerna i den får sitt namn först när de är hela, och nästa gång hämtas det som fattas.
+- Socknarnas lager i tjänstecachen byggs om av sig självt om ett tidigare bygge avbröts.
+- Pluginet är en fil mindre: det nedladdningen behövde ur underlag/kontroll.py ligger nu i underlag/nedladdning.py.
+
 ## 0.1.5 (2026-11-01)
 
 - QGIS 4 (Qt6): Sök och hämta fastnade på vokabulären med "svarade inte (200): Okänt fel". Svaret räknades som fel fast det kom fram, eftersom "inget fel" ser ut som ett fel i Qt6 (ärende 2).

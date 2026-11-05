@@ -38,9 +38,10 @@ def vokabular(klient, framsteg=None, avbruten=None):
 
 
 def sockenlager_klart(inst, vok, framsteg=None) -> str:
-    """Sockenlagret i tjanstecachen; byggs forsta gangen (ca 20 s)."""
+    """Sockenlagret i tjanstecachen; byggs forsta gangen (ca 20 s), och om nar ett
+    bygge inte blev klart (sockenlager.klart)."""
     sl = inst.sockenlager
-    if not os.path.exists(sl):
+    if not sockenlager.klart(sl):
         if framsteg:
             framsteg("Bygger socknarna i arkivets län (en gång, ca 20 s)", 0.05)
         sockenlager.bygg(sl, inst.sokvag_socken_och_stad(), inst.sokvag_lan() or None,

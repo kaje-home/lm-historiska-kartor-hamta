@@ -849,6 +849,37 @@ def tolka_akt(arkiv: str, post: _Post, ra_sok: dict | None = None,
 # Klienten
 # =========================================================================
 
+class Tur:
+    """Turordningen mot tjansten: ett las och tiden for det senaste anropet, delade av
+    alla klienter med samma tur. Ett anrop i taget galler tjansten, inte klienten:
+    kontaktkartans miniatyrer, forstoringen, gallringen och nedladdningen har var sin
+    klient och gick forut samtidigt, och pausen raknades per klient (granskningen
+    2026-11-05, fel 16)."""
+
+    def __init__(self):
+        # RLock: ett natanrop i huvudtraden kan snurra handelser, och ett klick under tiden
+        # som anropar igen far inte vanta pa sig sjalv for alltid
+        self.las = threading.RLock()
+        self.senast: float | None = None
+
+
+def _processens_tur() -> Tur:
+    """Processens tur. Bada pluginen (lm_historiska_kartor och lm_hamtning) kan vara
+    laddade i samma QGIS med var sin kopia av den har modulen, och en omladdning ger en ny
+    kopia; turen ligger darfor i sys.modules under ett namn som alla kopior hittar."""
+    import sys
+    import types
+    m = sys.modules.get("_lm_historiska_kartor_tur")
+    if m is None:
+        m = types.ModuleType("_lm_historiska_kartor_tur")
+        m.tur = Tur()
+        sys.modules[m.__name__] = m
+    return m.tur
+
+
+TUR = _processens_tur()
+
+
 class Klient:
     """Hygglig klient: ett anrop i taget, paus mellan dem, diskcache.
 
@@ -860,10 +891,15 @@ class Klient:
 
     `max_alder_s` per anrop: None = ett cachat svar galler for alltid. Arkivet
     andras sallan; vill man ha farska svar fragar man efter dem.
+
+    `tur`: forval processens (TUR), sa att anropen gar ett i taget och pausen raknas
+    fran det senaste anropet, vems det an var. En klient med egen klocka (proven) far
+    en egen tur: dess tider gar inte att jamfora med de andras.
     """
 
     def __init__(self, transport=None, cache: str | None = None,
-                 paus_s: float = 1.0, klocka=time.monotonic, sov=time.sleep):
+                 paus_s: float = 1.0, klocka=time.monotonic, sov=time.sleep,
+                 tur: Tur | None = None):
         if transport is None:
             try:
                 import qgis.core  # noqa: F401
@@ -875,7 +911,7 @@ class Klient:
         self.paus_s = paus_s
         self._klocka = klocka
         self._sov = sov
-        self._senast: float | None = None
+        self._tur = tur if tur is not None else (TUR if klocka is time.monotonic else Tur())
         self.natanrop = 0       # hur manga anrop som faktiskt gick ut
         self.cachefel: list[str] = []   # svar som inte kunde sparas (_skriv_cache)
 
@@ -923,23 +959,28 @@ class Klient:
     # ---------------------------------------------------------------- anrop
     def _skicka(self, metod: str, url: str, kropp: bytes | None,
                 accept: str = "application/json") -> bytes:
-        """Ett anrop, efter pausen. Det enda stallet dar natet anvands.
+        """Ett anrop, i tur och efter pausen. Det enda stallet dar natet anvands.
+
+        Turen halls genom hela anropet. Vantan pa den ar som langst ett annat anrop,
+        och transportens tidsgrans (60 s utan svar) satter granserna for det.
 
         `accept`: bildtjansten svarar 406 Not Acceptable pa
         "Accept: application/json" -- PDF:erna hamtas med sin egen typ.
         Upptackt 2026-09-29 nar kontaktkartan for Lit bara visade tomma rutor.
         """
-        if self._senast is not None and self.paus_s > 0:
-            vanta = self.paus_s - (self._klocka() - self._senast)
-            if vanta > 0:
-                self._sov(vanta)
-        try:
-            if accept == "application/json":
-                return self.transport(metod, url, kropp)
-            return self.transport(metod, url, kropp, accept=accept)
-        finally:
-            self._senast = self._klocka()
-            self.natanrop += 1
+        tur = self._tur
+        with tur.las:
+            if tur.senast is not None and self.paus_s > 0:
+                vanta = self.paus_s - (self._klocka() - tur.senast)
+                if vanta > 0:
+                    self._sov(vanta)
+            try:
+                if accept == "application/json":
+                    return self.transport(metod, url, kropp)
+                return self.transport(metod, url, kropp, accept=accept)
+            finally:
+                tur.senast = self._klocka()
+                self.natanrop += 1
 
     def _anropa(self, metod: str, url: str, fraga: dict | None,
                 cachefil: str | None, max_alder_s: float | None):

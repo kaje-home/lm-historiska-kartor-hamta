@@ -29,7 +29,6 @@ import glob
 import json
 import os
 import urllib.request
-import zipfile
 
 STAC = "https://api.lantmateriet.se/stac-vektor/v1"
 MAPP = "fastighetsindelning"
@@ -133,13 +132,12 @@ def hamta(koder: list[str], referensmapp: str, authcfg: str, framsteg=None,
             ut += befintliga
             continue
         zipfil = os.path.join(mal, os.path.basename(k["href"]))
+        # zippen döms innan den får sitt namn, och geopackagen får sitt först när den är
+        # uppackad hel: en halv fil räknades annars som hämtad (granskningen 2026-11-05)
         nedladdning.hamta_fil(k["href"], zipfil, authcfg, produkt="Fastighetsindelning",
-                              etikett=k["titel"], feedback=_Aterkoppling(framsteg, avbruten))
-        with zipfile.ZipFile(zipfil) as z:
-            for n in z.namelist():
-                if n.lower().endswith(".gpkg"):
-                    z.extract(n, mal)
-                    ut.append(os.path.join(mal, n))
+                              etikett=k["titel"], feedback=_Aterkoppling(framsteg, avbruten),
+                              kontrollera=nedladdning.kontrollera_zip)
+        ut += nedladdning.packa_upp(zipfil, mal, (".gpkg",))
         os.remove(zipfil)
     return ut
 
